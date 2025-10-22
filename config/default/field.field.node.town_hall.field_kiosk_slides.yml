@@ -1,0 +1,33 @@
+uuid: 83ad5893-78d4-41aa-856d-bc0012576451
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kiosk_slides
+    - media.type.vlsuite_image
+    - media.type.vlsuite_local_video
+    - media.type.vlsuite_remote_video
+    - node.type.town_hall
+id: node.town_hall.field_kiosk_slides
+field_name: field_kiosk_slides
+entity_type: node
+bundle: town_hall
+label: Diapositivas
+description: 'Usado no modo de quiosco (mupi)'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      vlsuite_image: vlsuite_image
+      vlsuite_local_video: vlsuite_local_video
+      vlsuite_remote_video: vlsuite_remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: vlsuite_image
+field_type: entity_reference

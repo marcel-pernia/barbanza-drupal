@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ecad16f9-0552-4f4c-b040-ae5660a65731
+  bundle: main
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Etapas
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/etapas'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  field_icon:
+    -
+      value: map

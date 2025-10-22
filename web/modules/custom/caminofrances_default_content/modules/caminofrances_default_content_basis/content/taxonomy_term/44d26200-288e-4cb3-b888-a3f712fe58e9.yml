@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 44d26200-288e-4cb3-b888-a3f712fe58e9
+  bundle: category
+  default_langcode: gl
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Que ver'
+  weight:
+    -
+      value: 7
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Que ver | Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/taxonomy/term/1'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1726219511
+  field_icon:
+    -
+      value: bookmarks

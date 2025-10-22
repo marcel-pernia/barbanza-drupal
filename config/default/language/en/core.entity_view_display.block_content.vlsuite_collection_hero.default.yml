@@ -1,0 +1,17 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          f8099f52-6479-4798-bc1f-b17c0c996428:
+            configuration:
+              label: Link
+          d3dfa461-a9e7-4a42-93ef-5267e3083aac:
+            configuration:
+              label: Text
+          4903fee0-c459-4674-b9e1-886184e2a0d1:
+            configuration:
+              label: 'Media background'
+          64b8db3f-d2b4-4586-af30-5c603bbf9dea:
+            configuration:
+              label: Media

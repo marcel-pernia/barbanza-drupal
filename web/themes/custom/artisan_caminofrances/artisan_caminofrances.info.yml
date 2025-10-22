@@ -1,0 +1,28 @@
+name: Artisan camino francés
+type: theme
+base theme: artisan
+description: Artisan camino francés.
+alt text: Metadrop Artisan camino francés.
+core_version_requirement: ^10 || ^11
+version: '0.0.1'
+
+dependencies:
+  - drupal:serialization
+
+regions:
+  portada_full: Portada a todo lo ancho
+  portada_container: Portada con container
+  header_top: Header Top
+  branding: Branding
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  header: Header
+  content: Content
+  footer_top: Footer Top
+  footer_bottom: Footer Bottom
+
+libraries:
+  - artisan_caminofrances/style
+
+ckeditor5-stylesheets:
+  - build/css/style.css

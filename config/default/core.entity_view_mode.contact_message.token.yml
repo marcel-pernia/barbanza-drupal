@@ -1,0 +1,11 @@
+uuid: ca86e083-f190-4aa4-831a-8e9ac8405f31
+langcode: gl
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Símbolos
+description: ''
+targetEntityType: contact_message
+cache: true

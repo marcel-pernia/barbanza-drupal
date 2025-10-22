@@ -1,0 +1,5 @@
+services:
+  caminofrances_dashboard.route_subscriber:
+    class: Drupal\caminofrances_dashboard\EventSubscriber\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

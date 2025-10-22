@@ -1,0 +1,73 @@
+<?php
+
+/**
+ * @file
+ * Kiosk navigation module.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\kiosk_nav\KioskNavHelper;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function kiosk_nav_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'kiosk_nav/query';
+  $page['#attached']['drupalSettings']['kiosk_nav'] = KioskNavHelper::getModes();
+}
+
+/**
+ * Implements hook_entity_view_mode_alter().
+ */
+function kiosk_nav_entity_view_mode_alter(&$view_mode, EntityInterface $entity) {
+  $kiosk_nav_modes = KioskNavHelper::getModes();
+  // Add query cache context.
+  foreach ($kiosk_nav_modes as $kiosk_nav_mode) {
+    $entity->addCacheContexts(['url.query_args:' . $kiosk_nav_mode]);
+  }
+  $kiosk_nav_current_mode = \Drupal::service('kiosk_nav.helper')->getCurrentMode();
+  if ($kiosk_nav_current_mode !== NULL) {
+    $entity_view_repository = \Drupal::service('entity_display.repository');
+    $view_mode_options = $entity_view_repository->getViewModeOptionsByBundle($entity->getEntityTypeId(), $entity->bundle());
+    // Use kiosk variant of current view mode when available, e.g: full_kioskh.
+    if (isset($view_mode_options[$view_mode . '_' . $kiosk_nav_current_mode])) {
+      $view_mode = $view_mode . '_' . $kiosk_nav_current_mode;
+    }
+    // Use kiosk variant that will be used always when exists, e.g: kioskh.
+    elseif (isset($view_mode_options[$kiosk_nav_current_mode])) {
+      $view_mode = $kiosk_nav_current_mode;
+    }
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_page().
+ */
+function kiosk_nav_theme_suggestions_page(array $variables) {
+  $kiosk_nav_modes = KioskNavHelper::getModes();
+  // Add query cache context.
+  foreach ($kiosk_nav_modes as $kiosk_nav_mode) {
+    if (!in_array('url.query_args:' . $kiosk_nav_mode, $variables['#cache']['contexts'] ?? [])) {
+      $variables['#cache']['contexts'][] = ['url.query_args:' . $kiosk_nav_mode];
+    }
+  }
+  $suggestions = [];
+  $kiosk_nav_current_mode = \Drupal::service('kiosk_nav.helper')->getCurrentMode();
+  if ($kiosk_nav_current_mode !== NULL) {
+    $suggestions[] = 'page__' . $kiosk_nav_current_mode;
+  }
+  return $suggestions;
+}
+
+/**
+ * Implements hook_theme_suggestions_menu().
+ */
+function kiosk_nav_theme_suggestions_menu(array $variables) {
+  $suggestions = [];
+  $kiosk_nav_current_mode = \Drupal::service('kiosk_nav.helper')->getCurrentMode();
+  if ($kiosk_nav_current_mode !== NULL) {
+    $suggestions[] = 'menu__' . str_replace('-', '_', Html::getId($variables['menu_name'])) . '__' . $kiosk_nav_current_mode;
+  }
+  return $suggestions;
+}

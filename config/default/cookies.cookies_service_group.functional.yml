@@ -1,0 +1,11 @@
+uuid: 776c1b32-d187-4f01-b713-5fd458ce29b1
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aHm4Q63Ge97tcktTa_qmUqJMir45iyGY2lEvvqPW68g
+id: functional
+label: Functional
+weight: 1
+title: Functional
+details: 'As cookies son pequenos ficheiros de texto que o teu navegador coloca no teu dispositivo para almacenar certa información. Usando a información que se almacena e se devolve, un sitio web pode recoñecer que accedeu e visitou anteriormente mediante o navegador do seu dispositivo final. Usamos esta información para organizar e mostrar o sitio web de forma óptima de acordo coas súas preferencias. Dentro deste proceso, só se identifica no teu dispositivo a propia cookie. Os datos persoais só se almacenan tras o seu consentimento expreso ou cando isto é absolutamente necesario para permitir o uso do servizo que nos proporciona e ao que accede.'

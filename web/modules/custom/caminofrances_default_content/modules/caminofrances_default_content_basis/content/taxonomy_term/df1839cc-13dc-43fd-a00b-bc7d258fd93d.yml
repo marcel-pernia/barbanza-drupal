@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: df1839cc-13dc-43fd-a00b-bc7d258fd93d
+  bundle: category
+  default_langcode: gl
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Servizos locais'
+  weight:
+    -
+      value: 6
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Servizos locais | Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/taxonomy/term/3'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1726219569
+  field_icon:
+    -
+      value: storefront

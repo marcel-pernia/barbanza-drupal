@@ -1,0 +1,20 @@
+uuid: 71be8ea9-46b7-44ae-a1f5-9391ce86cc49
+langcode: gl
+status: true
+dependencies:
+  module:
+    - media
+    - menu_link_content
+id: menu_link_content.field_icon_image
+field_name: field_icon_image
+entity_type: menu_link_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

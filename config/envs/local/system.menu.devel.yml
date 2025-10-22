@@ -1,0 +1,13 @@
+uuid: 8e6bf498-3cdc-4c4c-ba64-8f7a23c1438b
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - devel
+_core:
+  default_config_hash: 3V-l1uuTcyirYOGLPZV5HWaDfr02uEbWZJIwc8Byz-c
+id: devel
+label: Desenvolvemento
+description: 'Links related to Devel module.'
+locked: true

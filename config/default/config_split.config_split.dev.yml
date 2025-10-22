@@ -1,0 +1,18 @@
+uuid: 889fb35e-fc9a-48d5-95d0-f222d7dc2b63
+langcode: gl
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/dev
+module:
+  reroute_email: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - environment_indicator.indicator

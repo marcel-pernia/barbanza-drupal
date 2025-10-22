@@ -1,0 +1,14 @@
+uuid: d1e03438-a562-47b8-b1de-8f6743bb321a
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.sarria_town_hall
+  module:
+    - user
+id: user_remove_role_action.sarria_town_hall
+label: 'Remove the Concello Sarria role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sarria_town_hall

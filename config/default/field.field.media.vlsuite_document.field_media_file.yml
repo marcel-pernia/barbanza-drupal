@@ -1,0 +1,39 @@
+uuid: d82d5e24-e455-4376-8943-71107fe802b9
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.vlsuite_document
+  module:
+    - content_translation
+    - file
+  enforced:
+    module:
+      - vlsuite_media_document
+third_party_settings:
+  content_translation:
+    translation_sync:
+      target_id: target_id
+      display: display
+      description: description
+_core:
+  default_config_hash: ikQrc0JlyOAupSyrpwkXCfMY0Bc52yJP1vaXYlsm3o8
+id: media.vlsuite_document.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: vlsuite_document
+label: Ficheiro
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+field_type: file

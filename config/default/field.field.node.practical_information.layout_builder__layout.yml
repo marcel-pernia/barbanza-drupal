@@ -1,0 +1,21 @@
+uuid: f1225fdd-088a-4f5c-b7c6-3cbe2bb7f426
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.practical_information
+  module:
+    - layout_builder
+id: node.practical_information.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: practical_information
+label: Disposición
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

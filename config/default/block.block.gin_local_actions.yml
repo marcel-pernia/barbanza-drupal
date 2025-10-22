@@ -1,0 +1,20 @@
+uuid: 768b83b4-a415-4c3d-9e99-9fe8ea764e07
+langcode: gl
+status: true
+dependencies:
+  theme:
+    - gin
+_core:
+  default_config_hash: OQ9aJ-4qVwK1x00o9EOYK4eFDjQr_HLpbPiJaPSVZiQ
+id: gin_local_actions
+theme: gin
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Accións primarias de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

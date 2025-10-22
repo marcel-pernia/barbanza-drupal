@@ -1,0 +1,22 @@
+uuid: 18add344-45d7-4444-9f04-aad1222d387e
+langcode: gl
+status: false
+dependencies:
+  theme:
+    - artisan
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: artisan_primary_local_tasks
+theme: artisan
+region: header_top
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Pestanas primarias'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

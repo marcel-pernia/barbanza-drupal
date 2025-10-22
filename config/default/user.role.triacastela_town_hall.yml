@@ -1,0 +1,9 @@
+uuid: 91a05695-170a-4d7b-95f7-91f7138dbaa7
+langcode: gl
+status: true
+dependencies: {  }
+id: triacastela_town_hall
+label: 'Concello Triacastela'
+weight: 6
+is_admin: null
+permissions: {  }

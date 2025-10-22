@@ -1,0 +1,73 @@
+@import "../../src/scss/init";
+
+.page {
+  > main {
+    contain: paint;
+  }
+  .block-system-menu-blockmain .nav,
+  .block-system-menu-blocktown-hall-menu .nav,
+  .block-system-menu-blockfooter .nav,
+  .language-switcher {
+    --bs-nav-link-color: #{$gray-700};
+    --bs-link-color-rgb: #{$gray-700};
+    --bs-navbar-active-color: #{$primary};
+    --bs-nav-link-hover-color: #{$primary};
+    font-family: $headings-font-family;
+    font-size: $font-size-base;
+  }
+  .language-link {
+    text-decoration: none;
+  }
+}
+
+header.header {
+  position: sticky;
+  top: calc(var(--gin-toolbar-y-offset, 0px) + var(--enviroment-indicator-border-width, 0px));
+  z-index: 99;
+
+  .block-system-branding-block {
+    max-width: 45%;
+  }
+  .block-system-menu-blocktown-hall-menu .navbar-nav > .nav-item:first-child > .nav-link[data-drupal-link-system-path="<front>"],
+  .block-system-menu-blockmain .navbar-nav > .nav-item:first-child > .nav-link[data-drupal-link-system-path="<front>"] {
+    display: none;
+  }
+  .block-system-menu-blockmain .navbar-nav {
+    .dropdown {
+      text-align: inherit;
+    }
+    .dropdown-menu {
+      text-align: inherit;
+    }
+  }
+  .dropdown-menu {
+    text-align: inherit;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    --bs-dropdown-item-padding-y: #{$spacer*.5};
+    box-shadow: var(--bs-box-shadow);
+  }
+  .dropdown-item {
+    white-space: normal;
+  }
+  .navbar-nav {
+    --bs-nav-link-padding-x: #{$spacer};
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .dropdown-toggle-split-link {
+    padding-right: 0 !important;
+  }
+  .dropdown .btn-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+footer {
+  .logo-footer {
+    width: 256px;
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 8a1545b0-bf78-436d-a3dc-62c4dddaa14b
+langcode: gl
+status: true
+dependencies:
+  config:
+    - node.type.stage
+id: node.stage.promote
+field_name: promote
+entity_type: node
+bundle: stage
+label: 'Promocionado á páxina principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activo
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 22868314-d8af-46a6-9142-366731a94659
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icon
+    - taxonomy.vocabulary.category
+  module:
+    - vlsuite_icon_font
+id: taxonomy_term.category.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+bundle: category
+label: Icona
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: vlsuite_icon_font_icon

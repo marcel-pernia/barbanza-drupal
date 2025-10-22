@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 8ae7f3e4-4abd-487a-b6d3-c46bbd2ee81d
+  bundle: category
+  default_langcode: gl
+  depends:
+    44d26200-288e-4cb3-b888-a3f712fe58e9: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Monumento
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 44d26200-288e-4cb3-b888-a3f712fe58e9
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Monumento | Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/taxonomy/term/2'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1726219734
+  field_icon:
+    -
+      value: pin_drop

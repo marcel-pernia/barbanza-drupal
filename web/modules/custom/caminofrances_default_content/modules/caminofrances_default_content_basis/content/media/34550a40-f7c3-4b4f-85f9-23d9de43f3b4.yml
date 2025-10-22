@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+  bundle: vlsuite_icon
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+    784b4112-2527-43ee-ad5b-a95d2a231d2c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  name:
+    -
+      value: 'VLSuite collection placeholder media'
+  created:
+    -
+      value: 1725528030
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: gl
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_image:
+    -
+      entity: 784b4112-2527-43ee-ad5b-a95d2a231d2c
+      alt: ''
+      title: ''
+      width: 48
+      height: 48

@@ -1,0 +1,23 @@
+// @see https://getbootstrap.com/docs/5.3/utilities/api/
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "columns": (
+      property: columns,
+      class: columns,
+      responsive: true,
+      values: (
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        auto: auto,
+      ),
+    )
+  )
+);
+
+.text-kiosk-primary {
+  color: var(--theme-kiosk-color-primary, $kiosk-primary-color);
+}

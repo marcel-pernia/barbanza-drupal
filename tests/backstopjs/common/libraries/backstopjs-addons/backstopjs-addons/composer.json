@@ -1,0 +1,7 @@
+{
+    "name": "metadrop/backstopjs-addons",
+    "description": "Metadrop custom backstopjs scripts",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {}
+}

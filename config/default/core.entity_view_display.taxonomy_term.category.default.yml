@@ -1,0 +1,18 @@
+uuid: cffb8cd2-0fc5-4387-8d1a-60010fb233d2
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.category.field_icon
+    - field.field.taxonomy_term.category.field_icon_image
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.default
+targetEntityType: taxonomy_term
+bundle: category
+mode: default
+content: {  }
+hidden:
+  description: true
+  field_icon: true
+  field_icon_image: true
+  langcode: true

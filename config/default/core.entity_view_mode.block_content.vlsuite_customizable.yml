@@ -1,0 +1,16 @@
+uuid: b7151534-861d-4345-9b42-12ce96459803
+langcode: gl
+status: true
+dependencies:
+  module:
+    - block_content
+  enforced:
+    module:
+      - vlsuite_block
+_core:
+  default_config_hash: WblLlHJpslbfz-BsZOF5Iw0TYyfWQHcVQH0OKp3p0Xk
+id: block_content.vlsuite_customizable
+label: 'Customizable (VLSuite)'
+description: ''
+targetEntityType: block_content
+cache: true

@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Template for menu kiosk.
+ */
+#}
+{% set nav_classes = [
+  'menu-kiosk',
+  'menu-kiosk--' ~ menu_name,
+  ]|merge(utility_classes ? utility_classes : [])
+%}
+{% macro menu_links(items, attributes, nav_classes, menu_level) %}
+  <ul{{attributes.addClass(nav_classes)}}>
+    {% for key, item in items %}
+      {% if key|first != '#' %}
+        {% set menu_item_classes = [
+          'menu-item',
+          item.is_expanded ? 'menu-item--expanded',
+          item.is_collapsed ? 'menu-item--collapsed',
+          item.in_active_trail ? 'menu-item--active-trail',
+        ] %}
+
+        <li{{item.attributes.addClass(menu_item_classes)}}>
+          {% if item.below %}
+            {{ link(item.title, item.url) }}
+            {% set new_level = menu_level + 1 %}
+            {{ _self.menu_links(item.below, attributes, [], new_level) }}
+          {% else %}
+            {{ link(item.title, item.url) }}
+          {% endif %}
+        </li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+{% endmacro %}
+
+{{ _self.menu_links(items, attributes, nav_classes, 0) }}

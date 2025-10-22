@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Template for a node news full content top.
+ */
+#}
+{% include 'artisan_caminofrances:stage-content-top' with {
+  title: node.label,
+  media: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image|add_class('mb-3') : false,
+  addtoany: content.addtoany,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  description: node.hasField('field_description') and not node.get('field_description').isEmpty() ? content.field_description : false,
+} %}

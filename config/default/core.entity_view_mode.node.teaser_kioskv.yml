@@ -1,0 +1,11 @@
+uuid: f37aa1f9-828f-4b7e-8031-e50db5b9c162
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_kioskv
+label: 'Kiosk vertical: Teaser'
+description: ''
+targetEntityType: node
+cache: true

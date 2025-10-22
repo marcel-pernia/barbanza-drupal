@@ -1,0 +1,22 @@
+uuid: 60b522e0-601e-423a-8662-6ab7db6c94d2
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: artisan_content
+theme: artisan
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contido da páxina principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

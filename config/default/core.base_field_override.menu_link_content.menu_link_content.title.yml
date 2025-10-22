@@ -1,0 +1,18 @@
+uuid: 2ab7a259-1136-43d6-813d-4b2e9c342768
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.title
+field_name: title
+entity_type: menu_link_content
+bundle: menu_link_content
+label: 'Título da ligazón do menú'
+description: 'O texto que se usará no menú para este enlace.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

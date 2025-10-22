@@ -1,0 +1,23 @@
+uuid: a9518e57-491f-4c50-a075-3f77f3bbf034
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.practical_information
+  module:
+    - link
+id: node.practical_information.field_link
+field_name: field_link
+entity_type: node
+bundle: practical_information
+label: Url
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

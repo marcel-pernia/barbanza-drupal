@@ -1,0 +1,22 @@
+uuid: 1fc8b639-6f39-47d8-a04f-59936b22135e
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.field.menu_link_content.town-hall-menu.field_icon
+    - field.field.menu_link_content.town-hall-menu.field_icon_image
+    - system.menu.town-hall-menu
+id: menu_link_content.town-hall-menu.default
+targetEntityType: menu_link_content
+bundle: town-hall-menu
+mode: default
+content:
+  children:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icon: true
+  field_icon_image: true
+  langcode: true

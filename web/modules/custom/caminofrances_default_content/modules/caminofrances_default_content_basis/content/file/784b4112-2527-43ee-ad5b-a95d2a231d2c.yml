@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 784b4112-2527-43ee-ad5b-a95d2a231d2c
+  default_langcode: gl
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: vlsuite-collection-placeholder-icon.png
+  uri:
+    -
+      value: 'public://vlsuite_collection_card/vlsuite-collection-placeholder-icon.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 750
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725528030

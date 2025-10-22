@@ -1,0 +1,14 @@
+uuid: 51cba486-f27d-4006-a1e1-45afda50b80a
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_block_attachments
+_core:
+  default_config_hash: 4W5C2JSCqlEH8XBRT-wuWuyuvniSBEYeMs7763zhQ_I
+id: vlsuite_attachments
+label: 'Attachments (VLSuite)'
+revision: false
+description: ''
+vlsuite_block_icon: 977d04d0-3571-4be2-b899-7f29f6dc14fb

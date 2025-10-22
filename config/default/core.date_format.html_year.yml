@@ -1,0 +1,10 @@
+uuid: c4694c61-fbaf-417d-b49f-1df22c85b1b8
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OjekiQuX9RbVQ2_8jOHBL94RgYLePqX7wpfNGgcQzrk
+id: html_year
+label: 'Ano HTML'
+locked: true
+pattern: 'Y'

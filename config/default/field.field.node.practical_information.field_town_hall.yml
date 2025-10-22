@@ -1,0 +1,25 @@
+uuid: 56b6d3e4-5f6a-47c4-928f-0d758822f580
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_town_hall
+    - node.type.practical_information
+id: node.practical_information.field_town_hall
+field_name: field_town_hall
+entity_type: node
+bundle: practical_information
+label: Concello
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: town_hall_access_by_role
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

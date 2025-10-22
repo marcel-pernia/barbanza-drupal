@@ -1,0 +1,30 @@
+.breadcrumb {
+  margin-top: $spacer;
+  font-family: $headings-font-family;
+  color: $gray-700;
+  text-transform: uppercase;
+
+  .breadcrumb-item {
+    font-size: $font-size-sm;
+    a {
+      color: $gray-700;
+      text-decoration: none;
+
+      &:active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:last-child {
+      color: $black;
+
+      &:before {
+        color: $gray-700;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+analytics.admin:
+  route_name: entity.analytics_service.collection
+  title: 'List'
+  base_route: entity.analytics_service.collection
+analytics.settings:
+  route_name: analytics.settings_form
+  title: 'Settings'
+  base_route: entity.analytics_service.collection
+  weight: 100

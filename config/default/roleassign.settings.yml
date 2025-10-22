@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: iKucdYPrf1EPMz6Y3s71EADiRcAiwoLTIw9_JoxH-Jg
+roleassign_roles:
+  - arzua_town_hall
+  - community
+  - content_editor
+  - melide_town_hall
+  - monterroso_town_hall
+  - o_pino_town_hall
+  - palas_de_rei_town_hall
+  - paradela_town_hall
+  - pedrafita_do_cebreiro_town_hall
+  - portomarin_town_hall
+  - samos_town_hall
+  - sarria_town_hall
+  - town_hall
+  - triacastela_town_hall
+  - vlsuite_landing_content_editor
+  - webmaster

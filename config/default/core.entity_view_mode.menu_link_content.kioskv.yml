@@ -1,0 +1,11 @@
+uuid: 54b6257c-484d-4d69-ba73-a15da4629405
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.kioskv
+label: 'Kiosk vertical'
+description: ''
+targetEntityType: menu_link_content
+cache: true

@@ -1,0 +1,5 @@
+administer analytics:
+  title: 'Administer analytics'
+  description: 'Configure analytics services for the site.'
+bypass all analytics services:
+  title: 'Bypass all analytics services'

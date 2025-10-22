@@ -1,0 +1,17 @@
+style:
+  css:
+    theme:
+      build/css/style.css: {}
+      build/css/slick-theme.css: {}
+      build/css/slick.css: {}
+      build/css/nuevos.css: {}
+
+  js:
+    build/js/script.js: {}
+    build/js/main.script.js: {}
+    build/js/slick.js: {}
+    build/js/nuevos.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once

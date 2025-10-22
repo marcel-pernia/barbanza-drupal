@@ -1,0 +1,18 @@
+uuid: 15e99aff-6f9e-4fb8-a087-4e3391f282ec
+langcode: gl
+status: true
+dependencies:
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_primary_admin_actions
+theme: artisan_caminofrances
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Accións primarias de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

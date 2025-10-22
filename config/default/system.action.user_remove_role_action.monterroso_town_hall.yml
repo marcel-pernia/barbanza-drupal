@@ -1,0 +1,14 @@
+uuid: 49a7b44c-05bc-4c9c-8cbe-72c74446665e
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.monterroso_town_hall
+  module:
+    - user
+id: user_remove_role_action.monterroso_town_hall
+label: 'Remove the Concello Monterroso role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: monterroso_town_hall

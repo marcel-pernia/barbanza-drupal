@@ -1,0 +1,5 @@
+name: 'Caminofrances Weather'
+type: module
+description: 'Caminofrances Weather'
+package: Camino Francés
+core_version_requirement: ^10

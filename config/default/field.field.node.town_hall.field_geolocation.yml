@@ -1,0 +1,21 @@
+uuid: 4604a640-eefa-406f-a5a9-a36e7bf87d8c
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geolocation
+    - node.type.town_hall
+  module:
+    - geolocation
+id: node.town_hall.field_geolocation
+field_name: field_geolocation
+entity_type: node
+bundle: town_hall
+label: Ubicación
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

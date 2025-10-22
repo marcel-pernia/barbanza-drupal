@@ -1,0 +1,22 @@
+uuid: bb3d528b-da25-4db1-a953-e93447fb2b54
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan_caminofrances
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: artisan_caminofrances_content
+theme: artisan_caminofrances
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contido da páxina principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

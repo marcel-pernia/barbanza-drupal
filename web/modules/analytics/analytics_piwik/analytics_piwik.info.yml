@@ -1,0 +1,13 @@
+name: 'Piwik Analytics'
+type: module
+description: 'Provides Piwik integration with the Analytics API'
+core_version_requirement: ^8.8 || ^9
+package: Analytics
+dependencies:
+  - analytics:analytics
+hidden: true
+
+# Information added by Drupal.org packaging script on 2022-08-05
+version: '8.x-1.0-alpha8'
+project: 'analytics'
+datestamp: 1659730135

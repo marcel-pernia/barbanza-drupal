@@ -1,0 +1,69 @@
+_core:
+  default_config_hash: CXhei_vpaZk-3f_Mj2cH0YmpK-ZpKHoSzVA3yZrDq0g
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: false
+  user__page:
+    menu_name: account
+    parent: ''
+    weight: -10
+    expanded: false
+    enabled: false
+  user__logout:
+    menu_name: account
+    parent: ''
+    weight: 10
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall__7':
+    menu_name: main
+    parent: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+    weight: 1
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall__5':
+    menu_name: main
+    parent: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+    weight: 5
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall__3':
+    menu_name: main
+    parent: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+    weight: 6
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall__1':
+    menu_name: main
+    parent: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+    weight: 7
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall_practical_information__7':
+    menu_name: town-hall-menu
+    parent: 'menu_link_content:65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c'
+    weight: 1
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall_practical_information__5':
+    menu_name: town-hall-menu
+    parent: 'menu_link_content:65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c'
+    weight: 5
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall_practical_information__3':
+    menu_name: town-hall-menu
+    parent: 'menu_link_content:65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c'
+    weight: 6
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__town_hall_practical_information__1':
+    menu_name: town-hall-menu
+    parent: 'menu_link_content:65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c'
+    weight: 7
+    expanded: true
+    enabled: true

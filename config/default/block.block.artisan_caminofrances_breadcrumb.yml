@@ -1,0 +1,29 @@
+uuid: 367740f4-9913-42de-a749-13e51617e0d7
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_breadcrumb
+theme: artisan_caminofrances
+region: content
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumb
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/user/*\r\n/dashboard"
+  response_status:
+    id: response_status
+    negate: false
+    status_codes:
+      - 200

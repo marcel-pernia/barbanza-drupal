@@ -1,0 +1,29 @@
+uuid: f066f259-4bfb-401a-a428-e8bb5a5c262c
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.vlsuite_landing
+    - taxonomy.vocabulary.tags
+id: node.vlsuite_landing.field_tags
+field_name: field_tags
+entity_type: node
+bundle: vlsuite_landing
+label: Etiquetas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

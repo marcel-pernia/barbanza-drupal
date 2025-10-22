@@ -1,0 +1,19 @@
+uuid: fddcd7c7-fa62-4d35-b036-ccb088bc0a8b
+langcode: gl
+status: true
+dependencies:
+  module:
+    - entity_access_by_role_field
+    - node
+id: node.field_access
+field_name: field_access
+entity_type: node
+type: entity_access_by_role_field
+settings: {  }
+module: entity_access_by_role_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

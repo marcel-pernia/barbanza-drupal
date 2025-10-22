@@ -1,0 +1,11 @@
+uuid: a286137b-e305-4e86-96fe-d037a24b80fd
+langcode: gl
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Símbolos
+description: ''
+targetEntityType: shortcut
+cache: true

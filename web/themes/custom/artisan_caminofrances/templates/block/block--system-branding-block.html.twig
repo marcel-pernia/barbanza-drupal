@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * Theme override for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{%
+  embed 'artisan:block' with {
+  attributes: attributes.addClass([
+    'block--system-branding',
+  ]),
+}
+%}
+  {% block content %}
+    {% embed 'artisan:navbar-brand' with {
+      image: site_logo,
+      width: '256px',
+      height: '89px',
+      alt: elements.content.site_name['#markup'] ~ ' logo',
+      attributes: create_attribute({'class': ['d-inline-flex', 'align-items-center']}),
+      webp: true,
+    } only %}
+    {% endembed %}
+  {% endblock %}
+{% endembed %}

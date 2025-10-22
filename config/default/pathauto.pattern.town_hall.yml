@@ -1,0 +1,22 @@
+uuid: cb44d2b1-4c84-4b9d-b973-ff7137313bf4
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: town_hall
+label: Concellos
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]/[node:title]'
+selection_criteria:
+  c1c10916-88ad-43aa-b1ad-76a557816431:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c1c10916-88ad-43aa-b1ad-76a557816431
+    context_mapping:
+      node: node
+    bundles:
+      town_hall: town_hall
+selection_logic: and
+weight: -5
+relationships: {  }

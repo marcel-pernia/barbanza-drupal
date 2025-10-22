@@ -1,0 +1,19 @@
+uuid: a666c999-67ec-46fa-8904-ed8872862ab9
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.vlsuite_landing
+id: node.vlsuite_landing.field_summary
+field_name: field_summary
+entity_type: node
+bundle: vlsuite_landing
+label: Resumo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

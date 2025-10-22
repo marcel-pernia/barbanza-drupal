@@ -1,0 +1,33 @@
+_core:
+  default_config_hash: PpB_t3-mnEd5Lckhxc9rfquSMa0CndPslGvJZlcg61E
+langcode: gl
+bannerText: 'Usamos unha selección de cookies propias e de terceiros nas páxinas deste sitio web. Pode aceptar e rexeitar tipos de cookies individuais e revogar o seu consentimento para o futuro en calquera momento en "Configuración".'
+privacyPolicy: 'Política de privacidade'
+privacyUri: /node/47
+imprint: Pegada
+imprintUri: ''
+cookieDocs: 'Documentación de cookies'
+cookieDocsUri: /node/48
+officialWebsite: 'Sitio web oficial'
+denyAll: 'Rexeitar todas'
+alwaysActive: 'Sempre activo'
+settings: 'Configuración de cookies'
+acceptAll: 'Acepta todo'
+requiredCookies: 'Cookies obrigatorias'
+cookieSettings: 'Configuración de cookies'
+close: Pechar
+readMore: 'Ler máis'
+allowed: Permitido
+denied: Negado
+settingsAllServices: 'Configuración para todos os servizos'
+saveSettings: Gardar
+default_langcode: en
+disclaimerText: 'Toda a información das cookies está suxeita a cambios polos provedores de servizos. Actualizamos esta información regularmente.'
+disclaimerTextPosition: above
+processorDetailsLabel: 'Datos da empresa do procesador'
+processorLabel: Compañía
+processorWebsiteUrlLabel: 'Sitio web da empresa'
+processorPrivacyPolicyUrlLabel: 'Política de privacidade da empresa'
+processorCookiePolicyUrlLabel: 'Política de cookies da empresa'
+processorContactLabel: 'Datos de contacto de protección de datos'
+placeholderAcceptAllText: 'Aceptar todas as cookies'

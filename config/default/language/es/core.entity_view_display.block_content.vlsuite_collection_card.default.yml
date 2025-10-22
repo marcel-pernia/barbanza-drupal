@@ -1,0 +1,17 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          35e81487-18a2-4f0b-9718-24e586208e9e:
+            configuration:
+              label: Enlace
+          56eadd37-7165-4911-85f8-838e655a8ee1:
+            configuration:
+              label: Multimedia
+          0dfc8cdb-b6b7-48b2-a7ed-410a444d1fa7:
+            configuration:
+              label: Icono
+          b2cefb8a-622f-4707-aa47-c0d96771ddfe:
+            configuration:
+              label: Texto

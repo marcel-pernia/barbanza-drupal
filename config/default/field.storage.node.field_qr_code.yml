@@ -1,0 +1,19 @@
+uuid: fdc1d31e-dac9-4e83-aa6c-4ea86cf44fa1
+langcode: gl
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_qr_code
+field_name: field_qr_code
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

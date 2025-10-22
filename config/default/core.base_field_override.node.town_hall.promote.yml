@@ -1,0 +1,22 @@
+uuid: ebca4627-04a9-41c8-a461-1d4cabd2ede5
+langcode: gl
+status: true
+dependencies:
+  config:
+    - node.type.town_hall
+id: node.town_hall.promote
+field_name: promote
+entity_type: node
+bundle: town_hall
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

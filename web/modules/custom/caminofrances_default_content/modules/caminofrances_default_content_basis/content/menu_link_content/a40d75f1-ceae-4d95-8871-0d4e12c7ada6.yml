@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a40d75f1-ceae-4d95-8871-0d4e12c7ada6
+  bundle: menu_link_content
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Política de cookies'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'internal:/cookies'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

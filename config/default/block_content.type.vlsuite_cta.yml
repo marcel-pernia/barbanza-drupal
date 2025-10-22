@@ -1,0 +1,14 @@
+uuid: a4772f4e-7b3c-4156-b763-108d2a14d401
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_block_cta
+_core:
+  default_config_hash: 0mH1dFwAWVXknDaOO59KVQF3iSbkc93v3vOd2Al19HM
+id: vlsuite_cta
+label: 'CTA Link (VLSuite)'
+revision: false
+description: ''
+vlsuite_block_icon: 0595039f-0b84-420b-b63e-bcce1569a750

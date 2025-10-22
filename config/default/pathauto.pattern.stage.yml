@@ -1,0 +1,22 @@
+uuid: ac5e143d-a5ff-4611-b58b-64be9ef5e14c
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: stage
+label: Etapas
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]/[node:title]'
+selection_criteria:
+  9f0fe5c2-6101-4aa5-831b-ca1da7b12de2:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 9f0fe5c2-6101-4aa5-831b-ca1da7b12de2
+    context_mapping:
+      node: node
+    bundles:
+      stage: stage
+selection_logic: and
+weight: -5
+relationships: {  }

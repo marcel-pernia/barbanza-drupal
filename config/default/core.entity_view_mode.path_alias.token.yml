@@ -1,0 +1,11 @@
+uuid: ea2b9692-217b-4cc3-9aea-eab5b4fad04d
+langcode: gl
+status: true
+dependencies:
+  module:
+    - path_alias
+id: path_alias.token
+label: Símbolos
+description: ''
+targetEntityType: path_alias
+cache: true

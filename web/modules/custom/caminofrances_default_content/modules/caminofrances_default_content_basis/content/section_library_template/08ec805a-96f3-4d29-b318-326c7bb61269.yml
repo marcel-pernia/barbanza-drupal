@@ -1,0 +1,505 @@
+_meta:
+  version: '1.0'
+  entity_type: section_library_template
+  uuid: 08ec805a-96f3-4d29-b318-326c7bb61269
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+default:
+  user_id:
+    -
+      target_id: 0
+  label:
+    -
+      value: 'Gallery Collection Glossary (VLSuite)'
+  type:
+    -
+      value: template
+  layout_section:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:region_top':
+              text-align: center
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+              background-gradient: light
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          9fd5c4f1-fb00-44ff-b473-79fb9cf879a7:
+            uuid: 9fd5c4f1-fb00-44ff-b473-79fb9cf879a7
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 13e3ed96-0953-4058-b54b-c889f759a6ee
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694529451
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          a3ddfc1a-e240-440a-81ab-f397a91c3388:
+            uuid: a3ddfc1a-e240-440a-81ab-f397a91c3388
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: f9290248-ca80-490a-ab53-981e43b1f783
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694597389
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Gallery (VLSuite Collection) - Default</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:region_top':
+              text-align: center
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          b9b40f1c-9e30-4913-89a4-584ad4e96038:
+            uuid: b9b40f1c-9e30-4913-89a4-584ad4e96038
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 3cb3128c-b4c7-459e-ad0b-6e928bd5b146
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694529451
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          17e6535a-f8b9-4267-9470-d45fe184220f:
+            uuid: 17e6535a-f8b9-4267-9470-d45fe184220f
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: d7c3422e-5a72-45d3-bf2e-8045d6a9be15
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694597434
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Gallery (VLSuite Collection) - #1</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+              background-gradient: light
+            'vlsuite_layout:region_top':
+              text-align: center
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          a226cf3e-d680-45f2-be24-066ae50544ac:
+            uuid: a226cf3e-d680-45f2-be24-066ae50544ac
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_2
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 95e59298-6181-45cb-9b08-cdb6a7e6a6e1
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694529451
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          4aa55079-d4b0-45ac-b1b8-ca06cab6dd01:
+            uuid: 4aa55079-d4b0-45ac-b1b8-ca06cab6dd01
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 336eb648-3214-461c-890d-9bc5d1a10058
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694597471
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Gallery (VLSuite Collection) - 2</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+            'vlsuite_layout:region_top':
+              text-align: center
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          214a846e-ce59-41f3-8f81-72fa05c3076c:
+            uuid: 214a846e-ce59-41f3-8f81-72fa05c3076c
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 4d619543-eef4-46fd-b294-674cf32f17ce
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694529451
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          0fc4e313-1631-4b5a-8c5f-e2e084339037:
+            uuid: 0fc4e313-1631-4b5a-8c5f-e2e084339037
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 682a320d-b904-44be-8979-2239a253d728
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694597511
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Gallery (VLSuite Collection) - 3</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  created:
+    -
+      value: 1725528030

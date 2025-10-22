@@ -1,0 +1,9 @@
+uuid: 916c5359-8766-4efb-b963-8984c131f5b9
+langcode: gl
+status: true
+dependencies: {  }
+id: melide_town_hall
+label: 'Concello Melide'
+weight: -2
+is_admin: null
+permissions: {  }

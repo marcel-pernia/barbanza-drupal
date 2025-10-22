@@ -1,0 +1,26 @@
+uuid: f7929a2b-989d-4298-a6b7-1cf51c454ce6
+langcode: gl
+status: true
+dependencies:
+  module:
+    - caminofrances_weather
+    - kiosk_nav
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_town_hall_weather
+theme: artisan_caminofrances
+region: branding
+weight: -5
+provider: null
+plugin: caminofrances_town_hall_weather
+settings:
+  id: caminofrances_town_hall_weather
+  label: 'Town hall Weather'
+  label_display: '0'
+  provider: caminofrances_weather
+visibility:
+  kiosk_nav_condition:
+    id: kiosk_nav_condition
+    negate: false
+    modes:
+      kioskh: kioskh

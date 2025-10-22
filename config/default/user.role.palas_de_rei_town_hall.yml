@@ -1,0 +1,9 @@
+uuid: e88b3dea-a2ea-4ab3-a343-d5c1175cfedb
+langcode: gl
+status: true
+dependencies: {  }
+id: palas_de_rei_town_hall
+label: 'Concello Palas de Rei'
+weight: 1
+is_admin: null
+permissions: {  }

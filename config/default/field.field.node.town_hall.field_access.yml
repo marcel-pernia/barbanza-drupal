@@ -1,0 +1,30 @@
+uuid: 70b9f75e-708f-49c1-b559-59b73bd66e3e
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_access
+    - node.type.town_hall
+  module:
+    - entity_access_by_role_field
+id: node.town_hall.field_access
+field_name: field_access
+entity_type: node
+bundle: town_hall
+label: Acceso
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    role_id: webmaster
+    access: allowed
+default_value_callback: ''
+settings:
+  operations:
+    update: update
+    view: '0'
+    view_unpublished: '0'
+    delete: '0'
+  empty_roles_access_fallback: neutral
+field_type: entity_access_by_role_field

@@ -1,0 +1,14 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          100a0dd0-8ba0-4e69-aa7f-eaf9518f6bbd:
+            configuration:
+              label: Imagen
+          c62f5f2b-9f9c-4015-976e-b23e42abac22:
+            configuration:
+              label: Enlace
+          5f630350-a9d5-4532-9333-eb033b531d62:
+            configuration:
+              label: Texto

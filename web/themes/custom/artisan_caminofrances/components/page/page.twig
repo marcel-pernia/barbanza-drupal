@@ -1,0 +1,94 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+
+
+{% set
+  page_classes = [
+    'page',
+    is_front ? 'page-front' : 'page-internal'
+  ]|merge(page_utility_classes ?: [])
+%}
+
+{% set
+  main_classes = [
+    'content',
+    'shadow',
+    is_front ? 'content-front' : 'content-internal'
+  ]|merge(main_utility_classes ?: [])
+%}
+
+
+{% set page_attributes = attributes ?: create_attribute() %}
+{% set
+  page_classes = [
+  'page',
+]|merge(page_utility_classes ?: [])
+%}
+
+{% set
+  main_classes = [
+  'content',
+  'shadow',
+]|merge(main_utility_classes ?: [])
+%}
+
+<div {{ page_attributes.addClass(page_classes) }}>
+  {% block page_navigation %}
+    <header class="header shadow">
+      {% include 'artisan_caminofrances:navigation' %}
+    </header>
+  {% endblock %}
+
+
+{% if is_front %}
+  {% block page_hero %}
+    <div class="hero-section">
+      {% if page.portada_full %}
+        {{ page.portada_full }}
+      {% endif %}
+      {% if page.portada_container %}
+        <div class="container">
+          <div class="row">
+              {% if frontpage_node is defined and frontpage_node %}
+                <div class="body">
+                  {{ frontpage_node.body.value|raw }}
+                </div>
+              {% endif %}
+
+          {{ page.portada_container }}
+
+
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endblock %}
+{% endif %}
+
+
+
+
+
+  {% block page_content %}
+    <main class="{{ main_classes|join(' ') }}" id="main-content">
+      <div class="container">
+        {{ page.content['artisan_caminofrances_breadcrumb'] }}
+      </div>
+      {{ page.content|without('artisan_caminofrances_breadcrumb', 'artisan_caminofrances_cookiesui') }}
+    </main>
+    {{ page.content['artisan_caminofrances_cookiesui'] }}
+  {% endblock %}
+
+  {% block page_footer %}
+  <div class="container-footer">
+    <footer class="container py-5">
+      {% include 'artisan_caminofrances:footer-top' %}
+      {% include 'artisan:footer-bottom' %}
+    </footer>
+</div>
+  {% endblock %}
+</div>

@@ -1,0 +1,11 @@
+uuid: 0eda25b8-4cf8-4950-829c-1d532d8744fe
+langcode: gl
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.token
+label: Símbolos
+description: ''
+targetEntityType: block_content
+cache: true

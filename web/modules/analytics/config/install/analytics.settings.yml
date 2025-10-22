@@ -1,0 +1,5 @@
+privacy:
+  dnt: true
+  anonymize_ip: false
+cache_urls: false
+disable_page_build: false

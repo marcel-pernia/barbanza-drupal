@@ -1,0 +1,16 @@
+uuid: b169d3b1-0aaf-4749-8257-5086dc08d781
+langcode: gl
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - vlsuite_media
+_core:
+  default_config_hash: QB2FsziLDNt5XU7HjgIztIaVNiZBhVrf1dIvjT5AI_U
+id: media.vlsuite_background
+label: 'Background (VLSuite)'
+description: ''
+targetEntityType: media
+cache: true

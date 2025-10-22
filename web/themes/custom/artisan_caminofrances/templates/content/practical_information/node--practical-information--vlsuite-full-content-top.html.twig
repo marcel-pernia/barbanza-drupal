@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Template for a node news full content top.
+ */
+#}
+
+
+{% set diapositivas = node.get('field_diapositivas_alt').getValue() %}
+
+{% include 'artisan_caminofrances:practical-information-content-top' with {
+  title: node.label,
+  diapositivas: diapositivas,
+  category: node.hasField('field_category') and not node.get('field_category').isEmpty() ? content.field_category : false,
+  media: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image|add_class('mb-3') : false,
+  addtoany: content.addtoany,
+  address: node.hasField('field_address') and not node.get('field_address').isEmpty() ? content.field_address : false,
+  codigo_postal:node.hasField('field_codigo_postal') and not node.get('field_codigo_postal').isEmpty() ? node.get('field_codigo_postal').getValue() : false,
+  enderezo:node.hasField('field_enderezo') and not node.get('field_enderezo').isEmpty() ? node.get('field_enderezo').getValue()  : false,
+  pais: node.hasField('field_pais') and not node.get('field_pais').isEmpty() ? content.field_pais : false,
+  provincia: node.hasField('field_provincia') and not node.get('field_provincia').isEmpty() ? content.field_provincia : false,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  description: node.hasField('field_description') and not node.get('field_description').isEmpty() ? content.field_description : false,
+  link: node.hasField('field_link') and not node.get('field_link').isEmpty() ? content.field_link : false,
+  map: node.hasField('field_geolocation') and not node.get('field_geolocation').isEmpty() ? content.field_geolocation : false,
+  qr: node.hasField('field_qr_code') and not node.get('field_qr_code').isEmpty() ? content.field_qr_code : false,
+} %}

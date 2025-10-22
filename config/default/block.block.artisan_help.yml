@@ -1,0 +1,22 @@
+uuid: e229d59d-eae5-4415-98dd-0b1950613fc4
+langcode: gl
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - artisan
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: artisan_help
+theme: artisan
+region: header_top
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Axuda
+  label_display: '0'
+  provider: help
+visibility: {  }

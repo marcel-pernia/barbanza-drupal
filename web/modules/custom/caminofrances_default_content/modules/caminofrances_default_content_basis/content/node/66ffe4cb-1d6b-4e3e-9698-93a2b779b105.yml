@@ -1,0 +1,174 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 66ffe4cb-1d6b-4e3e-9698-93a2b779b105
+  bundle: stage
+  default_langcode: gl
+  depends:
+    96c38466-c6d2-4c71-bf98-8ec3135b04e7: node
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Etapa (exemplo)'
+  created:
+    -
+      value: 1726655306
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Etapa (exemplo) | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Etapa (exemplo)'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/etapa/etapa-exemplo'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: Etapa
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/etapa/etapa-exemplo'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Etapa (exemplo)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Etapa (exemplo)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:secure_url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Etapa (exemplo)'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Etapa (exemplo)'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Place
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/etapa/etapa-exemplo'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Etapa (exemplo)'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Etapa (exemplo)'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: image
+        content:
+          '@type': ImageObject
+          representativeOfPage: 'True'
+          url: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_28.jpg?itok=9OfNvxSZ'
+        group: schema_place
+        schema_metatag: true
+  path:
+    -
+      alias: /etapa/etapa-exemplo
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_description:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum ultrices ex vel scelerisque. Suspendisse varius ut mauris vitae accumsan. Integer ut tincidunt augue. Maecenas eget tempus felis. Donec non hendrerit lacus, a pretium arcu. Ut sagittis tellus a justo ornare aliquam. Curabitur mollis fermentum quam.</p><p>Pellentesque varius sapien eget risus malesuada tempor. Sed ut sem ac turpis dignissim auctor condimentum ut magna. Ut porta porttitor neque, at vehicula enim eleifend ut. Nam in mauris tristique, eleifend metus eu, pulvinar ligula. Aenean quis dui sodales, porta mi a, ultrices nibh. Suspendisse congue nisl erat, varius cursus urna pellentesque non. Nunc eu convallis nisl, nec rhoncus ante. Mauris elementum luctus condimentum. Nulla ut mattis quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu justo a magna blandit mattis. Duis pharetra odio nibh, vel faucibus quam finibus et. Etiam commodo diam ac risus varius, eget rutrum dui semper. Praesent eget volutpat nulla. Donec euismod leo ac neque faucibus, a lacinia sapien dapibus. Nam vehicula consequat eros, vel consequat felis varius non.</p><p>Nunc faucibus tristique lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer consectetur tincidunt dui at faucibus. Vestibulum ac laoreet augue, vel tincidunt erat. Nullam purus leo, mattis eget felis nec, volutpat vestibulum massa. Curabitur laoreet eu est eget tempor. Integer ultricies, tellus eget auctor elementum, orci augue elementum ante, vel imperdiet nulla nulla non velit. In rutrum elit leo, id pulvinar tellus varius eget. Mauris consequat nec mauris ut rhoncus. Ut imperdiet felis sit amet hendrerit tempor. Proin diam lacus, gravida et ullamcorper eget, vestibulum a dui. Nullam bibendum, nibh sit amet luctus lobortis, tortor enim pharetra ipsum, sed porttitor orci neque non odio.</p><p>Aliquam nec turpis imperdiet mi ornare suscipit quis eu diam. Mauris feugiat dui justo, id elementum tellus vehicula et. Duis id vehicula tortor, vel aliquet ex. Nullam ultrices, eros ut cursus vulputate, nibh leo congue massa, vitae hendrerit odio diam in sapien. Donec feugiat ullamcorper mollis. Phasellus lacus augue, interdum at gravida at, fringilla ac dui. Etiam a metus malesuada, vehicula purus nec, scelerisque ante. Aenean pretium nibh quam, nec consequat orci maximus a. Ut pellentesque lorem risus, vitae facilisis sapien facilisis ut. Aliquam in lorem in nisi cursus scelerisque vel sed neque. Donec tempor diam et consectetur tincidunt. Nunc sed felis lectus. Morbi faucibus semper magna sit amet sodales.</p><p>Vivamus rhoncus viverra magna quis suscipit. Sed sit amet odio at est feugiat sodales. Maecenas risus lectus, consequat eget odio non, posuere bibendum sem. Proin sollicitudin libero condimentum turpis porta convallis. Quisque ac suscipit nunc, quis viverra libero. Nullam ut eros ornare risus commodo feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam tempor purus ligula, non facilisis erat faucibus non. Integer feugiat, arcu at ullamcorper feugiat, ligula massa posuere eros, nec elementum neque dolor imperdiet purus. Vivamus eget libero at dui viverra gravida. Nullam vestibulum tempus massa eu sodales. Etiam condimentum ex lectus, ut accumsan mauris tristique ac.</p>'
+      format: basic_html
+  field_image:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+  field_summary:
+    -
+      value: 'Etapa (exemplo)'

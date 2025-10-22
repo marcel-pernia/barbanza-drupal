@@ -1,0 +1,205 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c22b7a76-c3d3-46a5-a4bb-bbff9bf1d2a2
+  bundle: town_hall
+  default_langcode: gl
+  depends:
+    96c38466-c6d2-4c71-bf98-8ec3135b04e7: node
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+    453a3c41-214d-4193-9366-09f7997e72ca: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Arzúa
+  created:
+    -
+      value: 1726219993
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Arzúa | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Arzúa
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/concello/arzua'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: Concello
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/concello/arzua'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Arzúa
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: Arzúa
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:secure_url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: Arzúa
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Arzúa
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: CityHall
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/concello/arzua'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: Arzúa
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: geo
+        content:
+          '@type': GeoCoordinates
+          latitude: '51.47879'
+          longitude: '-0.010677'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Arzúa
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: image
+        content:
+          '@type': ImageObject
+          representativeOfPage: 'True'
+          url: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+        group: schema_place
+        schema_metatag: true
+  path:
+    -
+      alias: /concello/arzua
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_access:
+    -
+      role_id: arzua_town_hall
+      access: allowed
+  field_description:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis lectus vel interdum condimentum. Donec maximus a quam vitae malesuada. Nulla congue odio a orci congue, ac accumsan sem dignissim. Vestibulum tempor congue consectetur. Vivamus commodo massa ut finibus venenatis. Pellentesque elit ipsum, imperdiet efficitur tincidunt eu, laoreet at ex. In in pretium ipsum. Aliquam maximus metus et neque sodales, non posuere neque semper. Sed a diam porttitor, laoreet tellus non, ultrices arcu. Donec et sodales orci, sed varius arcu. Vestibulum sollicitudin gravida porta. Etiam eu sodales massa, sed euismod neque. Duis a nunc auctor, consequat neque vitae, suscipit mauris. Maecenas ut imperdiet urna, nec molestie nulla.</p><p>Phasellus quis dolor aliquet, laoreet lorem id, porttitor arcu. Mauris imperdiet metus et cursus volutpat. Phasellus hendrerit nulla mattis nisl luctus, sed convallis leo iaculis. Etiam mattis elit id justo viverra aliquet. Sed blandit quis urna tincidunt mollis. Proin non magna a orci elementum venenatis. Cras varius sodales dui, sit amet sollicitudin urna faucibus a. Morbi a dignissim tortor, in placerat purus. Aliquam erat volutpat.</p><p>Maecenas blandit neque ex, at elementum elit sagittis ut. Aliquam at tortor tristique, interdum turpis in, venenatis mi. Vestibulum a vestibulum eros, vitae vulputate tortor. Praesent efficitur turpis vel placerat interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim sit amet erat in tincidunt. Fusce semper ultricies auctor. Maecenas pellentesque ornare metus, sit amet lacinia neque. Aliquam egestas vel velit id condimentum. Suspendisse viverra augue quis tortor rutrum ullamcorper. Mauris sodales at ante nec vulputate. Pellentesque vestibulum aliquet porttitor. Sed euismod ullamcorper nunc, ac dignissim arcu.</p>'
+      format: basic_html
+  field_geolocation:
+    -
+      lat: 51.47879
+      lng: -0.010677
+      lat_sin: 0.78237765806837
+      lat_cos: 0.62280430325701
+      lng_rad: -0.00018634880423543
+      data: {  }
+  field_image:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+  field_kiosk_slides:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+    -
+      entity: 453a3c41-214d-4193-9366-09f7997e72ca
+  field_summary:
+    -
+      value: Arzúa

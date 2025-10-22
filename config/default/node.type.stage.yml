@@ -1,0 +1,18 @@
+uuid: 5114a3cd-87c8-4c1e-85b7-001f1431297c
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Etapa
+type: stage
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

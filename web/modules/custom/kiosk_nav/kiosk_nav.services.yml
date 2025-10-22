@@ -1,0 +1,4 @@
+services:
+  kiosk_nav.helper:
+    class: Drupal\kiosk_nav\KioskNavHelper
+    arguments: ['@request_stack', '@router.admin_context']

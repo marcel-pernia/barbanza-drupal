@@ -1,0 +1,4 @@
+name: Town Hall Content Top Kiosk Horizontal
+libraryOverrides:
+  dependencies:
+    - vlsuite_slider/slider

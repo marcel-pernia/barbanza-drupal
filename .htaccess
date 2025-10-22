@@ -1,0 +1,13 @@
+<IfModule mod_headers.c>
+  # Sin restricciones de frame-ancestors para pruebas
+  Header always set Content-Security-Policy "frame-ancestors *"
+
+  #
+  Header always set Access-Control-Allow-Origin "*"
+  Header always set X-Frame-Options "Allowall"
+</IfModule>
+
+RewriteRule ^$ web/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ web/$1 [L] 

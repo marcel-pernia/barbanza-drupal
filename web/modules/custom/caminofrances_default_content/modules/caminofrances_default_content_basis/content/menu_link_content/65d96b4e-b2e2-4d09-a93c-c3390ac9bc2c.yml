@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c
+  bundle: town-hall-menu
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Información práctica'
+  menu_name:
+    -
+      value: town-hall-menu
+  link:
+    -
+      uri: 'internal:#info'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/home'
+  field_icon:
+    -
+      value: interests

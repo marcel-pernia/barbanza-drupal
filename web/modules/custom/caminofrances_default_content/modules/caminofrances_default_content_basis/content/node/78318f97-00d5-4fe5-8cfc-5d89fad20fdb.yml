@@ -1,0 +1,229 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 78318f97-00d5-4fe5-8cfc-5d89fad20fdb
+  bundle: vlsuite_landing
+  default_langcode: gl
+  depends:
+    96c38466-c6d2-4c71-bf98-8ec3135b04e7: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Etapas
+  created:
+    -
+      value: 1726741613
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Etapas | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Etapas
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/etapas'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: 'Landing (VLSuite)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/etapas'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Etapas
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: Etapas
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: Etapas
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Etapas
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: '@id'
+        content: 'https://caminofrances.ddev.site/etapas'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: Etapas
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/etapas'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: inLanguage
+        content: 'Galician, Spanish, English'
+        group: schema_web_site
+        schema_metatag: true
+  path:
+    -
+      alias: /etapas
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_summary:
+    -
+      value: Etapas
+  layout_builder__layout:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+            'vlsuite_layout:main_regions':
+              padding-y: spacer-4
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          c1a46877-3a6a-4324-b457-3a8801f92397:
+            uuid: c1a46877-3a6a-4324-b457-3a8801f92397
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: e811a86d-3a75-4481-afc4-ae903f488ab5
+                  bundle: vlsuite_text
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726741646
+                  vlsuite_text:
+                    -
+                      value: '<h1>Etapas</h1>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class:
+                'block_content:vlsuite_text:vlsuite_text':
+                  text-align: center
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          4929404e-f744-4e84-bdfd-573fbc5b739f:
+            uuid: 4929404e-f744-4e84-bdfd-573fbc5b739f
+            region: main
+            configuration:
+              id: 'vlsuite_block_views_block:stages-main'
+              label: 'VLSuite: List block: Etapas: Bloque'
+              label_display: ''
+              provider: vlsuite_block
+              views_label: ''
+              items_per_page: none
+              grid_cols_widths: ''
+              vlsuite_utility_class: {  }
+              vlsuite_slider:
+                scope: default
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }

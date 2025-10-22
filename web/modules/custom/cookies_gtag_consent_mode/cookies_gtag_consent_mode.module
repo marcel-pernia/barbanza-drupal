@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Contains cookies_ga.module.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function cookies_gtag_consent_mode_page_attachments(&$page) {
+  $doKo = Drupal::service('cookies.knock_out')->doKnockOut();
+  if ($doKo) {
+    $page["#attached"]["library"][] = 'cookies_gtag_consent_mode/gtag';
+  }
+}

@@ -1,0 +1,6 @@
+adding:
+  name: DEV
+  bg_color: '#02007a'
+removing:
+  name: LOCAL
+  bg_color: '#007833'

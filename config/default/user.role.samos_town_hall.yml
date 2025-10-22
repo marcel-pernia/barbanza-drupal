@@ -1,0 +1,9 @@
+uuid: 56171ebc-612f-421d-99f6-70a3adb43c5e
+langcode: gl
+status: true
+dependencies: {  }
+id: samos_town_hall
+label: 'Concello Samos'
+weight: 4
+is_admin: null
+permissions: {  }

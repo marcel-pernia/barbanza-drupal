@@ -1,0 +1,16 @@
+uuid: a1217e42-7edd-46e6-b18a-e0dd69275bfd
+langcode: gl
+status: true
+dependencies:
+  config:
+    - system.menu.town-hall-menu
+    - taxonomy.vocabulary.category
+id: town_hall_practical_information
+label: 'Concello información práctica'
+vocabulary: category
+menu: town-hall-menu
+expanded: true
+depth: 0
+menu_parent: 'town-hall-menu:menu_link_content:65d96b4e-b2e2-4d09-a93c-c3390ac9bc2c'
+description_field_name: ''
+use_term_weight_order: true

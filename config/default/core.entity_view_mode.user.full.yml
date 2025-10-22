@@ -1,0 +1,13 @@
+uuid: 9815f4a4-b9fd-4d94-a20e-f58e5065c076
+langcode: gl
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: ZbXunWS_xAvMZXFfinyvClDAb_RCVLt7gAzE3v16E-Q
+id: user.full
+label: 'Conta de usuario'
+description: ''
+targetEntityType: user
+cache: true

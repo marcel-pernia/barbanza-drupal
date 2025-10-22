@@ -1,0 +1,22 @@
+uuid: 416ec119-97cd-4470-b9a4-f26879e5a931
+langcode: gl
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: artisan_breadcrumbs
+theme: artisan
+region: header_top
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Ligazóns para axudar á navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

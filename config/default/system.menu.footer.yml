@@ -1,0 +1,10 @@
+uuid: 881721d2-6689-4185-a44d-0b8d987de499
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: 'Pé de páxina'
+description: 'Site information links'
+locked: true

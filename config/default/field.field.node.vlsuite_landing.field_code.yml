@@ -1,0 +1,19 @@
+uuid: b890734c-592a-4c8a-b4e3-4d80042b60c9
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.vlsuite_landing
+id: node.vlsuite_landing.field_code
+field_name: field_code
+entity_type: node
+bundle: vlsuite_landing
+label: Código
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,25 @@
+analytics.settings_form:
+  path: '/admin/config/services/analytics/settings'
+  defaults:
+    _title: 'Analytics settings'
+    _form: '\Drupal\analytics\Form\AnalyticsSettingsForm'
+  requirements:
+    _permission: 'administer analytics'
+
+entity.analytics_service.enable:
+  path: '/admin/config/services/analytics/{analytics_service}/enable'
+  defaults:
+    _controller: '\Drupal\analytics\Controller\AnalyticsController::ajaxOperation'
+    op: enable
+  requirements:
+    _entity_access: analytics_service.enable
+    _csrf_token: 'TRUE'
+
+entity.analytics_service.disable:
+  path: '/admin/config/services/analytics/{analytics_service}/disable'
+  defaults:
+    _controller: '\Drupal\analytics\Controller\AnalyticsController::ajaxOperation'
+    op: disable
+  requirements:
+    _entity_access: analytics_service.disable
+    _csrf_token: 'TRUE'

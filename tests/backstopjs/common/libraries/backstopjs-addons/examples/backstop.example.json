@@ -1,0 +1,78 @@
+{
+  "id": "backstop",
+  "viewports": [
+    {
+      "label": "phone",
+      "width": 375,
+      "height": 667
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "label": "desktop",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "onBeforeScript": "onBefore.js",
+  "onReadyScript": "onReady.js",
+  "scenarios": [
+    {
+      "label": "Click an wait for selector example",
+      "url": "http://something.com/page-url",
+      "readySelector": "body",
+      "clickSelector": ".element-to-click",
+      "waitForSelectorAfterInteraction": ".selector-to-wait-for-after-click",
+    },
+    {
+      "label": "Scroll to element example",
+      "url": "http://something.com/page-url",
+      "readySelector": "body",
+      "scrollToSelector": ".element-to-scroll-to",
+      "postInteractionWait": 500
+    },
+    {
+      "label": "Stop animations example",
+      "url": "http://something.com/page-url",
+      "readySelector": "body",
+      "stopAnimationsSelectors": ".selectors-to-stop-animations"
+    },
+    {
+      "label": "Login and go to page example",
+      "url": "http://something.com/page-url",
+      "readySelector": "body",
+      "loginWrapperSelector": ".form-selector",
+      "loginUser": "user name to override the global one",
+      "loginPass": "password to override the global one",
+      "loginRedirectTo": "page_url/to/go/after/login"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "bitmaps_reference",
+    "bitmaps_test": "bitmaps_test",
+    "engine_scripts": "engine_scripts",
+    "html_report": "html_report",
+    "ci_report": "ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--ignore-certificate-errors",
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "gotoParameters": { "waitUntil": "networkidle0" }
+  },
+  "debug": false,
+  "debugWindow": false,
+  "backstopjsAddons": {
+    "path": "/path/to/backstopjs-addons",
+    "loginUser": "global user name",
+    "loginPass": "global user pass",
+    "responsiveFontSizeSelector": ".selectors-to-lock-the .font-size-on .all-the-scenarios"
+  }
+}

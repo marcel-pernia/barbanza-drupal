@@ -1,0 +1,477 @@
+utilities:
+  text-align:
+    visual_name: 'Text align'
+    values:
+      left:
+        visual_name: Left
+      right:
+        visual_name: Right
+      center:
+        visual_name: Center
+      left-md-medium-or-wider:
+        visual_name: 'Left - MD (medium or wider)'
+      right-md-medium-or-wider:
+        visual_name: 'Right - MD (medium or wider)'
+      center-md-medium-or-wider:
+        visual_name: 'Center - MD (medium or wider)'
+  color:
+    visual_name: 'Text color'
+    values:
+      primary:
+        visual_name: Primary
+      secondary:
+        visual_name: Secondary
+      success:
+        visual_name: Success
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Warning
+      danger:
+        visual_name: Danger
+      light:
+        visual_name: Light
+      dark:
+        visual_name: Dark
+      white:
+        visual_name: White
+      body:
+        visual_name: Body
+      muted:
+        visual_name: Muted
+      black-50:
+        visual_name: 'Black 50'
+      white-50:
+        visual_name: 'White 50'
+      reset:
+        visual_name: Reset
+  background-color:
+    visual_name: 'Background color'
+    values:
+      primary:
+        visual_name: Primary
+      secondary:
+        visual_name: Secondary
+      success:
+        visual_name: Success
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Warning
+      danger:
+        visual_name: Danger
+      light:
+        visual_name: Light
+      dark:
+        visual_name: Dark
+      body:
+        visual_name: Body
+      white:
+        visual_name: White
+      transparent:
+        visual_name: Transparent
+  background-gradient:
+    visual_name: 'Background gradient'
+    values:
+      primary:
+        visual_name: Primary
+      secondary:
+        visual_name: Secondary
+      success:
+        visual_name: Success
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Warning
+      danger:
+        visual_name: Danger
+      light:
+        visual_name: Light
+      dark:
+        visual_name: Dark
+      body:
+        visual_name: Body
+      white:
+        visual_name: White
+      transparent:
+        visual_name: Transparent
+  background-opacity:
+    visual_name: 'Background opacity'
+    values:
+      75:
+        visual_name: 75%
+      50:
+        visual_name: 50%
+      25:
+        visual_name: 25%
+      10:
+        visual_name: 10%
+  inline:
+    visual_name: Inline
+    values:
+      auto:
+        visual_name: Auto
+      2:
+        visual_name: '2'
+      3:
+        visual_name: '3'
+      4:
+        visual_name: '4'
+      5:
+        visual_name: '5'
+      6:
+        visual_name: '6'
+      auto-md-medium-or-wider:
+        visual_name: 'Auto - MD (medium or wider)'
+      2-md-medium-or-wider:
+        visual_name: '2 - MD (medium or wider)'
+      3-md-medium-or-wider:
+        visual_name: '3 - MD (medium or wider)'
+      4-md-medium-or-wider:
+        visual_name: '4 - MD (medium or wider)'
+      5-md-medium-or-wider:
+        visual_name: '5 - MD (medium or wider)'
+      6-md-medium-or-wider:
+        visual_name: '6 - MD (medium or wider)'
+  gutter:
+    visual_name: Gutter
+    values:
+      no-gutter:
+        visual_name: 'No gutter'
+      gutter-1:
+        visual_name: 'Gutter 1'
+      gutter-2:
+        visual_name: 'Gutter 2'
+      gutter-3:
+        visual_name: 'Gutter 3'
+      gutter-4:
+        visual_name: 'Gutter 4'
+      gutter-5:
+        visual_name: 'Gutter 5'
+      no-gutter-md-medium-or-wider:
+        visual_name: 'No gutter - MD (medium or wider)'
+      gutter-1-md-medium-or-wider:
+        visual_name: 'Gutter 1 - MD (medium or wider)'
+      gutter-2-md-medium-or-wider:
+        visual_name: 'Gutter 2 - MD (medium or wider)'
+      gutter-3-md-medium-or-wider:
+        visual_name: 'Gutter 3 - MD (medium or wider)'
+      gutter-4-md-medium-or-wider:
+        visual_name: 'Gutter 4 - MD (medium or wider)'
+      gutter-5-md-medium-or-wider:
+        visual_name: 'Gutter 5 - MD (medium or wider)'
+  gutter-y:
+    visual_name: 'Vertical gutter'
+    values:
+      no-gutter:
+        visual_name: 'No gutter'
+      gutter-1:
+        visual_name: 'Gutter 1'
+      gutter-2:
+        visual_name: 'Gutter 2'
+      gutter-3:
+        visual_name: 'Gutter 3'
+      gutter-4:
+        visual_name: 'Gutter 4'
+      gutter-5:
+        visual_name: 'Gutter 5'
+      no-gutter-md-medium-or-wider:
+        visual_name: 'No gutter - MD (medium or wider)'
+      gutter-1-md-medium-or-wider:
+        visual_name: 'Gutter 1 - MD (medium or wider)'
+      gutter-2-md-medium-or-wider:
+        visual_name: 'Gutter 2 - MD (medium or wider)'
+      gutter-3-md-medium-or-wider:
+        visual_name: 'Gutter 3 - MD (medium or wider)'
+      gutter-4-md-medium-or-wider:
+        visual_name: 'Gutter 4 - MD (medium or wider)'
+      gutter-5-md-medium-or-wider:
+        visual_name: 'Gutter 5 - MD (medium or wider)'
+  gutter-x:
+    visual_name: 'Horizontal gutter'
+    values:
+      no-gutter:
+        visual_name: 'No gutter'
+      gutter-1:
+        visual_name: 'Gutter 1'
+      gutter-2:
+        visual_name: 'Gutter 2'
+      gutter-3:
+        visual_name: 'Gutter 3'
+      gutter-4:
+        visual_name: 'Gutter 4'
+      gutter-5:
+        visual_name: 'Gutter 5'
+      no-gutter-md-medium-or-wider:
+        visual_name: 'No gutter - MD (medium or wider)'
+      gutter-1-md-medium-or-wider:
+        visual_name: 'Gutter 1 - MD (medium or wider)'
+      gutter-2-md-medium-or-wider:
+        visual_name: 'Gutter 2 - MD (medium or wider)'
+      gutter-3-md-medium-or-wider:
+        visual_name: 'Gutter 3 - MD (medium or wider)'
+      gutter-4-md-medium-or-wider:
+        visual_name: 'Gutter 4 - MD (medium or wider)'
+      gutter-5-md-medium-or-wider:
+        visual_name: 'Gutter 5 - MD (medium or wider)'
+  align-items:
+    visual_name: 'Align items (vertical)'
+    values:
+      start:
+        visual_name: Start
+      end:
+        visual_name: End
+      center:
+        visual_name: Center
+      baseline:
+        visual_name: Baseline
+  align-items-x:
+    visual_name: 'Align items (horizontal)'
+    values:
+      start:
+        visual_name: Start
+      end:
+        visual_name: End
+      center:
+        visual_name: Center
+      around:
+        visual_name: Around
+      between:
+        visual_name: Between
+      evenly:
+        visual_name: Evenly
+  padding:
+    visual_name: Spacing
+    values:
+      no-spacer:
+        visual_name: 'No spacing'
+      spacer-1:
+        visual_name: 'Spacer 1'
+      spacer-2:
+        visual_name: 'Spacer 2'
+      spacer-3:
+        visual_name: 'Spacer 3'
+      spacer-4:
+        visual_name: 'Spacer 4'
+      spacer-5:
+        visual_name: 'Spacer 5'
+      spacer-1-md-medium-or-wider:
+        visual_name: 'Spacer 1 - MD (medium or wider)'
+      spacer-2-md-medium-or-wider:
+        visual_name: 'Spacer 2 - MD (medium or wider)'
+      spacer-3-md-medium-or-wider:
+        visual_name: 'Spacer 3 - MD (medium or wider)'
+      spacer-4-md-medium-or-wider:
+        visual_name: 'Spacer 4 - MD (medium or wider)'
+      spacer-5-md-medium-or-wider:
+        visual_name: 'Spacer 5 - MD (medium or wider)'
+  padding-y:
+    visual_name: 'Vertical spacing'
+    values:
+      no-spacer:
+        visual_name: 'No spacing'
+      spacer-1:
+        visual_name: 'Spacer 1'
+      spacer-2:
+        visual_name: 'Spacer 2'
+      spacer-3:
+        visual_name: 'Spacer 3'
+      spacer-4:
+        visual_name: 'Spacer 4'
+      spacer-5:
+        visual_name: 'Spacer 5'
+      spacer-1-md-medium-or-wider:
+        visual_name: 'Spacer 1 - MD (medium or wider)'
+      spacer-2-md-medium-or-wider:
+        visual_name: 'Spacer 2 - MD (medium or wider)'
+      spacer-3-md-medium-or-wider:
+        visual_name: 'Spacer 3 - MD (medium or wider)'
+      spacer-4-md-medium-or-wider:
+        visual_name: 'Spacer 4 - MD (medium or wider)'
+      spacer-5-md-medium-or-wider:
+        visual_name: 'Spacer 5 - MD (medium or wider)'
+  padding-x:
+    visual_name: 'Horizontal spacing'
+    values:
+      no-spacer:
+        visual_name: 'No spacing'
+      spacer-1:
+        visual_name: 'Spacer 1'
+      spacer-2:
+        visual_name: 'Spacer 2'
+      spacer-3:
+        visual_name: 'Spacer 3'
+      spacer-4:
+        visual_name: 'Spacer 4'
+      spacer-5:
+        visual_name: 'Spacer 5'
+      spacer-1-md-medium-or-wider:
+        visual_name: 'Spacer 1 - MD (medium or wider)'
+      spacer-2-md-medium-or-wider:
+        visual_name: 'Spacer 2 - MD (medium or wider)'
+      spacer-3-md-medium-or-wider:
+        visual_name: 'Spacer 3 - MD (medium or wider)'
+      spacer-4-md-medium-or-wider:
+        visual_name: 'Spacer 4 - MD (medium or wider)'
+      spacer-5-md-medium-or-wider:
+        visual_name: 'Spacer 5 - MD (medium or wider)'
+  media-bg-opacity:
+    visual_name: 'Media background opacity'
+    values:
+      0:
+        visual_name: 0%
+      25:
+        visual_name: 25%
+      50:
+        visual_name: 50%
+      75:
+        visual_name: 75%
+      100:
+        visual_name: 100%
+  media-bg-variant:
+    visual_name: 'Media background variant'
+    values:
+      half-width-left:
+        visual_name: 'Half width left'
+      half-width-right:
+        visual_name: 'Half width right'
+  btn:
+    visual_name: Button
+    values:
+      primary:
+        visual_name: Primary
+      secondary:
+        visual_name: Secondary
+      success:
+        visual_name: Success
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Warning
+      danger:
+        visual_name: Danger
+      light:
+        visual_name: Light
+      dark:
+        visual_name: Dark
+      outline-primary:
+        visual_name: 'Outline Primary'
+      outline-secondary:
+        visual_name: 'Outline Secondary'
+      outline-success:
+        visual_name: 'Outline Success'
+      outline-info:
+        visual_name: 'Outline Info'
+      outline-warning:
+        visual_name: 'Outline Warning'
+      outline-danger:
+        visual_name: 'Outline Danger'
+      outline-light:
+        visual_name: 'Outline Light'
+      outline-dark:
+        visual_name: 'Outline Dark'
+  btn-size:
+    visual_name: 'Button size'
+    values:
+      large:
+        visual_name: Large
+      small:
+        visual_name: Small
+  rounded:
+    visual_name: Rounded
+    values:
+      circle:
+        visual_name: Circle
+      rounded:
+        visual_name: Rounded
+      pill:
+        visual_name: Pill
+  shadow:
+    visual_name: Shadow
+    values:
+      shadow:
+        visual_name: Shadow
+      small:
+        visual_name: Small
+      large:
+        visual_name: Large
+  position:
+    visual_name: Position
+    values:
+      top-left-translate-middle:
+        visual_name: 'Top left translate middle'
+      top-center-translate-middle:
+        visual_name: 'Top center translate middle'
+      top-left:
+        visual_name: 'Top left'
+      top-center:
+        visual_name: 'Top center'
+      bottom-left-translate-middle:
+        visual_name: 'Bottom left translate middle'
+  border:
+    visual_name: Border
+    values:
+      border-left:
+        visual_name: 'Border left'
+  margin-start:
+    visual_name: 'Margin left'
+    values:
+      spacer-1:
+        visual_name: 'Spacer 1'
+      spacer-2:
+        visual_name: 'Spacer 2'
+      spacer-3:
+        visual_name: 'Spacer 3'
+      spacer-4:
+        visual_name: 'Spacer 4'
+      spacer-5:
+        visual_name: 'Spacer 5'
+  badge:
+    visual_name: Badge
+    values:
+      primary:
+        visual_name: Primary
+      secondary:
+        visual_name: Secondary
+      success:
+        visual_name: Success
+      danger:
+        visual_name: Danger
+      warning:
+        visual_name: Warning
+      info:
+        visual_name: Info
+      light:
+        visual_name: Light
+      dark:
+        visual_name: Dark
+      outline-warning:
+        visual_name: 'Outline warning'
+  width:
+    visual_name: Width
+    values:
+      100:
+        visual_name: 100%
+  ratio:
+    visual_name: Ratio
+    values:
+      1-1:
+        visual_name: 1/1
+      3-2:
+        visual_name: 3/2
+      4-3:
+        visual_name: 4/3
+      16-9:
+        visual_name: 16/9
+      21-9:
+        visual_name: 21/9
+  translate:
+    visual_name: Translate
+    values:
+      vertically:
+        visual_name: Vertically
+  story-telling:
+    visual_name: 'Story telling'
+    values:
+      100:
+        visual_name: 100%

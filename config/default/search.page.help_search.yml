@@ -1,0 +1,14 @@
+uuid: 5dd1229d-d8a2-46d0-906d-2a5f6a6f21bf
+langcode: gl
+status: true
+dependencies:
+  module:
+    - help
+_core:
+  default_config_hash: RZ-bcSekNSsAbIPLW7Gmyd3uUjIOSrPvnb8RCCZYJm8
+id: help_search
+label: Axuda
+path: help
+weight: 0
+plugin: help_search
+configuration: {  }

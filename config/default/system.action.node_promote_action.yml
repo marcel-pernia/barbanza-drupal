@@ -1,0 +1,13 @@
+uuid: 76ca883a-f546-463a-9dda-fe41fee8842d
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Levar contido a páxina principal'
+type: node
+plugin: node_promote_action
+configuration: {  }

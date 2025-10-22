@@ -1,0 +1,8 @@
+weather:
+  js:
+    js/caminofrances_weather.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/drupal.ajax
+    - core/once

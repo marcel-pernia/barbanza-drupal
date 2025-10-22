@@ -1,0 +1,11 @@
+uuid: 06cb09c5-6ef7-480d-9166-95f26f7f4763
+langcode: gl
+status: true
+dependencies:
+  module:
+    - config_split
+id: config_split.token
+label: Símbolos
+description: ''
+targetEntityType: config_split
+cache: true

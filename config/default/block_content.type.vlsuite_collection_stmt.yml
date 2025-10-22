@@ -1,0 +1,14 @@
+uuid: be40a055-004c-4399-8c47-216bdd64ff62
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_collection_stmt
+_core:
+  default_config_hash: BzdpqqM2JJSSFUaq2aCLo7hwjxuTZ99h0bPO4H_AVAM
+id: vlsuite_collection_stmt
+label: 'Statement / Quote (VLSuite Collection)'
+revision: false
+description: ''
+vlsuite_block_icon: ''

@@ -1,0 +1,10 @@
+uuid: 83c4ee19-6d04-4de4-a702-35073a6acb12
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
+id: html_yearless_date
+label: 'Data anual HTML'
+locked: true
+pattern: m-d

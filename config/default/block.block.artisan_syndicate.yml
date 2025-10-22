@@ -1,0 +1,23 @@
+uuid: af34f70e-2404-4824-811f-6879dc1aac0d
+langcode: gl
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - artisan
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: artisan_syndicate
+theme: artisan
+region: header_top
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

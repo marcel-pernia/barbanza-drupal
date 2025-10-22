@@ -1,0 +1,22 @@
+uuid: f616501a-5237-48ff-a1b2-d3cdc3f54607
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - claro
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: claro_content
+theme: claro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contido da páxina principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

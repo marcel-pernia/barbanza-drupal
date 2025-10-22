@@ -1,0 +1,14 @@
+uuid: 74190522-a7cd-4a5e-9ded-ff9e47f27b96
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.arzua_town_hall
+  module:
+    - user
+id: user_remove_role_action.arzua_town_hall
+label: 'Remove the Concello Arzúa role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: arzua_town_hall

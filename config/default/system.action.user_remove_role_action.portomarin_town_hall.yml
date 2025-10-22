@@ -1,0 +1,14 @@
+uuid: bf83e773-d4f6-4e47-bddd-7ae49ff981ef
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.portomarin_town_hall
+  module:
+    - user
+id: user_remove_role_action.portomarin_town_hall
+label: 'Remove the Concello Portomarín role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: portomarin_town_hall

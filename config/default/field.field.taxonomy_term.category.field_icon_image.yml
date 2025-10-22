@@ -1,0 +1,29 @@
+uuid: 520ceb88-1bc5-4a39-90f2-c1b744779fb9
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icon_image
+    - media.type.vlsuite_icon
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.field_icon_image
+field_name: field_icon_image
+entity_type: taxonomy_term
+bundle: category
+label: 'Icona (imaxe)'
+description: 'Usarase sobre a "Icona" cando se defina'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      vlsuite_icon: vlsuite_icon
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

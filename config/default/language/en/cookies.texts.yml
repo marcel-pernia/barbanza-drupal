@@ -1,0 +1,25 @@
+bannerText: 'We use a selection of first-party and third-party cookies on the pages of this website. You can accept and reject individual cookie types and revoke your consent for the future at any time in "Settings".'
+privacyPolicy: 'Privacy policy'
+imprint: Imprint
+cookieDocs: 'Cookie documentation'
+officialWebsite: 'Official website'
+denyAll: 'Deny all'
+settings: 'Cookie settings'
+acceptAll: 'Accept all'
+cookieSettings: 'Cookie settings'
+close: Close
+requiredCookies: 'Required cookies'
+readMore: 'Read more'
+allowed: Allowed
+denied: Denied
+alwaysActive: 'Always active'
+settingsAllServices: 'Settings for all services'
+saveSettings: Save
+disclaimerText: 'All cookie information is subject to change by the service providers. We update this information regularly.'
+processorDetailsLabel: 'Processor Company Details'
+processorLabel: Company
+processorWebsiteUrlLabel: 'Company Website'
+processorPrivacyPolicyUrlLabel: 'Company Privacy Policy'
+processorCookiePolicyUrlLabel: 'Company Cookie Policy'
+processorContactLabel: 'Data Protection Contact Details'
+placeholderAcceptAllText: 'Accept All Cookies'

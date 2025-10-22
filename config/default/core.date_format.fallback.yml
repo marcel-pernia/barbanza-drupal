@@ -1,0 +1,10 @@
+uuid: 5c69652c-d35e-40a2-83ff-f4078530583d
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7klS5IWXrwzVaPpYZFAs6wcx8U2FF1X73OfrtTsvuvE
+id: fallback
+label: 'Formato de data de respaldo'
+locked: true
+pattern: 'D, m/d/Y - H:i'

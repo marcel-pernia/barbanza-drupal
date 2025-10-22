@@ -1,0 +1,16 @@
+uuid: cbee34b6-3cee-48db-afa1-b03bd0564f77
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - vlsuite
+_core:
+  default_config_hash: Gm2fhWD9n8ZzEyt--0JiYJojGzro19sfrH56_OhsNU8
+id: node.vlsuite_full_content_top
+label: 'Full content top (VLSuite)'
+description: ''
+targetEntityType: node
+cache: true

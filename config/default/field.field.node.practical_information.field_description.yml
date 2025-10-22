@@ -1,0 +1,24 @@
+uuid: f1b757bb-64cc-4529-8412-2bdc7ea6135f
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.basic_html
+    - node.type.practical_information
+  module:
+    - text
+id: node.practical_information.field_description
+field_name: field_description
+entity_type: node
+bundle: practical_information
+label: Descrición
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

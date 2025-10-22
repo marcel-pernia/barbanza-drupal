@@ -1,0 +1,74 @@
+uuid: 4173a03c-bd2d-4972-836b-1903a0ab88de
+langcode: gl
+status: true
+dependencies:
+  config:
+    - media.type.vlsuite_document
+    - media.type.vlsuite_icon
+    - media.type.vlsuite_image
+    - media.type.vlsuite_local_video
+    - media.type.vlsuite_remote_video
+    - node.type.practical_information
+    - node.type.town_hall
+    - workflows.workflow.workflow
+  module:
+    - content_moderation
+    - content_translation
+    - entity_access_by_role_field
+    - media
+    - node
+    - path
+    - system
+    - toolbar
+id: community
+label: Mancomunidade
+weight: 7
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'bypass entity_access_by_role_field permissions'
+  - 'create content translations'
+  - 'create practical_information content'
+  - 'create town_hall content'
+  - 'create url aliases'
+  - 'create vlsuite_document media'
+  - 'create vlsuite_icon media'
+  - 'create vlsuite_image media'
+  - 'create vlsuite_local_video media'
+  - 'create vlsuite_remote_video media'
+  - 'delete any practical_information content'
+  - 'delete own practical_information content'
+  - 'delete own vlsuite_document media'
+  - 'delete own vlsuite_icon media'
+  - 'delete own vlsuite_image media'
+  - 'delete own vlsuite_local_video media'
+  - 'delete own vlsuite_remote_video media'
+  - 'delete practical_information revisions'
+  - 'edit any practical_information content'
+  - 'edit any vlsuite_document media'
+  - 'edit any vlsuite_icon media'
+  - 'edit any vlsuite_image media'
+  - 'edit any vlsuite_local_video media'
+  - 'edit any vlsuite_remote_video media'
+  - 'edit own practical_information content'
+  - 'edit_role_field entity_access_by_role_field permissions'
+  - 'revert practical_information revisions'
+  - 'translate editable entities'
+  - 'translate practical_information node'
+  - 'translate town_hall node'
+  - 'translate vlsuite_document media'
+  - 'translate vlsuite_icon media'
+  - 'translate vlsuite_image media'
+  - 'translate vlsuite_local_video media'
+  - 'translate vlsuite_remote_video media'
+  - 'update content translations'
+  - 'use workflow transition create_new_draft'
+  - 'use workflow transition publish'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view practical_information revisions'
+  - 'view the administration theme'

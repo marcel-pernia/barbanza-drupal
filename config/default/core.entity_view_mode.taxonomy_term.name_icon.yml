@@ -1,0 +1,11 @@
+uuid: f6cb0a28-24e4-4bcc-9dbb-3b35181f7e57
+langcode: gl
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.name_icon
+label: 'Name & icon'
+description: ''
+targetEntityType: taxonomy_term
+cache: true

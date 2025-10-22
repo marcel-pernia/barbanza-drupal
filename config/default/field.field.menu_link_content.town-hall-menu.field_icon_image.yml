@@ -1,0 +1,29 @@
+uuid: 9360f3ee-3950-4e20-b475-51d70c8eebc1
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.menu_link_content.field_icon_image
+    - media.type.vlsuite_icon
+    - system.menu.town-hall-menu
+id: menu_link_content.town-hall-menu.field_icon_image
+field_name: field_icon_image
+entity_type: menu_link_content
+bundle: town-hall-menu
+label: 'Icona (imaxe)'
+description: 'Usado no modo de quiosco (mupi), usarase sobre a "Icona" cando se defina'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      vlsuite_icon: vlsuite_icon
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,46 @@
+uuid: 127cdbd2-0962-4e70-858e-0982bc9f2792
+langcode: gl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.stage.field_code
+    - field.field.node.stage.field_description
+    - field.field.node.stage.field_image
+    - field.field.node.stage.field_summary
+    - field.field.node.stage.layout_builder__layout
+    - node.type.stage
+    - responsive_image.styles.vlsuite_original_optimized_medium
+  module:
+    - media_responsive_thumbnail
+    - user
+id: node.stage.teaser
+targetEntityType: node
+bundle: stage
+mode: teaser
+content:
+  field_image:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: vlsuite_original_optimized_medium
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_code: true
+  field_description: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

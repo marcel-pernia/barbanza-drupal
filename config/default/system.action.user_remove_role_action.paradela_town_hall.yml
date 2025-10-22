@@ -1,0 +1,14 @@
+uuid: 076ed8c3-724c-4f20-a6a7-1a2faf5bd2cd
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.paradela_town_hall
+  module:
+    - user
+id: user_remove_role_action.paradela_town_hall
+label: 'Remove the Concello Paradela role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: paradela_town_hall

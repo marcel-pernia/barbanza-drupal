@@ -1,0 +1,19 @@
+uuid: b46161e9-bd89-4911-a677-a6e61b9783b2
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_media_document
+_core:
+  default_config_hash: ev-t354N5Nuumi9O8kmFZX0Gb2uGSfgLFp9nCRkxgCg
+id: vlsuite_document
+label: 'Document (VLSuite)'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name

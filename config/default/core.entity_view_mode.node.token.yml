@@ -1,0 +1,11 @@
+uuid: 00732105-6df5-48f1-b905-7e6a8b95c506
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: Símbolos
+description: ''
+targetEntityType: node
+cache: true

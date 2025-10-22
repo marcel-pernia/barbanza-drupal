@@ -1,0 +1,9 @@
+uuid: 657d20d7-2313-47fe-95d1-54dc681dc3e0
+langcode: gl
+status: true
+dependencies: {  }
+id: monterroso_town_hall
+label: 'Concello Monterroso'
+weight: -1
+is_admin: null
+permissions: {  }

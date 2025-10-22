@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ac70e710-29a2-4313-90d4-88b53f10f083
+  bundle: menu_link_content
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Aviso legal'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'internal:/aviso-legal'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -46
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

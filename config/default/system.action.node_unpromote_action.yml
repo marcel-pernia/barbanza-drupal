@@ -1,0 +1,13 @@
+uuid: dc97a56c-f14a-4a5d-be12-4dad0b8e27e2
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Quitar contido da páxina principal'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

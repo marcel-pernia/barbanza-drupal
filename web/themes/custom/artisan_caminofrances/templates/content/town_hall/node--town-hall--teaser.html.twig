@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Template for a node town hall teaser.
+ */
+#}
+{% include 'artisan_caminofrances:town-hall-teaser' with {
+  title: node.label,
+  media: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image : false,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  link: url,
+} %}

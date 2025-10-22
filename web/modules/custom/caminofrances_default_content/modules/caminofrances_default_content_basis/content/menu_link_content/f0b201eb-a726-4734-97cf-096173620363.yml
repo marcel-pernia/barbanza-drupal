@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: f0b201eb-a726-4734-97cf-096173620363
+  bundle: main
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Multimedia
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/multimedia'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  field_icon:
+    -
+      value: perm_media

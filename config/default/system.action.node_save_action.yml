@@ -1,0 +1,13 @@
+uuid: 77305cb3-30c8-4b46-8e58-c36cb1c2b675
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Gardar contido'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

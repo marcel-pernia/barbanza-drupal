@@ -1,0 +1,14 @@
+uuid: 11aee2f9-a514-46d9-9d79-df5dec4b7034
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.community
+  module:
+    - user
+id: user_remove_role_action.community
+label: 'Remove the Mancomunidade role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: community

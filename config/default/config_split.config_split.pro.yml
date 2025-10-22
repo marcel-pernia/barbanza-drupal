@@ -1,0 +1,17 @@
+uuid: 9e3b1546-ea25-4ee8-b534-23a3c80b3c9d
+langcode: gl
+status: false
+dependencies: {  }
+id: pro
+label: Pro
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/pro
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - environment_indicator.indicator

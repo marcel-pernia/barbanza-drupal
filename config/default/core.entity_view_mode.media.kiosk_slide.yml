@@ -1,0 +1,11 @@
+uuid: db2434d8-af39-418c-91b4-1a0199f140ca
+langcode: gl
+status: true
+dependencies:
+  module:
+    - media
+id: media.kiosk_slide
+label: 'Kiosk slide'
+description: ''
+targetEntityType: media
+cache: true

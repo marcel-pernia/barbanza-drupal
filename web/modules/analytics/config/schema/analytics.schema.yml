@@ -1,0 +1,74 @@
+analytics.settings:
+  type: config_object
+  label: Settings
+  mapping:
+    privacy:
+      type: mapping
+      label: Privacy settings
+      mapping:
+        dnt:
+          type: boolean
+        anonymize_ip:
+          type: boolean
+    cache_urls:
+      type: boolean
+    disable_page_build:
+      type: boolean
+
+analytics.service.*:
+  type: config_entity
+  label: 'Analytics Instance'
+  mapping:
+    label:
+      type: label
+      label: 'Name'
+    id:
+      type: string
+      label: 'Machine name'
+    service:
+      type: string
+      label: 'Analytics service plugin ID'
+    service_configuration:
+      type: analytics.service_configuration.[%parent.service]
+    weight:
+      type: integer
+      label: 'Weight'
+
+analytics.service_configuration:
+  type: mapping
+  label: 'Analytics service configuration'
+
+analytics.service_configuration.google_optimize:
+  type: analytics.service_configuration
+  label: 'Google Optimize service settings'
+  mapping:
+    container_id:
+      type: string
+      label: 'Container ID'
+    async:
+      type: boolean
+      label: 'Use async'
+    anti_flicker:
+      type: boolean
+      label: 'Add the Optimize anti-flickr snippet'
+
+analytics.service_configuration.google_tag_manager:
+  type: analytics.service_configuration
+  label: 'Google Tag Manager service settings'
+  mapping:
+    container_id:
+      type: string
+      label: 'Container ID'
+    data_layer:
+      type: mapping
+      label: 'Data layer'
+      mapping:
+        name:
+          type: string
+          label: 'Variable name'
+        value:
+          type: string
+          label: 'JSON contents'
+    optimize_anti_flicker:
+      type: boolean
+      label: 'Add the Optimize anti-flickr snippet'

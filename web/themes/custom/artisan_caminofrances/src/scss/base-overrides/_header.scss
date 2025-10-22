@@ -1,0 +1,7 @@
+header {
+  --header-color: var(--theme-body-color, var(--bs-body-color, black));
+  --header-background: var(--theme-body-background, var(--bs-body-bg, white));
+
+  color: var(--header-color);
+  background-color: var(--header-background);
+}

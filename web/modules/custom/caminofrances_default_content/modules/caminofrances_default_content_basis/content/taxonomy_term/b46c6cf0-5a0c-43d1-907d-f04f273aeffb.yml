@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b46c6cf0-5a0c-43d1-907d-f04f273aeffb
+  bundle: category
+  default_langcode: gl
+  depends:
+    df1839cc-13dc-43fd-a00b-bc7d258fd93d: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Praia
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: df1839cc-13dc-43fd-a00b-bc7d258fd93d
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Praia | Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/taxonomy/term/4'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1726219717
+  field_icon:
+    -
+      value: beach_access

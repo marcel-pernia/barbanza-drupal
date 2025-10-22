@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1a15acd3-d801-4f7b-a95b-338086f25ad6
+  bundle: menu_link_content
+  default_langcode: gl
+  depends:
+    34e738d1-a027-4893-9ff1-0e959ad0b760: menu_link_content
+    c22b7a76-c3d3-46a5-a4bb-bbff9bf1d2a2: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Arzúa
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: c22b7a76-c3d3-46a5-a4bb-bbff9bf1d2a2
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/home'

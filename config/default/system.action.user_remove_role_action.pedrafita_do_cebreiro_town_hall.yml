@@ -1,0 +1,14 @@
+uuid: 58835120-ede6-416f-ac66-13696232e370
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.pedrafita_do_cebreiro_town_hall
+  module:
+    - user
+id: user_remove_role_action.pedrafita_do_cebreiro_town_hall
+label: 'Remove the Concello Pedrafita do Cebreiro role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pedrafita_do_cebreiro_town_hall

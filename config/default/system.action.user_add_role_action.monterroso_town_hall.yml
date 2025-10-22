@@ -1,0 +1,14 @@
+uuid: 123d2504-be87-41bd-8009-16ab98a8939b
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.monterroso_town_hall
+  module:
+    - user
+id: user_add_role_action.monterroso_town_hall
+label: 'Add the Concello Monterroso role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: monterroso_town_hall

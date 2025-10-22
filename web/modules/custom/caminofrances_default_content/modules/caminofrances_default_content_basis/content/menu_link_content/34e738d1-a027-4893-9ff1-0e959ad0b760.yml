@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 34e738d1-a027-4893-9ff1-0e959ad0b760
+  bundle: main
+  default_langcode: gl
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Concellos
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/concellos'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  field_icon:
+    -
+      value: real_estate_agent

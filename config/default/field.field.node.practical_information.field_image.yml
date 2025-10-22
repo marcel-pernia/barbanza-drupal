@@ -1,0 +1,29 @@
+uuid: 6029dfc2-35f9-4755-b059-5baca5db439b
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - media.type.vlsuite_image
+    - node.type.practical_information
+id: node.practical_information.field_image
+field_name: field_image
+entity_type: node
+bundle: practical_information
+label: Imaxe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      vlsuite_image: vlsuite_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

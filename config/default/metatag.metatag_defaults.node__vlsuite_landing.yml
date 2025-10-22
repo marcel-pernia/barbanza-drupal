@@ -1,0 +1,12 @@
+uuid: bef23c21-a91b-4e09-b3ba-c854ce6cb5a6
+langcode: gl
+status: true
+dependencies: {  }
+id: node__vlsuite_landing
+label: 'Contido: Landing (VLSuite)'
+tags:
+  schema_web_site_id: '[node:url]'
+  schema_web_site_in_language: 'Galician, Spanish, English'
+  schema_web_site_name: '[node:title]'
+  schema_web_site_type: WebSite
+  schema_web_site_url: '[node:url]'

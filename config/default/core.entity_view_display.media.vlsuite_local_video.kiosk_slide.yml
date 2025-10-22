@@ -1,0 +1,45 @@
+uuid: 9bffb8de-29e7-4776-8cca-6e23d113f078
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.kiosk_slide
+    - field.field.media.vlsuite_local_video.field_media_video_file
+    - media.type.vlsuite_local_video
+  module:
+    - file
+    - layout_builder
+  enforced:
+    module:
+      - vlsuite_media_local_video
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: epbP18NWb-rjOjbZf7KsPXNCI6zqoe0gAQ2DREBOxQg
+id: media.vlsuite_local_video.kiosk_slide
+targetEntityType: media
+bundle: vlsuite_local_video
+mode: kiosk_slide
+content:
+  field_media_video_file:
+    type: file_video
+    label: visually_hidden
+    settings:
+      controls: true
+      autoplay: true
+      loop: false
+      multiple_file_display_type: sources
+      muted: true
+      width: 1920
+      height: 1080
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,8 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          25fb5704-ff97-4fa2-9b43-c908f71ff7d9:
+            configuration:
+              label: Title

@@ -1,0 +1,88 @@
+#cookiesjsr {
+  --btn-font-color: #{$white};
+  --btn-border-color: #{$white};
+  --btn-bg-color: #{$primary};
+  --btn-prime-font-color: #{$primary};
+  --btn-prime-border-color: #{$white};
+  --btn-prime-bg-color: #{$white};
+  --btn-inv-font-color: #{$primary};
+  --btn-inv-border-color: #{$primary};
+  --btn-inv-bg-color: #{$white};
+  --btn-prime-inv-font-color: #{$white};
+  --btn-prime-inv-border-color: #{$primary};
+  --btn-prime-inv-bg-color: #{$primary};
+  --link-list-font-color: #{$white};
+  --link-list-separator-color: #{$white};
+  --banner-logo-offset: 100px;
+  --banner-bg-color: #{$primary};
+  --banner-font-color: #{$white};
+  --layer-header-height: 3.5em;
+  --layer-header-bg-color: #{$white};
+  --layer-header-font-color: #000f37;
+  --layer-body-bg-color: #{$white};
+  --layer-tab-bg-color: #{$white};
+  --layer-tab-font-color: #000f37;
+  --layer-tab-active-bg-color: #{$primary};
+  --layer-tab-active-font-color: #{$white};
+  --layer-bg-dark: #{$primary};
+  --layer-font-light: #{$white};
+  --layer-font-dark: #000f37;
+  --layer-border-color: #e4e5e6;
+  --layer-footer-bg-color: #{$white};
+  --layer-footer-font-color: #000f37;
+  --layer-footer-height: 4.5em;
+  --switch-border-color: #e4e5e6;
+  --switch-handle-color: #{$white};
+  --switch-bg-off: #{$white};
+  --switch-bg-on: #0a0;
+  --switch-width: 45px;
+  --switch-height: 20px;
+  --switch-always-on-font-color: #0a0;
+  --switch-always-on-bg-color: #{$white};
+}
+
+.row.list-unstyled > .col-12 {
+  > .teaser {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    > .teaser__content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+
+      > a.btn {
+        margin-top: auto;
+        align-self: flex-start;
+      }
+    }
+  }
+}
+
+.teaser {
+  .field--name-field-image img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    object-position: top center;
+  }
+}
+
+// Avoid layout shifts while loading font.
+span.vlsuite-icon-font-icon.material-symbols-outlined {
+  max-width: 1em;
+  overflow: hidden;
+}
+
+
+footer .logo-footer{
+	mix-blend-mode: inherit;
+}
+
+.navbar-brand__logo {
+  mix-blend-mode: multiply;
+}
+
+.vlsuite-block .field a:not([class]) {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+}

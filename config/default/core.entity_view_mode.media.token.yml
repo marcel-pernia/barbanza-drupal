@@ -1,0 +1,11 @@
+uuid: 8887fa38-57db-47d4-833d-65cbe352dad9
+langcode: gl
+status: true
+dependencies:
+  module:
+    - media
+id: media.token
+label: Símbolos
+description: ''
+targetEntityType: media
+cache: true

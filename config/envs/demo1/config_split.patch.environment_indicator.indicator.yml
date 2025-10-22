@@ -1,0 +1,6 @@
+adding:
+  name: DEMO1
+  bg_color: '#ffff00'
+removing:
+  name: LOCAL
+  bg_color: '#007833'

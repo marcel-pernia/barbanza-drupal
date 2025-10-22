@@ -1,0 +1,7 @@
+gtag:
+  version: VERSION
+  js:
+    js/cookies_gtag_consent_mode.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings

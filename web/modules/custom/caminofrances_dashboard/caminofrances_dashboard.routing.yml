@@ -1,0 +1,7 @@
+caminofrances_dashboard.main:
+  path: '/dashboard'
+  defaults:
+    _controller: '\Drupal\caminofrances_dashboard\Controller\DashboardController::mainPage'
+    _title: 'Dashboard'
+  requirements:
+    _user_is_logged_in: 'TRUE'

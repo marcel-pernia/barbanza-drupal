@@ -1,0 +1,19 @@
+uuid: 02af8e4b-ecf7-4f27-91a9-961066f1bed7
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_code
+    - node.type.town_hall
+id: node.town_hall.field_code
+field_name: field_code
+entity_type: node
+bundle: town_hall
+label: Código
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

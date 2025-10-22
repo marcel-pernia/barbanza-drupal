@@ -1,0 +1,14 @@
+uuid: 501d9063-90e4-49b9-9b01-a1f0782dbaf3
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.sarria_town_hall
+  module:
+    - user
+id: user_add_role_action.sarria_town_hall
+label: 'Add the Concello Sarria role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: sarria_town_hall

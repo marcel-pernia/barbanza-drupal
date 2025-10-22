@@ -1,0 +1,25 @@
+uuid: c70286b9-0b98-4254-aa28-7fcefaa51bc3
+langcode: gl
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_pedepaxina
+theme: artisan_caminofrances
+region: footer_top
+weight: -4
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Pé de páxina'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

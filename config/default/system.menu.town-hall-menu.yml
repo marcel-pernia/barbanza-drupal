@@ -1,0 +1,8 @@
+uuid: e7e3e60c-0206-4157-8ca9-df8d71a02521
+langcode: gl
+status: true
+dependencies: {  }
+id: town-hall-menu
+label: 'Menú interno do concello'
+description: ''
+locked: false

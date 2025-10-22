@@ -1,0 +1,9 @@
+@import "../../src/scss/init";
+
+.town-hall-content-top {
+  .town-hall-content-top-image {
+    img {
+      border-radius: $border-radius;
+    }
+  }
+}

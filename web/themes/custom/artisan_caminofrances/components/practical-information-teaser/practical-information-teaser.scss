@@ -1,0 +1,26 @@
+@import "../../src/scss/init";
+
+.practical-information-teaser {
+  border-radius: $border-radius;
+  img {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}
+
+.practical-information-teaser-text-content {
+  .field--name-field-category {
+    .field--name-field-icon-image {
+      img {
+        width: 1.5em;
+        height: 1.5em;
+        object-fit: contain;
+        filter: drop-shadow(0px 100px 0 $primary);
+        transform: translateY(-100px);
+      }
+    }
+    .field--name-field-icon-image + .field--name-field-icon {
+      display: none !important;
+    }
+  }
+}

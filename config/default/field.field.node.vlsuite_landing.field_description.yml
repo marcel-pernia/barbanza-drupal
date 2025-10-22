@@ -1,0 +1,24 @@
+uuid: 8c1a61cb-881a-4f0f-9724-b4b1a339c31f
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.basic_html
+    - node.type.vlsuite_landing
+  module:
+    - text
+id: node.vlsuite_landing.field_description
+field_name: field_description
+entity_type: node
+bundle: vlsuite_landing
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

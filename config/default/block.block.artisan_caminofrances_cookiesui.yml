@@ -1,0 +1,20 @@
+uuid: a84a1f20-a44b-49ae-a507-69fc614949e7
+langcode: gl
+status: true
+dependencies:
+  module:
+    - cookies
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_cookiesui
+theme: artisan_caminofrances
+region: content
+weight: -1
+provider: null
+plugin: cookies_ui_block
+settings:
+  id: cookies_ui_block
+  label: 'Cookies UI'
+  label_display: '0'
+  provider: cookies
+visibility: {  }

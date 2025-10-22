@@ -1,0 +1,14 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          1437a1db-dae9-4a28-a9a3-ae62c0847da3:
+            configuration:
+              label: Link
+          3f531ac7-8bff-445a-8d50-bdc209d8cbeb:
+            configuration:
+              label: Text
+          d2caff10-c917-43f1-b05e-363b48559507:
+            configuration:
+              label: Media

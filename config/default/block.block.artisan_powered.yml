@@ -1,0 +1,22 @@
+uuid: 515aca81-fa7a-4551-9d71-1581d8fcfd84
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: artisan_powered
+theme: artisan
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

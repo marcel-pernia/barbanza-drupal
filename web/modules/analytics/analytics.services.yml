@@ -1,0 +1,9 @@
+services:
+  plugin.manager.analytics.service:
+    class: Drupal\analytics\AnalyticsServiceManager
+    parent: default_plugin_manager
+  analytics.config_subscriber:
+    class: Drupal\analytics\EventSubscriber\ConfigSubscriber
+    arguments: ['@cache_tags.invalidator']
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,30 @@
+uuid: fa9c5750-a9b1-46e9-8cb1-d87934b74bb5
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_access
+    - node.type.practical_information
+  module:
+    - entity_access_by_role_field
+id: node.practical_information.field_access
+field_name: field_access
+entity_type: node
+bundle: practical_information
+label: Acceso
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    role_id: null
+    access: allowed
+default_value_callback: ''
+settings:
+  operations:
+    update: update
+    delete: delete
+    view: '0'
+    view_unpublished: '0'
+  empty_roles_access_fallback: neutral
+field_type: entity_access_by_role_field

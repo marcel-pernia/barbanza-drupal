@@ -1,0 +1,22 @@
+uuid: 334a1acb-34f1-4fd9-b9c1-22501a914fdd
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: landing
+label: Landing
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  d04a3892-ace6-4abc-b165-af5f8a7cf744:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d04a3892-ace6-4abc-b165-af5f8a7cf744
+    context_mapping:
+      node: node
+    bundles:
+      vlsuite_landing: vlsuite_landing
+selection_logic: and
+weight: -5
+relationships: {  }

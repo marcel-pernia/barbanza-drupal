@@ -1,0 +1,49 @@
+local:
+  uri: 'https://caminofrances.ddev.site'
+  root: '/var/www/html'
+
+dev:
+  uri: 'https://caminofrances-dev.metadrop.pro'
+  root: '/var/vhosts/projects/codebases/dosespacios-caminofrances-dev/codebase'
+  host: 'metadrop.pro'
+  user: 'caminofrances-dev'
+  paths:
+    drush-script: '/var/vhosts/projects/codebases/dosespacios-caminofrances-dev/codebase/vendor/bin/drush'
+
+stg:
+  uri: 'https://caminofrances-stg.metadrop.pro'
+  root: '/var/vhosts/projects/codebases/dosespacios-caminofrances-stg/codebase'
+  host: 'metadrop.pro'
+  user: 'caminofrances-stg'
+  paths:
+    drush-script: '/var/vhosts/projects/codebases/dosespacios-caminofrances-stg/codebase/vendor/bin/drush'
+
+demo1:
+  uri: 'https://caminofrances-demo1.metadrop.pro'
+  root: '/var/vhosts/projects/codebases/dosespacios-caminofrances-demo1/codebase'
+  host: 'metadrop.pro'
+  user: 'caminofrances-demo1'
+  paths:
+    drush-script: '/var/vhosts/projects/codebases/dosespacios-caminofrances-demo1/codebase/vendor/bin/drush'
+
+pro:
+  uri: 'https://caminofrances.eu'
+  root: '/var/www/vhosts/caminofrances.eu/httpdocs'
+  host: 'caminofrances.eu'
+  user: 'caminofrances.eu_83jtxk86wtw'
+  ssh:
+    options: '-p 7087' # Used by drush
+    port: '7087' # Ignored by drush but useful for our jenkins integration
+  paths:
+    drush-script: '/var/www/vhosts/caminofrances.eu/httpdocs/vendor/bin/drush'
+  env-vars:
+    PATH: '/var/www/vhosts/caminofrances.eu/.phpenv/shims:/opt/plesk/phpenv/bin:/var/www/vhosts/caminofrances.eu/.nodenv/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+  command:
+    sql:
+      sync:
+        options:
+          structure-tables-list: 'cache*,session,watchdog'
+    dump:
+      sync:
+        options:
+          structure-tables-list: 'cache*,session,watchdog'

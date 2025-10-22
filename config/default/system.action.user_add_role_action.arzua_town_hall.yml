@@ -1,0 +1,14 @@
+uuid: 0befc54a-a813-4a2b-acc3-d508e1a3ec33
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.arzua_town_hall
+  module:
+    - user
+id: user_add_role_action.arzua_town_hall
+label: 'Add the Concello Arzúa role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: arzua_town_hall

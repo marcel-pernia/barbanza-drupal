@@ -1,0 +1,14 @@
+uuid: 22ec5f25-783d-49b4-83a1-61fbb765e80d
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.samos_town_hall
+  module:
+    - user
+id: user_add_role_action.samos_town_hall
+label: 'Add the Concello Samos role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: samos_town_hall

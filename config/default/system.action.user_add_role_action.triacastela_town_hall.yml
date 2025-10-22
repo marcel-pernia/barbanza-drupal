@@ -1,0 +1,14 @@
+uuid: 388c9ee1-398e-443a-bf25-27ef77f4b324
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.triacastela_town_hall
+  module:
+    - user
+id: user_add_role_action.triacastela_town_hall
+label: 'Add the Concello Triacastela role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: triacastela_town_hall

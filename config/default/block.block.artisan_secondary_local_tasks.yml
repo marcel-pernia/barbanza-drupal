@@ -1,0 +1,22 @@
+uuid: 5b933282-3d45-442e-8041-632123f5b51d
+langcode: gl
+status: false
+dependencies:
+  theme:
+    - artisan
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: artisan_secondary_local_tasks
+theme: artisan
+region: header_top
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Pestanas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

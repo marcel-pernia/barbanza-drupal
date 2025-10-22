@@ -1,0 +1,4 @@
+name: Town Hall Content Top KioskV
+libraryOverrides:
+  dependencies:
+    - vlsuite_slider/slider

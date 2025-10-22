@@ -1,0 +1,42 @@
+uuid: 2e9632ad-cda7-4ba7-b572-a208d7af4a50
+langcode: gl
+status: true
+dependencies:
+  config:
+    - node.type.town_hall
+  module:
+    - content_moderation
+id: workflow
+label: Workflow
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      label: Draft
+      weight: 0
+      published: false
+      default_revision: false
+    published:
+      label: Published
+      weight: 1
+      published: true
+      default_revision: true
+  transitions:
+    create_new_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+        - published
+      to: draft
+      weight: 0
+    publish:
+      label: Publish
+      from:
+        - draft
+        - published
+      to: published
+      weight: 1
+  entity_types:
+    node:
+      - town_hall
+  default_moderation_state: draft

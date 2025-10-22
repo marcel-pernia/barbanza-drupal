@@ -1,0 +1,7 @@
+analytics.service_configuration.google_ga:
+  type: analytics.service_configuration
+  label: 'Google analytics (GA) service settings'
+  mapping:
+    id:
+      type: string
+      label: 'Tracking ID'

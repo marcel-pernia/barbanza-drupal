@@ -1,0 +1,23 @@
+uuid: b79012ee-ba63-44d7-b17f-c6e9e19d67e9
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - vlsuite_landing
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: BsIph6R70U76CRNPGKUSTvNyCJDlfmT42nVZJ3H-34s
+name: 'Landing (VLSuite)'
+type: vlsuite_landing
+description: null
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: false

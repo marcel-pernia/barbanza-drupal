@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Installation information for the 'Cookies GTAG Consent mode' module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function cookies_gtag_consent_mode_install() {
+  // Load cookies_gtag_consent_mode module after the third-party library.
+  module_set_weight('cookies_gtag_consent_mode', 11);
+}
+
+/**
+ * Update service config enforce module dependency 'cookies_gtag_consent_mode'.
+ */
+function cookies_gtag_consent_mode_update_8001() {
+  $config = \Drupal::configFactory()
+    ->getEditable('cookies.cookies_service.gtag');
+  if (!$config->isNew()) {
+    $dependencies = $config->get('dependencies');
+    $dependencies['enforced']['module'][] = 'cookies_gtag_consent_mode';
+    $config->set('dependencies', $dependencies)->save(TRUE);
+  }
+}

@@ -1,0 +1,30 @@
+uuid: 42dd9d18-979b-4852-b05f-bf6b73aa8f65
+langcode: gl
+status: true
+dependencies:
+  config:
+    - views.view.kiosk_town_halls
+  module:
+    - kiosk_nav
+    - views
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_kiosk_town_halls_list
+theme: artisan_caminofrances
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:kiosk_town_halls-main'
+settings:
+  id: 'views_block:kiosk_town_halls-main'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  kiosk_nav_condition:
+    id: kiosk_nav_condition
+    negate: false
+    modes:
+      kioskh: kioskh

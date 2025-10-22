@@ -1,0 +1,9 @@
+uuid: 88074217-1b38-4d54-bfc6-03640a5e92aa
+langcode: gl
+status: true
+dependencies: {  }
+id: arzua_town_hall
+label: 'Concello Arzúa'
+weight: -3
+is_admin: null
+permissions: {  }

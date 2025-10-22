@@ -1,0 +1,35 @@
+@import "../../src/scss/init";
+
+.town-hall-content-top-kioskh {
+  position: relative;
+  /* aspect-ratio: 1920 / 762; */
+  height: calc(100vh - 318px - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: initial;
+    margin-right: initial;
+
+    .swiper-slide {
+      height: inherit;
+      > .field {
+        height: inherit;
+        .field__item {
+          height: inherit;
+          picture {
+            height: inherit;
+          }
+          img, video, iframe {
+            height: inherit;
+          }
+        }
+      }
+    }
+    img, video, iframe {
+      width: 100%;
+      //height: calc(100vh - 106px);
+      object-fit: cover;
+      object-position: top center;
+    }
+  }
+}

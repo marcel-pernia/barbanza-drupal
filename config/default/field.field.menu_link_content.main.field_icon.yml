@@ -1,0 +1,21 @@
+uuid: 696fb0a9-e84e-45f8-a2b2-81e352ea2bd0
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.menu_link_content.field_icon
+    - system.menu.main
+  module:
+    - vlsuite_icon_font
+id: menu_link_content.main.field_icon
+field_name: field_icon
+entity_type: menu_link_content
+bundle: main
+label: Icona
+description: 'Usado no modo de quiosco (mupi)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: vlsuite_icon_font_icon

@@ -1,0 +1,47 @@
+@import "../../src/scss/init";
+
+.practical-information-content-top-kioskv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* aspect-ratio: 1920 / 762; */
+  .swiper {
+    width: 100%;
+    margin-left: initial;
+    margin-right: initial;
+    img, video, iframe {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: top center;
+      aspect-ratio: 21 / 8;
+    }
+  }
+
+  .practical-information-content-top-kioskv-info {
+    width: 100%;
+    padding: $spacer * 2;
+    background: $white;
+    .text-muted {
+      padding-right: $spacer;
+    }
+
+    .field--name-field-qr-code {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      padding-left: $spacer * 2;
+      border-left: 5px solid var(--theme-kiosk-color-primary, $kiosk-primary-color);
+      border-right: 5px solid var(--theme-kiosk-color-primary, $kiosk-primary-color);
+      text-transform: uppercase;
+      margin: 0 auto;
+      justify-content: center;
+      h2 {
+        color: var(--theme-kiosk-color-primary, $kiosk-primary-color);
+      }
+      img {
+        width: 33%;
+      }
+    }
+  }
+}

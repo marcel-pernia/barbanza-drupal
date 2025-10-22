@@ -1,0 +1,9 @@
+@import "../../src/scss/init";
+
+.stage-content-top {
+  .stage-content-top-image {
+    img {
+      border-radius: $border-radius;
+    }
+  }
+}

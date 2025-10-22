@@ -1,0 +1,38 @@
+<?php
+
+use Drupal\Core\Cache\CacheableMetadata;
+
+/**
+ * Implements hook_page_bottom().
+ */
+function analytics_page_bottom(array &$page_bottom) {
+  if (\Drupal::config('analytics.settings')->get('disable_page_build')) {
+    return;
+  }
+
+  /** @var \Drupal\analytics\Entity\AnalyticsServiceInterface[] $services */
+  $services = \Drupal::entityTypeManager()->getStorage('analytics_service')->loadMultiple();
+  foreach ($services as $service) {
+    if (!$service->status()) {
+      // If the service is disabled, skip it.
+      continue;
+    }
+
+    $plugin = $service->getService();
+    if ($plugin->canTrack() && $output = $plugin->getOutput()) {
+      $cacheability = CacheableMetadata::createFromObject($service);
+      // @todo Add cache metadata from the result of the canTrack access checking.
+      $cacheability->applyTo($output);
+      $page_bottom['analytics_' . $service->id()] = $output;
+    }
+  }
+}
+
+/**
+ * Implements hook_page_attachements().
+ */
+function analytics_page_attachments(array &$attachments) {
+  if (\Drupal::config('analytics.settings')->get('privacy.dnt')) {
+    $attachments['#attached']['library'][] = 'analytics/dnt';
+  }
+}

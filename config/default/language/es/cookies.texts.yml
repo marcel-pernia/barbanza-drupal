@@ -1,0 +1,17 @@
+denyAll: 'Denegar todo'
+close: Cerrar
+readMore: 'Leer más'
+denied: Denegado
+alwaysActive: 'Siempre activo'
+saveSettings: Guardar
+processorLabel: Empresa
+privacyPolicy: 'Política de privacidad'
+imprint: Imprimir
+acceptAll: 'Aceptar todo'
+disclaimerText: 'Toda la información de las cookies está sujeta a cambios por parte de los proveedores de servicios. Actualizamos esta información periódicamente.'
+processorDetailsLabel: 'Datos de la empresa procesadora'
+processorWebsiteUrlLabel: 'Sitio web de la empresa'
+processorPrivacyPolicyUrlLabel: 'Política de privacidad de la empresa'
+processorCookiePolicyUrlLabel: 'Política de cookies de la empresa'
+placeholderAcceptAllText: 'Aceptar todas las cookies'
+bannerText: 'Utilizamos una selección de cookies propias y de terceros en las páginas de este sitio web. Puede aceptar y rechazar tipos de cookies individuales y revocar su consentimiento para el futuro en cualquier momento en "Configuración".'

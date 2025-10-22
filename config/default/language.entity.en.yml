@@ -1,0 +1,9 @@
+uuid: dc014e22-1e95-4750-980e-26b0406e063f
+langcode: gl
+status: true
+dependencies: {  }
+id: en
+label: Inglés
+direction: ltr
+weight: -8
+locked: false

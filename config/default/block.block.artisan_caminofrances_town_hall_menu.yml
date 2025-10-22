@@ -1,0 +1,33 @@
+uuid: d0e64b92-9127-4a82-93ff-bd3335742b0d
+langcode: gl
+status: true
+dependencies:
+  config:
+    - system.menu.town-hall-menu
+  module:
+    - node
+    - system
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_town_hall_menu
+theme: artisan_caminofrances
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:town-hall-menu'
+settings:
+  id: 'system_menu_block:town-hall-menu'
+  label: 'Menú interno do concello'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      town_hall: town_hall

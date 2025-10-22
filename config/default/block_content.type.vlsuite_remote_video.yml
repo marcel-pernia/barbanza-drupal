@@ -1,0 +1,14 @@
+uuid: f3a0fe16-8471-4fbf-9050-0c3b9bd78205
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_block_remote_video
+_core:
+  default_config_hash: elzSsagpgkLiBdnkkYc46_VM8jlEZ--7zEzOYxPRKbg
+id: vlsuite_remote_video
+label: 'Remote video (VLSuite)'
+revision: false
+description: ''
+vlsuite_block_icon: a5462dc4-afa3-43c0-9079-936d56f57ba0

@@ -1,0 +1,19 @@
+uuid: 73117752-56a3-4293-a3d5-c83815c861fd
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.town_hall
+id: node.town_hall.field_summary
+field_name: field_summary
+entity_type: node
+bundle: town_hall
+label: Resumo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

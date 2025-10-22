@@ -1,0 +1,5 @@
+analytics.settings:
+  title: 'Analytics services'
+  description: 'Add and configure analytics services.'
+  route_name: entity.analytics_service.collection
+  parent: system.admin_config_services

@@ -1,0 +1,14 @@
+uuid: 4e4e1760-5a8c-45b3-ae70-3ad9272b7c06
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.samos_town_hall
+  module:
+    - user
+id: user_remove_role_action.samos_town_hall
+label: 'Remove the Concello Samos role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: samos_town_hall

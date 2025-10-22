@@ -1,0 +1,9 @@
+uuid: b8b9fcc8-2c15-49c5-a51b-ce0d1af02d9d
+langcode: gl
+status: true
+dependencies: {  }
+id: pedrafita_do_cebreiro_town_hall
+label: 'Concello Pedrafita do Cebreiro'
+weight: 3
+is_admin: null
+permissions: {  }

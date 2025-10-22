@@ -1,0 +1,29 @@
+uuid: 3df10f24-47cc-429f-8628-bbae555e939d
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - media.type.vlsuite_image
+    - node.type.vlsuite_landing
+id: node.vlsuite_landing.field_image
+field_name: field_image
+entity_type: node
+bundle: vlsuite_landing
+label: Imaxe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      vlsuite_image: vlsuite_image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

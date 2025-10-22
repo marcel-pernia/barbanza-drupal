@@ -1,0 +1,466 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ac07f6e4-8521-4983-b295-d943de77e299
+  bundle: vlsuite_landing
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+    96c38466-c6d2-4c71-bf98-8ec3135b04e7: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Multimedia
+  created:
+    -
+      value: 1726755949
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Multimedia | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Multimedia
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/multimedia'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: 'Landing (VLSuite)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/multimedia'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Multimedia
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: Multimedia
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: Multimedia
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Multimedia
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: '@id'
+        content: 'https://caminofrances.ddev.site/multimedia'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: Multimedia
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/multimedia'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: inLanguage
+        content: 'Galician, Spanish, English'
+        group: schema_web_site
+        schema_metatag: true
+  path:
+    -
+      alias: /multimedia
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_summary:
+    -
+      value: Multimedia
+  layout_builder__layout:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          fd7db715-4d37-4a7b-98bd-9de64a8ccdfb:
+            uuid: fd7db715-4d37-4a7b-98bd-9de64a8ccdfb
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite: Block: Gallery (VLSuite Collection)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 8d2589c0-d9d0-4959-a779-52191df8a040
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Gallery (VLSuite Collection)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726755975
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          fd0d3d28-3cab-4ef4-9805-b784d6715c0f:
+            uuid: fd0d3d28-3cab-4ef4-9805-b784d6715c0f
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: a38d979d-b475-4315-bd89-10cf563e8f82
+                  bundle: vlsuite_text
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726756032
+                  vlsuite_text:
+                    -
+                      value: '<h1>Multimedia</h1>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class:
+                'block_content:vlsuite_text:vlsuite_text':
+                  text-align: center
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          1b75f07c-b877-4ca2-a300-29d5ccd1189c:
+            uuid: 1b75f07c-b877-4ca2-a300-29d5ccd1189c
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite: Block: Gallery (VLSuite Collection)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 1ad85aac-0184-4b1d-ab45-4f9a542a0c39
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Gallery (VLSuite Collection)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726756051
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+          0fcb0159-a639-4ee9-9e3e-caf4745bd575:
+            uuid: 0fcb0159-a639-4ee9-9e3e-caf4745bd575
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite: Block: Gallery (VLSuite Collection)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_2
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 684db98f-83b0-4e85-8f07-847c82ef3d87
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Gallery (VLSuite Collection)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726756063
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 2
+            additional: {  }
+          2c73e39e-3323-4db0-8b12-94f73b5013a2:
+            uuid: 2c73e39e-3323-4db0-8b12-94f73b5013a2
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_gallery'
+              label: 'VLSuite: Block: Gallery (VLSuite Collection)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: d583364a-c520-42da-9f4c-51a4b9ab9b4d
+                  bundle: vlsuite_collection_gallery
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Gallery (VLSuite Collection)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1726756077
+                  vlsuite_medias:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 3
+            additional: {  }
+          1bffd568-7daf-458d-ab94-412d81c74ac6:
+            uuid: 1bffd568-7daf-458d-ab94-412d81c74ac6
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: fdd2e11c-99b6-45bc-851e-8a78fc53d6bf
+                  bundle: vlsuite_text
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1727432018
+                  vlsuite_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis ante, vehicula vitae vulputate luctus, ultrices et leo. Nulla facilisi. Aliquam vehicula ipsum ultrices ante efficitur gravida. Nullam at augue id urna varius imperdiet mattis euismod nibh. Pellentesque et mi in eros ornare porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean nec ipsum semper, mattis nunc eu, imperdiet metus.</p><p>In commodo nibh at volutpat commodo. Sed sollicitudin aliquam risus sed ultrices. Quisque porttitor dolor tellus, vitae viverra nunc dignissim varius. Pellentesque porttitor tortor vel risus aliquet, eu placerat nunc placerat. Nulla eleifend congue elit, vitae gravida mauris molestie euismod. Pellentesque vitae risus maximus odio convallis hendrerit. Nam vitae eros ullamcorper, interdum dolor vel, euismod mi. Morbi euismod turpis ac nunc ullamcorper feugiat. Nunc ornare erat et purus pulvinar, eget pulvinar lacus malesuada. Quisque id lacus ut ante suscipit volutpat at in quam. Nam in nisl at justo luctus maximus sit amet ut magna. Quisque diam dui, pellentesque finibus arcu et, venenatis placerat erat. Donec ac sem eget diam elementum cursus.</p><p>Sed eget rutrum nisi. Nulla vel risus mollis, sollicitudin ex sit amet, fermentum mauris. Phasellus at ante vestibulum magna hendrerit accumsan sed eget quam. Vivamus rhoncus tellus eu sem gravida, vel pellentesque eros porta. Donec in congue diam, at lobortis tellus. Ut eleifend imperdiet tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien eget commodo facilisis. Donec vitae tempor nisi, ut volutpat nulla. Vivamus erat urna, vestibulum ut lacus id, aliquam faucibus ipsum. Vestibulum at lorem vitae lectus aliquam posuere sit amet vel lectus. Maecenas vitae sapien cursus, ultrices sapien eget, tempus felis.</p>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }

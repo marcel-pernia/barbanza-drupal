@@ -1,0 +1,5 @@
+entity.analytics_service.add_form:
+  route_name: entity.analytics_service.add_form
+  title: 'Add analytics service'
+  appears_on:
+    - entity.analytics_service.collection

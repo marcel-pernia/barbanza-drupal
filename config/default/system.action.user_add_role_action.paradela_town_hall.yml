@@ -1,0 +1,14 @@
+uuid: 0e71ef4c-8611-438c-b5ef-998799fd441d
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.paradela_town_hall
+  module:
+    - user
+id: user_add_role_action.paradela_town_hall
+label: 'Add the Concello Paradela role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: paradela_town_hall

@@ -1,0 +1,11 @@
+uuid: 466811ef-dfcb-4b11-ad27-dc3217ebc591
+langcode: gl
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Símbolos
+description: ''
+targetEntityType: file
+cache: true

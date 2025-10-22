@@ -1,0 +1,70 @@
+$variable-prefix: bs-;
+$prefix: $variable-prefix;
+
+// Colors.
+
+$primary:   #166217;
+$secondary: #dcdf48;
+
+$red: #dc3545;
+
+// border-radius.
+
+$border-radius: 0.375rem;
+
+$spacer: 1rem;
+
+$navbar-nav-link-padding-x: $spacer;
+
+$theme-messages: (
+  "error": $red,
+  "warning": $secondary,
+  "alert": $secondary,
+  "status": $primary,
+);
+
+$font-family-sans-serif: "Lato", system-ui;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base: var(--#{$prefix}font-sans-serif);
+$font-family-code: var(--#{$prefix}font-monospace);
+
+$font-size-root: null;
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.25;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$font-weight-base: $font-weight-normal;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$enable-rfs: true;
+$headings-margin-bottom: $spacer * .5;
+$headings-font-family: "Arima", system-ui;
+$headings-font-style: null;
+$headings-font-weight: 700;
+$headings-line-height: 1.2;
+$headings-color: inherit;
+
+$display-font-family: $headings-font-family;
+$display-font-style:  null;
+$display-font-weight: $headings-font-weight;
+$display-line-height: $headings-line-height;
+
+$kiosk-primary-color: #006d94;

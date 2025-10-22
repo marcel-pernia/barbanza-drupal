@@ -1,0 +1,11 @@
+uuid: 84db33d5-3803-46bb-8635-17a9c94ffa59
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.kioskh
+label: 'Kiosk horizontal'
+description: ''
+targetEntityType: menu_link_content
+cache: true

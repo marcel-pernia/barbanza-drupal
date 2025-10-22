@@ -1,0 +1,61 @@
+<div class="practical-information-content-top py-5">
+ <div class="container">
+ {% if user.hasPermission('edit any content') or user.hasPermission('edit own ' ~ node.bundle ~ ' content') %}
+ <div class="node-edit-actions">
+     <a href="{{ path('entity.node.edit_form', {'node': node.id}) }}" 
+        class="btn btn-primary btn-sm edit-node-link">
+         {{ 'Editar'|t }}
+     </a>
+ </div>
+{% endif %}
+
+     <div class="row justify-content-center">
+       <div class="col-12 col-lg-12">
+         <div class="text-primary fw-bold text-uppercase h5">{{ category }}</div>
+         <h1 class="mb-4">{{ title }}</h1>
+         <div class="row">
+           <div class="col-12 col-lg-4">
+              {% if diapositivas|length > 0 %}
+                {% set file_uri = node.get('field_diapositivas_alt').entity.uri.value %}
+                {% set image_url = file_url(file_uri) %}
+              
+                  <img src="{{ image_url  }}" 
+                    alt="{{ diapositivas[0]['alt'] }}" 
+                      title="{{ diapositivas[0]['title'] }}"
+                      width="{{ diapositivas[0]['width'] }}" 
+                      height="{{ diapositivas[0]['height'] }}"
+                      class="img-fluid">
+              {% else %}
+    <div class="galeria-por-defecto">
+      <img src="{{ file_url('public://default_galery.png') }}" alt="Imaxe por defecto" title="Sen imaxe dispoñible">
+    </div>
+  {% endif %}
+           </div>
+           <div class="col-12 col-lg-8">
+             <div class="fw-bold mb-3">{{ summary }}</div>
+             {{ description }}
+             <div>{{ address }}</div>
+           </div>
+         </div>
+        </div>
+         <div class="col-12 col-lg-12">
+          <div class="row d-flex mt-5">
+            <div class="col-12 col-lg-4">
+              <div class="container-qr mb-3 d-flex justify-content-center align-items-center">{{ qr }}</div>
+              <div class="mapa-monumento">{{ map }}</div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="text-primary fw-bold text-uppercase h5">{{ category }}</div>
+                <p>{{ enderezo[0]['value'] }} </p>
+                <p>{{ codigo_postal[0]['value'] }} {{ node.field_pais.entity.name.value }} </p>
+                <p>{{ node.field_pais.entity.name.value }}</p>
+
+
+              </div>
+          </div>
+          </div>
+         <div class="mt-3 share-buttons">{{ addtoany }}</div>
+       </div>
+     
+ </div>
+</div>

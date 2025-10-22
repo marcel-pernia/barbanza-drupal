@@ -1,0 +1,20 @@
+uuid: 97391e12-08d0-4417-83cc-c31f4ef16766
+langcode: gl
+status: false
+dependencies:
+  theme:
+    - artisan
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: artisan_page_title
+theme: artisan
+region: header_top
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da páxina'
+  label_display: '0'
+  provider: core
+visibility: {  }

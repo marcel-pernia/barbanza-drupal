@@ -1,0 +1,4 @@
+name: Practical Information Content Top Kiosk Vertical
+libraryOverrides:
+  dependencies:
+    - vlsuite_slider/slider

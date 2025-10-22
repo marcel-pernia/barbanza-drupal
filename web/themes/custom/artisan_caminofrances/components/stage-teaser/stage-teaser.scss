@@ -1,0 +1,9 @@
+@import "../../src/scss/init";
+
+.practical-information-teaser {
+  border-radius: $border-radius;
+  img {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}

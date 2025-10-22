@@ -1,0 +1,42 @@
+uuid: 1a7b934a-cdea-480d-8db0-a07362363d0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.kiosk_slide
+    - field.field.media.vlsuite_remote_video.field_media_oembed_video
+    - media.type.vlsuite_remote_video
+  module:
+    - layout_builder
+    - media
+  enforced:
+    module:
+      - vlsuite_media_remote_video
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: 4iFt8dodXuC-jaXTjayDMVaeTiy7n1nuSV9ldjQruk4
+id: media.vlsuite_remote_video.kiosk_slide
+targetEntityType: media
+bundle: vlsuite_remote_video
+mode: kiosk_slide
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

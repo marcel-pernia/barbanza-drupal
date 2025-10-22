@@ -1,0 +1,19 @@
+uuid: d909d3b1-6c08-4212-8a35-90b0223f3666
+langcode: gl
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/local
+module:
+  devel: 0
+  reroute_email: 0
+  stage_file_proxy: 0
+theme: {  }
+complete_list: {  }
+partial_list: {  }

@@ -1,0 +1,8 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          5254e1f1-380e-42aa-8960-59a1598fa76f:
+            configuration:
+              label: Medias

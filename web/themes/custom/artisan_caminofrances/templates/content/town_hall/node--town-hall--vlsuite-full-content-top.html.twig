@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Template for a node news full content top.
+ */
+#}
+{% include 'artisan_caminofrances:town-hall-content-top' with {
+  title: node.label,
+  media: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image|add_class('mb-3') : false,
+  addmedia: node.hasField('field_image_add') and not node.get('field_image_add').isEmpty() ? content.field_image_add|add_class('mb-3') : false,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  description: node.hasField('field_description') and not node.get('field_description').isEmpty() ? content.field_description : false,
+  adddescription: node.hasField('field_description_add') and not node.get('field_description_add').isEmpty() ? content.field_description_add : false,
+  practical_information: practical_information,
+  map: node.hasField('field_geolocation') and not node.get('field_geolocation').isEmpty() ? content.field_geolocation : false,
+  addtoany: content.addtoany,
+} %}
+

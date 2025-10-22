@@ -1,0 +1,14 @@
+uuid: 94185ea2-a396-4a0f-9f72-f0d791f0b4f6
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.town_hall
+  module:
+    - user
+id: user_add_role_action.town_hall
+label: 'Add the Concello role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: town_hall

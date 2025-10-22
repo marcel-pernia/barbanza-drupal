@@ -1,0 +1,713 @@
+_meta:
+  version: '1.0'
+  entity_type: section_library_template
+  uuid: e4fbe769-1a6d-44b5-9fb4-a64d7079ee9a
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+    34550a40-f7c3-4b4f-85f9-23d9de43f3b4: media
+default:
+  user_id:
+    -
+      target_id: 0
+  label:
+    -
+      value: 'Card Collection Glossary (VLSuite)'
+  type:
+    -
+      value: template
+  layout_section:
+    -
+      section:
+        layout_id: vlsuite_layout_twocols
+        layout_settings:
+          label: ''
+          column_widths: 50-50
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: first
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          ba9b503d-5fcc-489e-b37f-573005f6e696:
+            uuid: ba9b503d-5fcc-489e-b37f-573005f6e696
+            region: first
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: caef14af-14c8-421c-8755-b22f37e3960f
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694169631
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Default</strong></h2><p>Link, Text and Media fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          ab3a5ae6-df1a-4a8d-b9eb-86897831218e:
+            uuid: ab3a5ae6-df1a-4a8d-b9eb-86897831218e
+            region: second
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 2936d0b2-c944-41ce-81b1-ef7f165bbe0b
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694172408
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Default</strong></h2><p>Link, Text and Media fields with Icon.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              background-color: light
+              padding-y: spacer-4
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          e01ac472-6deb-4195-92be-08e0fdbdd61e:
+            uuid: e01ac472-6deb-4195-92be-08e0fdbdd61e
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: e5a9f636-9e25-4324-a2c8-e52334570280
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694172585
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Default</strong></h2><p>Link, Text and Icon fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'internal:#'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          c8d7b9d3-cef6-4bd4-b928-0da3f188cdb3:
+            uuid: c8d7b9d3-cef6-4bd4-b928-0da3f188cdb3
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 0e216665-09a0-4502-8645-135c7c83c5fd
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694178448
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - #1</strong></h2><p>Link, Text and Background fields with Icon.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              background-color: dark
+              padding: spacer-5
+              padding-y: spacer-5
+            'vlsuite_layout:main_regions':
+              color: white
+              background-color: dark
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          84cfbe0f-02af-4ad7-9cef-8036b499d944:
+            uuid: 84cfbe0f-02af-4ad7-9cef-8036b499d944
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_customizable
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: e2014393-45de-4bd9-98c3-e01dac333530
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694430287
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Customizable</strong></h2><p>Link, Text and Background fields with Icon.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class:
+                'block_content:vlsuite_collection_card:vlsuite_text':
+                  padding-y: spacer-5
+                'block_content:vlsuite_collection_card:vlsuite_icon':
+                  position: bottom-left-translate-middle
+                'block_content:vlsuite_collection_card:vlsuite_link':
+                  text-align: right
+                'block_content:vlsuite_collection_card:vlsuite_media:item':
+                  ratio: 21-9
+                'block_content:vlsuite_collection_card:vlsuite_link:item':
+                  btn: light
+                  rounded: pill
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            active: 1
+            scope: main
+            slides_per_view: '2'
+            navigation: true
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+              background-gradient: light
+            'vlsuite_layout:region_top':
+              text-align: center
+            'vlsuite_layout:row':
+              gutter: gutter-3
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          1d38ad5e-002e-40ae-81d5-f67b38d8750c:
+            uuid: 1d38ad5e-002e-40ae-81d5-f67b38d8750c
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 57720518-029b-44bb-a5b1-b50d94b22181
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694179043
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Default</strong></h2><p>Link, Text and Media fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          d2385d4e-1d38-479e-81f9-b2f73226e42a:
+            uuid: d2385d4e-1d38-479e-81f9-b2f73226e42a
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 0ec828e2-bb9e-4db8-9c46-4b0807cc9dfd
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694179257
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - Default</strong></h2><p>Link, Text and Media fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+          6f885630-55ee-4ef6-935c-668297c88487:
+            uuid: 6f885630-55ee-4ef6-935c-668297c88487
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 0f5c177f-6f3f-494f-a2f9-0fc010a3f661
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694283992
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - #1</strong></h2><p>Link, Text and Media fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 2
+            additional: {  }
+          9ca47222-49cf-43b6-ba32-0d27d0fa921f:
+            uuid: 9ca47222-49cf-43b6-ba32-0d27d0fa921f
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_card'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 346becaf-3e52-4c1e-a2b9-9784d743cc79
+                  bundle: vlsuite_collection_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694179339
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Card (VLSuite Collection) - #1</strong></h2><p>Link, Text and Media fields.</p><p>Outer section: Recommended to use showing two or three elements in a row, with one column and slider or two or three column section.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_icon:
+                    -
+                      entity: 34550a40-f7c3-4b4f-85f9-23d9de43f3b4
+                  vlsuite_link:
+                    -
+                      uri: 'internal:#'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 3
+            additional: {  }
+          2b8ede7b-f1c7-4f63-85a8-6b04ca13f21d:
+            uuid: 2b8ede7b-f1c7-4f63-85a8-6b04ca13f21d
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 1f8822c0-8b65-4b17-845c-71a5d7e486d9
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694414908
+                  vlsuite_text:
+                    -
+                      value: '<h2>Card (VLSuite Collection) - Section with Slider enabled</h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  created:
+    -
+      value: 1725528030

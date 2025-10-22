@@ -1,0 +1,7 @@
+name: Camino Francés - Dashboard
+type: module
+description: Camino Francés - Dashboard
+package: Camino Francés
+core_version_requirement: ^10
+dependencies:
+  - drupal:user

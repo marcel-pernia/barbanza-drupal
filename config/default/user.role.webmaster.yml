@@ -1,0 +1,262 @@
+uuid: cf641324-fc77-40c6-816e-b7a5fd0d2ecd
+langcode: gl
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - block_content.type.vlsuite_attachments
+    - block_content.type.vlsuite_collection_card
+    - block_content.type.vlsuite_collection_gallery
+    - block_content.type.vlsuite_collection_hero
+    - block_content.type.vlsuite_collection_stmt
+    - block_content.type.vlsuite_cta
+    - block_content.type.vlsuite_icon
+    - block_content.type.vlsuite_image
+    - block_content.type.vlsuite_local_video
+    - block_content.type.vlsuite_remote_video
+    - block_content.type.vlsuite_text
+    - core.entity_view_display.node.practical_information.full
+    - core.entity_view_display.node.stage.full
+    - core.entity_view_display.node.town_hall.full
+    - core.entity_view_display.node.vlsuite_landing.full
+    - filter.format.basic_html
+    - filter.format.vlsuite_basic_html
+    - media.type.vlsuite_document
+    - media.type.vlsuite_icon
+    - media.type.vlsuite_image
+    - media.type.vlsuite_local_video
+    - media.type.vlsuite_remote_video
+    - node.type.practical_information
+    - node.type.stage
+    - node.type.town_hall
+    - node.type.vlsuite_landing
+    - taxonomy.vocabulary.category
+    - workflows.workflow.workflow
+  module:
+    - block_content
+    - content_moderation
+    - content_translation
+    - contextual
+    - entity_access_by_role_field
+    - filter
+    - layout_builder
+    - media
+    - menu_link_content
+    - node
+    - path
+    - roleassign
+    - system
+    - taxonomy
+    - toolbar
+id: webmaster
+label: Webmaster
+weight: 8
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access block library'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer users'
+  - 'assign roles'
+  - 'bypass entity_access_by_role_field permissions'
+  - 'configure all practical_information node layout overrides'
+  - 'configure all stage node layout overrides'
+  - 'configure all town_hall node layout overrides'
+  - 'configure all vlsuite_landing node layout overrides'
+  - 'configure editable practical_information node layout overrides'
+  - 'configure editable stage node layout overrides'
+  - 'configure editable town_hall node layout overrides'
+  - 'configure editable vlsuite_landing node layout overrides'
+  - 'create and edit custom blocks'
+  - 'create basic block content'
+  - 'create content translations'
+  - 'create media'
+  - 'create practical_information content'
+  - 'create stage content'
+  - 'create terms in category'
+  - 'create town_hall content'
+  - 'create url aliases'
+  - 'create vlsuite_attachments block content'
+  - 'create vlsuite_collection_card block content'
+  - 'create vlsuite_collection_gallery block content'
+  - 'create vlsuite_collection_hero block content'
+  - 'create vlsuite_collection_stmt block content'
+  - 'create vlsuite_cta block content'
+  - 'create vlsuite_document media'
+  - 'create vlsuite_icon block content'
+  - 'create vlsuite_icon media'
+  - 'create vlsuite_image block content'
+  - 'create vlsuite_image media'
+  - 'create vlsuite_landing content'
+  - 'create vlsuite_local_video block content'
+  - 'create vlsuite_local_video media'
+  - 'create vlsuite_remote_video block content'
+  - 'create vlsuite_remote_video media'
+  - 'create vlsuite_text block content'
+  - 'delete all revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any media'
+  - 'delete any practical_information content'
+  - 'delete any stage content'
+  - 'delete any town_hall content'
+  - 'delete any vlsuite_attachments block content'
+  - 'delete any vlsuite_attachments block content revisions'
+  - 'delete any vlsuite_collection_card block content'
+  - 'delete any vlsuite_collection_card block content revisions'
+  - 'delete any vlsuite_collection_gallery block content'
+  - 'delete any vlsuite_collection_gallery block content revisions'
+  - 'delete any vlsuite_collection_hero block content'
+  - 'delete any vlsuite_collection_hero block content revisions'
+  - 'delete any vlsuite_collection_stmt block content'
+  - 'delete any vlsuite_collection_stmt block content revisions'
+  - 'delete any vlsuite_cta block content'
+  - 'delete any vlsuite_cta block content revisions'
+  - 'delete any vlsuite_document media'
+  - 'delete any vlsuite_document media revisions'
+  - 'delete any vlsuite_icon block content'
+  - 'delete any vlsuite_icon block content revisions'
+  - 'delete any vlsuite_icon media'
+  - 'delete any vlsuite_icon media revisions'
+  - 'delete any vlsuite_image block content'
+  - 'delete any vlsuite_image block content revisions'
+  - 'delete any vlsuite_image media'
+  - 'delete any vlsuite_image media revisions'
+  - 'delete any vlsuite_landing content'
+  - 'delete any vlsuite_local_video block content'
+  - 'delete any vlsuite_local_video block content revisions'
+  - 'delete any vlsuite_local_video media'
+  - 'delete any vlsuite_local_video media revisions'
+  - 'delete any vlsuite_remote_video block content'
+  - 'delete any vlsuite_remote_video block content revisions'
+  - 'delete any vlsuite_remote_video media'
+  - 'delete any vlsuite_remote_video media revisions'
+  - 'delete any vlsuite_text block content'
+  - 'delete any vlsuite_text block content revisions'
+  - 'delete content translations'
+  - 'delete media'
+  - 'delete own practical_information content'
+  - 'delete own stage content'
+  - 'delete own town_hall content'
+  - 'delete own vlsuite_document media'
+  - 'delete own vlsuite_icon media'
+  - 'delete own vlsuite_image media'
+  - 'delete own vlsuite_landing content'
+  - 'delete own vlsuite_local_video media'
+  - 'delete own vlsuite_remote_video media'
+  - 'delete practical_information revisions'
+  - 'delete stage revisions'
+  - 'delete term revisions in category'
+  - 'delete terms in category'
+  - 'delete town_hall revisions'
+  - 'delete vlsuite_landing revisions'
+  - 'edit any basic block content'
+  - 'edit any practical_information content'
+  - 'edit any stage content'
+  - 'edit any town_hall content'
+  - 'edit any vlsuite_attachments block content'
+  - 'edit any vlsuite_collection_card block content'
+  - 'edit any vlsuite_collection_gallery block content'
+  - 'edit any vlsuite_collection_hero block content'
+  - 'edit any vlsuite_collection_stmt block content'
+  - 'edit any vlsuite_cta block content'
+  - 'edit any vlsuite_document media'
+  - 'edit any vlsuite_icon block content'
+  - 'edit any vlsuite_icon media'
+  - 'edit any vlsuite_image block content'
+  - 'edit any vlsuite_image media'
+  - 'edit any vlsuite_landing content'
+  - 'edit any vlsuite_local_video block content'
+  - 'edit any vlsuite_local_video media'
+  - 'edit any vlsuite_remote_video block content'
+  - 'edit any vlsuite_remote_video media'
+  - 'edit any vlsuite_text block content'
+  - 'edit own practical_information content'
+  - 'edit own stage content'
+  - 'edit own town_hall content'
+  - 'edit own vlsuite_document media'
+  - 'edit own vlsuite_icon media'
+  - 'edit own vlsuite_image media'
+  - 'edit own vlsuite_landing content'
+  - 'edit own vlsuite_local_video media'
+  - 'edit own vlsuite_remote_video media'
+  - 'edit terms in category'
+  - 'edit_role_field entity_access_by_role_field permissions'
+  - 'revert all revisions'
+  - 'revert any basic block content revisions'
+  - 'revert any vlsuite_attachments block content revisions'
+  - 'revert any vlsuite_collection_card block content revisions'
+  - 'revert any vlsuite_collection_gallery block content revisions'
+  - 'revert any vlsuite_collection_hero block content revisions'
+  - 'revert any vlsuite_collection_stmt block content revisions'
+  - 'revert any vlsuite_cta block content revisions'
+  - 'revert any vlsuite_document media revisions'
+  - 'revert any vlsuite_icon block content revisions'
+  - 'revert any vlsuite_icon media revisions'
+  - 'revert any vlsuite_image block content revisions'
+  - 'revert any vlsuite_image media revisions'
+  - 'revert any vlsuite_local_video block content revisions'
+  - 'revert any vlsuite_local_video media revisions'
+  - 'revert any vlsuite_remote_video block content revisions'
+  - 'revert any vlsuite_remote_video media revisions'
+  - 'revert any vlsuite_text block content revisions'
+  - 'revert practical_information revisions'
+  - 'revert stage revisions'
+  - 'revert term revisions in category'
+  - 'revert town_hall revisions'
+  - 'revert vlsuite_landing revisions'
+  - 'translate any entity'
+  - 'translate block_content'
+  - 'translate category taxonomy_term'
+  - 'translate editable entities'
+  - 'translate menu_link_content'
+  - 'translate practical_information node'
+  - 'translate stage node'
+  - 'translate town_hall node'
+  - 'translate vlsuite_document media'
+  - 'translate vlsuite_icon media'
+  - 'translate vlsuite_image media'
+  - 'translate vlsuite_landing node'
+  - 'translate vlsuite_local_video media'
+  - 'translate vlsuite_remote_video media'
+  - 'update any media'
+  - 'update content translations'
+  - 'update media'
+  - 'use text format basic_html'
+  - 'use text format vlsuite_basic_html'
+  - 'use workflow transition create_new_draft'
+  - 'use workflow transition publish'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any basic block content history'
+  - 'view any unpublished content'
+  - 'view any vlsuite_attachments block content history'
+  - 'view any vlsuite_collection_card block content history'
+  - 'view any vlsuite_collection_gallery block content history'
+  - 'view any vlsuite_collection_hero block content history'
+  - 'view any vlsuite_collection_stmt block content history'
+  - 'view any vlsuite_cta block content history'
+  - 'view any vlsuite_document media revisions'
+  - 'view any vlsuite_icon block content history'
+  - 'view any vlsuite_icon media revisions'
+  - 'view any vlsuite_image block content history'
+  - 'view any vlsuite_image media revisions'
+  - 'view any vlsuite_local_video block content history'
+  - 'view any vlsuite_local_video media revisions'
+  - 'view any vlsuite_remote_video block content history'
+  - 'view any vlsuite_remote_video media revisions'
+  - 'view any vlsuite_text block content history'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view practical_information revisions'
+  - 'view stage revisions'
+  - 'view term revisions in category'
+  - 'view the administration theme'
+  - 'view town_hall revisions'
+  - 'view vlsuite_landing revisions'

@@ -1,0 +1,11 @@
+uuid: 79c75e43-29c8-404f-8930-f09fd4cfceb6
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_kioskh
+label: 'Kiosk horizontal: Teaser'
+description: ''
+targetEntityType: node
+cache: true

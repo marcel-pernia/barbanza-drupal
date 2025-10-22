@@ -1,0 +1,19 @@
+uuid: 331b8ac1-2456-4de7-a900-4978b209ddf1
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_media_icon
+_core:
+  default_config_hash: iR0KSIO5ol5yYWZP_pzpgFVkKjY3lpLxgxI65CYd2Rw
+id: vlsuite_icon
+label: 'Icon (VLSuite)'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

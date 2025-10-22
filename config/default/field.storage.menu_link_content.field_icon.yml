@@ -1,0 +1,22 @@
+uuid: c065521b-3af9-4fd0-84c9-f682dc83a4b4
+langcode: gl
+status: true
+dependencies:
+  module:
+    - menu_link_content
+    - vlsuite_icon_font
+id: menu_link_content.field_icon
+field_name: field_icon
+entity_type: menu_link_content
+type: vlsuite_icon_font_icon
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: vlsuite_icon_font
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+:root {
+  --swiper-pagination-color: #{$secondary};
+  --swiper-navigation-color: #{$secondary};
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.vlsuite-block.vlsuite-block__block-contentvlsuite-collection-galleryvlsuite-medias {
+  img {
+    width: 100%;
+  }
+}
+
+html {
+  scroll-padding-top: calc($spacer + 130px);
+}
+
+.btn {
+  font-family: var(--theme-btn-font-family, $headings-font-family);
+  font-weight: bolder;
+}

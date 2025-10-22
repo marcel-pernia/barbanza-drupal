@@ -1,0 +1,6 @@
+adding:
+  name: PRO
+  bg_color: '#ff0000'
+removing:
+  name: LOCAL
+  bg_color: '#007833'

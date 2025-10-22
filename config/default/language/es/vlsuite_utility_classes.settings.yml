@@ -1,0 +1,117 @@
+utilities:
+  text-align:
+    values:
+      left:
+        visual_name: Izquierda
+      right:
+        visual_name: Derecha
+      center:
+        visual_name: Centrado
+  color:
+    values:
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Advertencia
+      light:
+        visual_name: Fina
+      dark:
+        visual_name: Oscuro
+      white:
+        visual_name: Blanco
+      body:
+        visual_name: Cuerpo
+      muted:
+        visual_name: Silenciado
+      reset:
+        visual_name: Restablecer
+  background-color:
+    visual_name: 'Color de fondo'
+    values:
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Advertencia
+      light:
+        visual_name: Fina
+      dark:
+        visual_name: Oscuro
+      body:
+        visual_name: Cuerpo
+      white:
+        visual_name: Blanco
+      transparent:
+        visual_name: Transparent
+  background-gradient:
+    values:
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Advertencia
+      light:
+        visual_name: Fina
+      dark:
+        visual_name: Oscuro
+      body:
+        visual_name: Cuerpo
+      white:
+        visual_name: Blanco
+      transparent:
+        visual_name: Transparent
+  inline:
+    visual_name: 'En línea'
+    values:
+      2:
+        visual_name: '2'
+  align-items:
+    values:
+      center:
+        visual_name: Centrado
+  align-items-x:
+    values:
+      center:
+        visual_name: Centrado
+  btn:
+    visual_name: Botón
+    values:
+      info:
+        visual_name: Info
+      warning:
+        visual_name: Advertencia
+      light:
+        visual_name: Fina
+      dark:
+        visual_name: Oscuro
+  btn-size:
+    values:
+      large:
+        visual_name: Grande
+      small:
+        visual_name: Pequeño
+  shadow:
+    values:
+      small:
+        visual_name: Pequeño
+      large:
+        visual_name: Grande
+  position:
+    visual_name: Posición
+    values:
+      top-left:
+        visual_name: 'Superior izquierda'
+      top-center:
+        visual_name: 'Arriba centro'
+  badge:
+    values:
+      warning:
+        visual_name: Advertencia
+      info:
+        visual_name: Info
+      light:
+        visual_name: Fina
+      dark:
+        visual_name: Oscuro
+  width:
+    visual_name: Ancho
+  translate:
+    visual_name: Traducir

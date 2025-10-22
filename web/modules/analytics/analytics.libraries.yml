@@ -1,0 +1,8 @@
+dnt:
+  js:
+    # Need to specify a negative weight like drupalSettings.js until
+    # https://www.drupal.org/node/1945262 is resolved.
+    js/analytics_dnt.js: { weight: -17 }
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 19b2383d-7801-4e8a-a9ee-092afec708c4
+  bundle: vlsuite_image
+  default_langcode: gl
+  depends:
+    a1556bd3-5bd8-4fdc-a073-5c201984ad91: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'VLSuite collection placeholder media'
+  created:
+    -
+      value: 1725528030
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/home'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_image:
+    -
+      entity: a1556bd3-5bd8-4fdc-a073-5c201984ad91
+      alt: ''
+      title: ''
+      width: 1920
+      height: 1280

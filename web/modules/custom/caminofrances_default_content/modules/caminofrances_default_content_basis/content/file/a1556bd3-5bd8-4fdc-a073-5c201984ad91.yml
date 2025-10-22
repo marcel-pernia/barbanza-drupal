@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a1556bd3-5bd8-4fdc-a073-5c201984ad91
+  default_langcode: gl
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: vlsuite-collection-placeholder-image.jpg
+  uri:
+    -
+      value: 'public://vlsuite_collection_card/vlsuite-collection-placeholder-image.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 299526
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725528030

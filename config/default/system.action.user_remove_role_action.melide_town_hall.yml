@@ -1,0 +1,14 @@
+uuid: 9b1e50b0-910a-4537-acdd-0fe6f403eb14
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.melide_town_hall
+  module:
+    - user
+id: user_remove_role_action.melide_town_hall
+label: 'Remove the Concello Melide role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: melide_town_hall

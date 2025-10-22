@@ -1,0 +1,21 @@
+uuid: 20dbef7c-aaff-4f52-bfd6-f683f81d7618
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N-O3629vb-jExOxfM0FYcfPzEu6QVzgWHMm06jMERLg
+id: functional
+label: 'Funcional necesario'
+group: functional
+info:
+  value: ''
+  format: full_html
+consentRequired: false
+purpose: 'Cookies funcionais esenciais para proporcionar funcionalidade xeral'
+placeholderMainText: 'Este contido está bloqueado porque non se aceptaron as cookies funcionais obrigatorias.'
+placeholderAcceptText: 'Só acepta as cookies funcionais requiridas'
+processor: ''
+processorContact: ''
+processorUrl: ''
+processorPrivacyPolicyUrl: ''
+processorCookiePolicyUrl: ''

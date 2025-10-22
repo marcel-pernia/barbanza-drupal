@@ -1,0 +1,22 @@
+uuid: 8e2f6113-9575-4816-848b-3ecc7fe634c7
+langcode: gl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gin
+_core:
+  default_config_hash: WvPhI8OwllG0gE69-F8qL3ai3nd5SbYD6JpmEuZcyok
+id: gin_messages
+theme: gin
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensaxes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

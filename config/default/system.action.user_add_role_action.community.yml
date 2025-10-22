@@ -1,0 +1,14 @@
+uuid: 79aea499-cb3c-4750-97dc-47f575318592
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.community
+  module:
+    - user
+id: user_add_role_action.community
+label: 'Add the Mancomunidade role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: community

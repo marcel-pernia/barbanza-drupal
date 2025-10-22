@@ -1,0 +1,11 @@
+uuid: daf0dc03-ca93-4ac7-97cf-23e20ba64c5b
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: node.vlsuite_full_content_top_kioskh
+label: 'Kiosk horizontal: Full content top (VLSuite)'
+description: ''
+targetEntityType: node
+cache: true

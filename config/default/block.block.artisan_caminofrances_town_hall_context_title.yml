@@ -1,0 +1,28 @@
+uuid: 5400d262-e4ea-4299-a165-52691601f301
+langcode: gl
+status: true
+dependencies:
+  module:
+    - caminofrances_town_hall
+    - kiosk_nav
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_town_hall_context_title
+theme: artisan_caminofrances
+region: branding
+weight: -6
+provider: null
+plugin: caminofrances_town_hall_context_title
+settings:
+  id: caminofrances_town_hall_context_title
+  label: 'Town hall context title'
+  label_display: '0'
+  provider: caminofrances_town_hall
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility:
+  kiosk_nav_condition:
+    id: kiosk_nav_condition
+    negate: false
+    modes:
+      kioskh: kioskh

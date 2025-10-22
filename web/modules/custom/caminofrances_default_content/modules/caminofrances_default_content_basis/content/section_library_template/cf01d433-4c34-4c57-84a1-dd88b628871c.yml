@@ -1,0 +1,258 @@
+_meta:
+  version: '1.0'
+  entity_type: section_library_template
+  uuid: cf01d433-4c34-4c57-84a1-dd88b628871c
+  default_langcode: es
+default:
+  user_id:
+    -
+      target_id: 1
+  label:
+    -
+      value: 'Accordion tabs'
+  type:
+    -
+      value: section
+  entity_id:
+    -
+      target_id: 9
+  entity_type:
+    -
+      value: node
+  layout_section:
+    -
+      section:
+        layout_id: vlsuite_layout_tabs_accordion
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            scope: tab_0
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+            'vlsuite_layout:row':
+              gutter-y: gutter-3
+            'vlsuite_layout:main_regions':
+              background-color: light
+              padding: spacer-4
+          vlsuite_animations: {  }
+          tabs:
+            tab_0:
+              title: Primero
+              icon: counter_1
+            tab_1:
+              title: Segundo
+              icon: counter_2
+            tab_2:
+              title: Tercero
+              icon: counter_3
+          tabs_default: tab_0
+          tabs_always_open: 0
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          29b104bc-5d2c-4338-98f8-ec19b5f34ff0:
+            uuid: 29b104bc-5d2c-4338-98f8-ec19b5f34ff0
+            region: tab_0
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 4262083a-5aa0-455d-a6ea-0635d6639618
+                  bundle: vlsuite_text
+                  default_langcode: es
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1711553993
+                  vlsuite_text:
+                    -
+                      value: '<p>Este es el contenido de la primera pestaña, se puede añadir cualquier tipo de bloque dentro de cada una de las pestañas definidas de forma dinámica. También se puede usar un icono que acompañe al texto de los títulos de cada pestaña.</p><p>Además también se pueden usar los modificadores de apariencia a nivel de regiones principales, por ese motivo se está visualizando este texto con un fondo.</p>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+          2f559f3d-9189-45b1-8237-895f359fc99d:
+            uuid: 2f559f3d-9189-45b1-8237-895f359fc99d
+            region: tab_1
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 0df70358-4fb2-4142-9b99-a64eff81cadb
+                  bundle: vlsuite_text
+                  default_langcode: es
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1711554140
+                  vlsuite_text:
+                    -
+                      value: '<p>Este es el contenido de la segunda pestaña, se puede añadir cualquier tipo de bloque dentro de cada una de las pestañas definidas de forma dinámica. También se puede usar un icono que acompañe al texto de los títulos de cada pestaña.</p><p>Además también se pueden usar los modificadores de apariencia a nivel de regiones principales, por ese motivo se está visualizando este texto con un fondo.</p>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+          f0c3fd1c-479c-4e9c-ab80-452cacc8d0f5:
+            uuid: f0c3fd1c-479c-4e9c-ab80-452cacc8d0f5
+            region: tab_2
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 1a06a630-ada3-4fcb-a3bb-684b73dcf76b
+                  bundle: vlsuite_text
+                  default_langcode: es
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1711554167
+                  vlsuite_text:
+                    -
+                      value: '<p>Este es el contenido de la tercera pestaña, se puede añadir cualquier tipo de bloque dentro de cada una de las pestañas definidas de forma dinámica. También se puede usar un icono que acompañe al texto de los títulos de cada pestaña.</p><p>Además también se pueden usar los modificadores de apariencia a nivel de regiones principales, por ese motivo se está visualizando este texto con un fondo.</p>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+          36cb97c4-f106-4883-a075-b5c283e912c9:
+            uuid: 36cb97c4-f106-4883-a075-b5c283e912c9
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 0336cbb0-856b-4b50-ad26-39d7709367fa
+                  bundle: vlsuite_text
+                  default_langcode: es
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1711553915
+                  vlsuite_text:
+                    -
+                      value: '<h2>SECCIÓN - ACCORDION TABS</h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+  created:
+    -
+      value: 1711559662

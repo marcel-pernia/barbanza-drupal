@@ -1,0 +1,11 @@
+uuid: cb1181e7-5cea-4e55-8ca5-0525a840acbc
+langcode: gl
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Símbolos
+description: ''
+targetEntityType: user
+cache: true

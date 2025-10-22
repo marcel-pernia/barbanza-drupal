@@ -1,0 +1,23 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          56197b3e-9902-4cf1-b43f-7a335af35a54:
+            configuration:
+              label: 'Media background'
+          c354dd7d-b40d-47a3-8b57-894f987fadbf:
+            configuration:
+              label: 'VLSuite Inline Block'
+          0057c0ae-ce17-47e6-b167-807415487e24:
+            configuration:
+              label: Text
+          b48efaf5-1864-4454-8bb9-1620b18d7cdb:
+            configuration:
+              label: 'Author / Date / Position text'
+          ef1e913a-d03d-482e-ab23-c1c4df99dddf:
+            configuration:
+              label: Link
+          bc2ffbe7-b8d8-452b-a1a6-77f8bfe1e14f:
+            configuration:
+              label: Image

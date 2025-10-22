@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2fbd3ac8-ac26-4533-9472-44efbe5d88fd
+  default_langcode: gl
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vlsuite-placeholder-video.mp4
+  uri:
+    -
+      value: 'public://2024-09/vlsuite-placeholder-video_1.mp4'
+  filemime:
+    -
+      value: video/mp4
+  filesize:
+    -
+      value: 3114374
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727279238

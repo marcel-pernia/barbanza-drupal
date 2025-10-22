@@ -1,0 +1,14 @@
+uuid: 5019d4d9-444c-4cc2-9793-66e11ad94c41
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.o_pino_town_hall
+  module:
+    - user
+id: user_remove_role_action.o_pino_town_hall
+label: 'Remove the Concello O Pino role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: o_pino_town_hall

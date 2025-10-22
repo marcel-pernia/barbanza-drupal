@@ -1,0 +1,52 @@
+@import "../../src/scss/init";
+
+.page-kioskv {
+  display: flex;
+  flex-direction: column;
+  gap: $spacer;
+  min-height: calc(100vh - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));
+
+  > header {
+    margin-top: auto;
+    position: sticky;
+    bottom: 0;
+    padding: $spacer;
+    background: var(--theme-kiosk-color-primary, $kiosk-primary-color);
+    color: var(--theme-kiosk-color-secondary, $white);
+    z-index: 999;
+    contain: paint;
+
+    .block-system-menu-blocktown-hall-menu .navbar-nav > .nav-item:first-child > .nav-link[data-drupal-link-system-path="<front>"],
+    .block-system-menu-blockmain .navbar-nav > .nav-item:first-child > .nav-link[data-drupal-link-system-path="<front>"] {
+      display: block;
+    }
+  }
+  > main {
+    order: -1;
+    .block-artisan-caminofrances-content {
+      contain: paint;
+    }
+  }
+  .block-system-menu-blocktown-hall-menu .nav {
+    --bs-nav-link-color: #{$gray-700};
+    --bs-link-color-rgb: #{$gray-700};
+  }
+
+  h1, .h1, h2, .h2 {
+    color: var(--theme-kiosk-color-primary, $kiosk-primary-color);
+  }
+}
+
+.share-buttons {
+  display: none !important;
+}
+
+.max-wrapper {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.content-heading {
+    max-height: 1080px;
+  }
+}

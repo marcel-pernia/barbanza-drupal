@@ -1,0 +1,5 @@
+name: 'Camino Francés - Town Hall By Role Filter'
+type: module
+description: 'Camino Francés - Town Hall By Role Filter'
+package: Camino Francés
+core_version_requirement: ^10 || ^11

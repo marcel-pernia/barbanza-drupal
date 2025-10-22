@@ -1,0 +1,235 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b0b7918f-1a97-4a0e-9dab-6ee4a4437302
+  bundle: practical_information
+  default_langcode: gl
+  depends:
+    95a03e3b-e19f-4939-9673-ebed7134f664: taxonomy_term
+    96c38466-c6d2-4c71-bf98-8ec3135b04e7: node
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+    453a3c41-214d-4193-9366-09f7997e72ca: media
+    c22b7a76-c3d3-46a5-a4bb-bbff9bf1d2a2: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Arzúa hotel (exemplo)'
+  created:
+    -
+      value: 1726220241
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Arzúa hotel (exemplo) | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Arzúa hotel (exemplo)'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/concello/arzua/arzua-hotel-exemplo'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: 'Información práctica'
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/concello/arzua/arzua-hotel-exemplo'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Arzúa hotel (exemplo)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Arzúa hotel (exemplo)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:secure_url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Arzúa hotel (exemplo)'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: 'Arzúa hotel (exemplo)'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: Place
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/concello/arzua/arzua-hotel-exemplo'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: 'Arzúa hotel (exemplo)'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: geo
+        content:
+          '@type': GeoCoordinates
+          latitude: '40.463667'
+          longitude: '-3.74922'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: address
+        content:
+          '@type': PostalAddress
+          streetAddress: 'Fake Street'
+          addressLocality: 'Fake City'
+          postalCode: '32114'
+        group: schema_place
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: image
+        content:
+          '@type': ImageObject
+          representativeOfPage: 'True'
+          url: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_63.jpg?itok=HinL54yF'
+        group: schema_place
+        schema_metatag: true
+  path:
+    -
+      alias: /concello/arzua/arzua-hotel-exemplo
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_access:
+    -
+      role_id: arzua_town_hall
+      access: allowed
+  field_address:
+    -
+      langcode: ''
+      country_code: ES
+      administrative_area: M
+      locality: 'Fake City'
+      dependent_locality: ''
+      postal_code: '32114'
+      sorting_code: ''
+      address_line1: 'Fake Street'
+      address_line2: ''
+  field_category:
+    -
+      entity: 95a03e3b-e19f-4939-9673-ebed7134f664
+  field_description:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum ultrices ex vel scelerisque. Suspendisse varius ut mauris vitae accumsan. Integer ut tincidunt augue. Maecenas eget tempus felis. Donec non hendrerit lacus, a pretium arcu. Ut sagittis tellus a justo ornare aliquam. Curabitur mollis fermentum quam.</p><p>Pellentesque varius sapien eget risus malesuada tempor. Sed ut sem ac turpis dignissim auctor condimentum ut magna. Ut porta porttitor neque, at vehicula enim eleifend ut. Nam in mauris tristique, eleifend metus eu, pulvinar ligula. Aenean quis dui sodales, porta mi a, ultrices nibh. Suspendisse congue nisl erat, varius cursus urna pellentesque non. Nunc eu convallis nisl, nec rhoncus ante. Mauris elementum luctus condimentum. Nulla ut mattis quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu justo a magna blandit mattis. Duis pharetra odio nibh, vel faucibus quam finibus et. Etiam commodo diam ac risus varius, eget rutrum dui semper. Praesent eget volutpat nulla. Donec euismod leo ac neque faucibus, a lacinia sapien dapibus. Nam vehicula consequat eros, vel consequat felis varius non.</p><p>Nunc faucibus tristique lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer consectetur tincidunt dui at faucibus. Vestibulum ac laoreet augue, vel tincidunt erat. Nullam purus leo, mattis eget felis nec, volutpat vestibulum massa. Curabitur laoreet eu est eget tempor. Integer ultricies, tellus eget auctor elementum, orci augue elementum ante, vel imperdiet nulla nulla non velit. In rutrum elit leo, id pulvinar tellus varius eget. Mauris consequat nec mauris ut rhoncus. Ut imperdiet felis sit amet hendrerit tempor. Proin diam lacus, gravida et ullamcorper eget, vestibulum a dui. Nullam bibendum, nibh sit amet luctus lobortis, tortor enim pharetra ipsum, sed porttitor orci neque non odio.</p><p>Aliquam nec turpis imperdiet mi ornare suscipit quis eu diam. Mauris feugiat dui justo, id elementum tellus vehicula et. Duis id vehicula tortor, vel aliquet ex. Nullam ultrices, eros ut cursus vulputate, nibh leo congue massa, vitae hendrerit odio diam in sapien. Donec feugiat ullamcorper mollis. Phasellus lacus augue, interdum at gravida at, fringilla ac dui. Etiam a metus malesuada, vehicula purus nec, scelerisque ante. Aenean pretium nibh quam, nec consequat orci maximus a. Ut pellentesque lorem risus, vitae facilisis sapien facilisis ut. Aliquam in lorem in nisi cursus scelerisque vel sed neque. Donec tempor diam et consectetur tincidunt. Nunc sed felis lectus. Morbi faucibus semper magna sit amet sodales.</p><p>Vivamus rhoncus viverra magna quis suscipit. Sed sit amet odio at est feugiat sodales. Maecenas risus lectus, consequat eget odio non, posuere bibendum sem. Proin sollicitudin libero condimentum turpis porta convallis. Quisque ac suscipit nunc, quis viverra libero. Nullam ut eros ornare risus commodo feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam tempor purus ligula, non facilisis erat faucibus non. Integer feugiat, arcu at ullamcorper feugiat, ligula massa posuere eros, nec elementum neque dolor imperdiet purus. Vivamus eget libero at dui viverra gravida. Nullam vestibulum tempus massa eu sodales. Etiam condimentum ex lectus, ut accumsan mauris tristique ac.</p>'
+      format: basic_html
+  field_geolocation:
+    -
+      lat: 40.463667
+      lng: -3.74922
+      lat_sin: 0.64896572118623
+      lat_cos: 0.76081764748541
+      lng_rad: -0.065436233381622
+      data: {  }
+  field_image:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+  field_kiosk_slides:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+    -
+      entity: 453a3c41-214d-4193-9366-09f7997e72ca
+  field_link:
+    -
+      uri: 'https://example.com'
+      title: 'Lorem ipsum dolor sit amet'
+      options: {  }
+  field_qr_code:
+    -
+      uri: 'https://example.com'
+      title: 'Lorem ipsum'
+      options: {  }
+  field_summary:
+    -
+      value: 'Arzúa hotel (exemplo)'
+  field_town_hall:
+    -
+      entity: c22b7a76-c3d3-46a5-a4bb-bbff9bf1d2a2

@@ -1,0 +1,22 @@
+uuid: 5cbe7191-f1b7-4949-909f-6e1aecce27e0
+langcode: gl
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - vlsuite_icon_font
+id: taxonomy_term.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+type: vlsuite_icon_font_icon
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: vlsuite_icon_font
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

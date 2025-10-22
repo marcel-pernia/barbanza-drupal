@@ -1,0 +1,13 @@
+uuid: 1459cd96-38e5-4a44-9386-eecfa2aa6d75
+langcode: gl
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: iukUENpf8CFvjZbGGacKX_Ges0-lU9z6zvsd32P6kbo
+id: taxonomy_term.full
+label: 'Páxina de térmos de taxonomía'
+description: ''
+targetEntityType: taxonomy_term
+cache: true

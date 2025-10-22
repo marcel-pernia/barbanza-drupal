@@ -1,0 +1,1063 @@
+_meta:
+  version: '1.0'
+  entity_type: section_library_template
+  uuid: 36d409bc-9329-4dd6-9d86-29fa45686de0
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+default:
+  user_id:
+    -
+      target_id: 0
+  label:
+    -
+      value: 'Statement / Quote Collection Glossary (VLSuite)'
+  type:
+    -
+      value: template
+  layout_section:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          0a0320df-b138-414c-ab1f-85c89b09d040:
+            uuid: 0a0320df-b138-414c-ab1f-85c89b09d040
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: b549ca84-6d0d-42ab-a77a-bcc36376c894
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - Default</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          dd627bb2-cf12-47b9-b33f-47a8db6b5ea1:
+            uuid: dd627bb2-cf12-47b9-b33f-47a8db6b5ea1
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: ba4bc9a2-c186-445a-bb54-f419aeda6380
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - #1</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          ef6aff0c-5de3-45a3-af05-930c541c3c8d:
+            uuid: ef6aff0c-5de3-45a3-af05-930c541c3c8d
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_2
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: b7b92402-363c-4396-99a6-0050bab9d4fa
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - #2</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          d373b4fb-e6ae-4443-977b-2ad22c81e56b:
+            uuid: d373b4fb-e6ae-4443-977b-2ad22c81e56b
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: e4c51f8b-301f-40fb-967f-4a63d604f19f
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - #3</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: recommended to use "Edge to edge" active.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_twocols
+        layout_settings:
+          label: ''
+          column_widths: 50-50
+          identifier: ''
+          edge_to_edge_bg: 0
+          optional_regions: 0
+          vlsuite_slider:
+            scope: first
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-x: no-spacer
+              padding-y: spacer-5
+            'vlsuite_layout:row':
+              gutter: gutter-3
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          36859d8d-eada-4860-aff2-da9135e228f0:
+            uuid: 36859d8d-eada-4860-aff2-da9135e228f0
+            region: first
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 635a702c-905e-4c6f-96aa-1a8f3521dd32
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Statement / Quote - #3</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>VLSuite Collection - Inside two cols</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          f2c67c27-b177-475a-bd0d-77ce5fade1ee:
+            uuid: f2c67c27-b177-475a-bd0d-77ce5fade1ee
+            region: second
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 309a1f2d-a103-4c62-8166-b04abf269fb5
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Statement / Quote - #3</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>VLSuite Collection - Inside two cols</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 0
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+              padding-x: no-spacer
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          955fc0dd-fdec-4978-8ec8-894381753cc1:
+            uuid: 955fc0dd-fdec-4978-8ec8-894381753cc1
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_4
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 6f0d84eb-4acb-465d-a6e9-f1a763c26851
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - #4</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: recommended to use "Edge to edge" active.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_twocols
+        layout_settings:
+          label: ''
+          column_widths: 50-50
+          identifier: ''
+          edge_to_edge_bg: 0
+          optional_regions: 0
+          vlsuite_slider:
+            scope: first
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-x: no-spacer
+              padding-y: spacer-5
+            'vlsuite_layout:row':
+              gutter: gutter-3
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          313c24da-7718-41c4-b67a-56b2b5459d72:
+            uuid: 313c24da-7718-41c4-b67a-56b2b5459d72
+            region: first
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_4
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: d34671bb-567b-4fc2-8e9c-28ce69e3a2b8
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Statement / Quote - #4</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>VLSuite Collection - Inside two cols</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          d41f81e1-6d31-4384-8b12-47d6e3c93339:
+            uuid: d41f81e1-6d31-4384-8b12-47d6e3c93339
+            region: second
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_4
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: d384aa6e-9d51-4b80-8548-1e1932aa79f8
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Statement / Quote - #4</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>VLSuite Collection - Inside two cols</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:main_regions':
+              background-color: dark
+              color: white
+              padding: spacer-5
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          341f1630-7822-45da-955c-fa4d512fbe89:
+            uuid: 341f1630-7822-45da-955c-fa4d512fbe89
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_customizable
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: ec1e7ad2-7fc3-4bbd-92ed-10aef9c99331
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>"Statement / Quote (VLSuite Collection) - Customizable"</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class:
+                'block_content:vlsuite_collection_stmt:vlsuite_text':
+                  padding-y: spacer-3
+                'block_content:vlsuite_collection_stmt:vlsuite_link':
+                  text-align: right
+                  padding-y: spacer-3
+                'block_content:vlsuite_collection_stmt:vlsuite_image:item':
+                  ratio: 21-9
+                'block_content:vlsuite_collection_stmt:vlsuite_link:item':
+                  btn: light
+                  rounded: pill
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            active: 1
+            scope: main
+            slides_per_view: '2'
+            navigation: true
+            pagination: true
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              background-gradient: light
+              padding-y: spacer-5
+            'vlsuite_layout:row':
+              gutter: gutter-3
+            'vlsuite_layout:region_top':
+              text-align: center
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          63afe641-eb34-4c06-9c5f-da1b88088f69:
+            uuid: 63afe641-eb34-4c06-9c5f-da1b88088f69
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: ffdc5932-b61d-4829-9510-e97865b60eac
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Inside slider - #3</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p><em>VLSuite</em></p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          045d2edf-c39d-4ba5-8b14-2c1892c3c0b3:
+            uuid: 045d2edf-c39d-4ba5-8b14-2c1892c3c0b3
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: eb09e3c1-b68a-4a9c-8823-a12d1b2fc2aa
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Inside slider - #3</strong></h3>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p><em>VLSuite</em></p>'
+                      format: vlsuite_basic_html
+                  vlsuite_image:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+          41fbf307-951a-4ab5-900b-cfc107898cb4:
+            uuid: 41fbf307-951a-4ab5-900b-cfc107898cb4
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_stmt'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_4
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: ff7410ca-db80-4cd7-b73e-426684d13ca1
+                  bundle: vlsuite_collection_stmt
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170490
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Inside slider - #4</strong></h2>'
+                      format: vlsuite_basic_html
+                  vlsuite_text_extra:
+                    -
+                      value: '<p><em>VLSuite</em></p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 2
+            additional: {  }
+          6593e594-3405-4677-8c23-47c2f149087d:
+            uuid: 6593e594-3405-4677-8c23-47c2f149087d
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: b0d88eb5-726f-412d-a774-0150b18694b0
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694171425
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Statement / Quote (VLSuite Collection) - section with Slider enabled</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  created:
+    -
+      value: 1725528030

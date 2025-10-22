@@ -1,0 +1,11 @@
+name: 'Analytics API'
+type: module
+description: 'Provides a common API and UI for using Analytics services on a site.'
+package: Analytics
+core_version_requirement: ^9.3 || ^10
+configure: entity.analytics_service.collection
+
+# Information added by Drupal.org packaging script on 2022-08-05
+version: '8.x-1.0-alpha8'
+project: 'analytics'
+datestamp: 1659730135

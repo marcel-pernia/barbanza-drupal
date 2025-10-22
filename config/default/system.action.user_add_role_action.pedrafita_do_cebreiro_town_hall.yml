@@ -1,0 +1,14 @@
+uuid: 94cb065f-43f6-4e51-847c-2da7ad528d57
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.pedrafita_do_cebreiro_town_hall
+  module:
+    - user
+id: user_add_role_action.pedrafita_do_cebreiro_town_hall
+label: 'Add the Concello Pedrafita do Cebreiro role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pedrafita_do_cebreiro_town_hall

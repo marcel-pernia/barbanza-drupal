@@ -1,0 +1,155 @@
+animations:
+  fade-in:
+    visual_name: 'Fade In'
+  fade-in-down:
+    visual_name: 'Fade in down'
+  fade-in-down-big:
+    visual_name: 'Fade in down big'
+  fade-in-left:
+    visual_name: 'Fade in left'
+  fade-in-left-big:
+    visual_name: 'Fade in left big'
+  fade-in-right:
+    visual_name: 'Fade in right'
+  fade-in-right-big:
+    visual_name: 'Fade in right big'
+  fade-in-up:
+    visual_name: 'Fade in up'
+  fade-in-up-big:
+    visual_name: 'Fade in up big'
+  fade-in-top-left:
+    visual_name: 'Fade in top left'
+  fade-in-top-right:
+    visual_name: 'Fade in top right'
+  fade-in-bottom-left:
+    visual_name: 'Fade in bottom left'
+  fade-in-bottom-right:
+    visual_name: 'Fade in bottom right'
+  fade-out:
+    visual_name: 'Fade out'
+  fade-out-down:
+    visual_name: 'Fade out down'
+  fade-out-down-big:
+    visual_name: 'Fade out down big'
+  fade-out-left:
+    visual_name: 'Fade out left'
+  fade-out-left-big:
+    visual_name: 'Fade out left big'
+  fade-out-right:
+    visual_name: 'Fade out right'
+  fade-out-right-big:
+    visual_name: 'Fade out right big'
+  fade-out-up:
+    visual_name: 'Fade out up'
+  fade-out-up-big:
+    visual_name: 'Fade out up big'
+  fade-out-top-left:
+    visual_name: 'Fade out top left'
+  fade-out-top-right:
+    visual_name: 'Fade out top right'
+  fade-out-bottom-left:
+    visual_name: 'Fade out bottom left'
+  fade-out-bottom-right:
+    visual_name: 'Fade out bottom right'
+  back-in-down:
+    visual_name: 'Back in down'
+  back-in-left:
+    visual_name: 'Back in left'
+  back-in-right:
+    visual_name: 'Back in right'
+  back-in-up:
+    visual_name: 'Back in up'
+  back-out-down:
+    visual_name: 'Back out down'
+  back-out-left:
+    visual_name: 'Back out left'
+  back-out-right:
+    visual_name: 'Back out right'
+  back-out-up:
+    visual_name: 'Back out up'
+  bounce-in:
+    visual_name: 'Bounce in'
+  bounce-in-down:
+    visual_name: 'Bounce in down'
+  bounce-in-left:
+    visual_name: 'Bounce in left'
+  bounce-in-right:
+    visual_name: 'Bounce in right'
+  bounce-in-up:
+    visual_name: 'Bounce in up'
+  bounce-out:
+    visual_name: 'Bounce out'
+  bounce-out-down:
+    visual_name: 'Bounce out down'
+  bounce-out-left:
+    visual_name: 'Bounce out left'
+  bounce-out-right:
+    visual_name: 'Bounce out right'
+  bounce-out-up:
+    visual_name: 'Bounce out up'
+  bounce:
+    visual_name: Bounce
+  flash:
+    visual_name: Flash
+  pulse:
+    visual_name: Pulse
+  rubber-band:
+    visual_name: 'Rubber band'
+  shake-x:
+    visual_name: 'Shake horizontal'
+  shake-y:
+    visual_name: 'Shake vertical'
+  hand-shake:
+    visual_name: 'Hand shake'
+  swing:
+    visual_name: Swing
+  tada:
+    visual_name: Tada
+  wobble:
+    visual_name: Wobble
+  jello:
+    visual_name: Jello
+  heartbeat:
+    visual_name: Heartbeat
+  flip:
+    visual_name: Flip
+  flip-in-x:
+    visual_name: 'Flip in horizontal'
+  flip-in-y:
+    visual_name: 'Flip in vertical'
+  flip-out-x:
+    visual_name: 'Flip out horizontal'
+  flip-out-y:
+    visual_name: 'Flip out vertical'
+  light-speed-in-right:
+    visual_name: 'Light speed in right'
+  light-speed-in-left:
+    visual_name: 'Light speed in left'
+  light-speed-out-right:
+    visual_name: 'Light speed out right'
+  light-speed-out-left:
+    visual_name: 'Light speed out left'
+  rotate-in:
+    visual_name: 'Rotate in'
+  rotate-out:
+    visual_name: 'Rotate out'
+  zoom-in:
+    visual_name: 'Zoom in'
+  zoom-in-down:
+    visual_name: 'Zoom in down'
+  zoom-in-left:
+    visual_name: 'Zoom in left'
+  zoom-in-right:
+    visual_name: 'Zoom in right'
+  zoom-in-up:
+    visual_name: 'Zoom in up'
+  zoom-out:
+    visual_name: 'Zoom out'
+  zoom-out-down:
+    visual_name: 'Zoom out down'
+  zoom-out-left:
+    visual_name: 'Zoom out left'
+  zoom-out-right:
+    visual_name: 'Zoom out right'
+  zoom-out-up:
+    visual_name: 'Zoom out up'

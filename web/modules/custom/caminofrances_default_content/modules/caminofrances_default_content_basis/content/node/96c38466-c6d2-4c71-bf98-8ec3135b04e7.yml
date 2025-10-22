@@ -1,0 +1,316 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 96c38466-c6d2-4c71-bf98-8ec3135b04e7
+  bundle: vlsuite_landing
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1725528080
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Home | Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: Home
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/home'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_72.jpg?itok=0WaP4Vzz'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: 'Camino Francés'
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: 'Landing (VLSuite)'
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'https://caminofrances.ddev.site/home'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Home
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: Home
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_72.jpg?itok=0WaP4Vzz'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_72.jpg?itok=0WaP4Vzz'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:secure_url'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_72.jpg?itok=0WaP4Vzz'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: Home
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: Home
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'https://caminofrances.ddev.site/sites/default/files/styles/vlsuite_original_optimized_medium/public/vlsuite_collection_card/vlsuite-collection-placeholder-image_72.jpg?itok=0WaP4Vzz'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: '@id'
+        content: 'https://caminofrances.ddev.site/home'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: Home
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'https://caminofrances.ddev.site/home'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: inLanguage
+        content: 'Galician, Spanish, English'
+        group: schema_web_site
+        schema_metatag: true
+  path:
+    -
+      alias: /home
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_description:
+    -
+      value: '<p>Home</p>'
+      format: basic_html
+  field_image:
+    -
+      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+  field_summary:
+    -
+      value: Home
+  layout_builder__layout:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          2e9566bc-8394-40ce-b596-a1ab33a28f08:
+            uuid: 2e9566bc-8394-40ce-b596-a1ab33a28f08
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite: Block: Hero (VLSuite Collection)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: eb26b224-eece-4072-90bd-43f465c0984b
+                  bundle: vlsuite_collection_hero
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Hero (VLSuite Collection)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h1><strong>CAMIÑO FRANCÉS</strong></h1><p>MANCOMUNIDAD DE MUNICIPIOS&nbsp;<br>GALEGOS DO CAMIÑO FANCÉS</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'internal:#'
+                      title: 'Saber máis'
+                      options: {  }
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          3c56f6d5-1215-4e44-8d03-6edaca738c3b:
+            uuid: 3c56f6d5-1215-4e44-8d03-6edaca738c3b
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite: Block: Text (VLSuite)'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_id: null
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 30c33843-3fef-4b0c-81a5-6e0a5caea12f
+                  bundle: vlsuite_text
+                  default_langcode: gl
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite: Block: Text (VLSuite)'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1727432048
+                  vlsuite_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis ante, vehicula vitae vulputate luctus, ultrices et leo. Nulla facilisi. Aliquam vehicula ipsum ultrices ante efficitur gravida. Nullam at augue id urna varius imperdiet mattis euismod nibh. Pellentesque et mi in eros ornare porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean nec ipsum semper, mattis nunc eu, imperdiet metus.</p><p>In commodo nibh at volutpat commodo. Sed sollicitudin aliquam risus sed ultrices. Quisque porttitor dolor tellus, vitae viverra nunc dignissim varius. Pellentesque porttitor tortor vel risus aliquet, eu placerat nunc placerat. Nulla eleifend congue elit, vitae gravida mauris molestie euismod. Pellentesque vitae risus maximus odio convallis hendrerit. Nam vitae eros ullamcorper, interdum dolor vel, euismod mi. Morbi euismod turpis ac nunc ullamcorper feugiat. Nunc ornare erat et purus pulvinar, eget pulvinar lacus malesuada. Quisque id lacus ut ante suscipit volutpat at in quam. Nam in nisl at justo luctus maximus sit amet ut magna. Quisque diam dui, pellentesque finibus arcu et, venenatis placerat erat. Donec ac sem eget diam elementum cursus.</p><p>Sed eget rutrum nisi. Nulla vel risus mollis, sollicitudin ex sit amet, fermentum mauris. Phasellus at ante vestibulum magna hendrerit accumsan sed eget quam. Vivamus rhoncus tellus eu sem gravida, vel pellentesque eros porta. Donec in congue diam, at lobortis tellus. Ut eleifend imperdiet tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis sapien eget commodo facilisis. Donec vitae tempor nisi, ut volutpat nulla. Vivamus erat urna, vestibulum ut lacus id, aliquam faucibus ipsum. Vestibulum at lorem vitae lectus aliquam posuere sit amet vel lectus. Maecenas vitae sapien cursus, ultrices sapien eget, tempus felis.</p>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              vlsuite_animations: {  }
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }

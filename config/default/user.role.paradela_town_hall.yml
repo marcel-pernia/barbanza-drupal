@@ -1,0 +1,9 @@
+uuid: 01d34ac7-eb87-42d6-9980-27a574ff4b11
+langcode: gl
+status: true
+dependencies: {  }
+id: paradela_town_hall
+label: 'Concello Paradela'
+weight: 2
+is_admin: null
+permissions: {  }

@@ -1,0 +1,8 @@
+name: 'Camino Francés - Town Hall'
+type: module
+description: 'Camino Francés - Town Hall'
+package: Camino Francés
+core_version_requirement: ^10 || ^11
+
+dependencies:
+  - vlsuite:vlsuite_icon_font

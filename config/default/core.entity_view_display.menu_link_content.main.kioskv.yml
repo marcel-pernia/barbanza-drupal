@@ -1,0 +1,48 @@
+uuid: d8cbbb44-2802-48f4-b7c0-36bb01e460f5
+langcode: gl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.menu_link_content.kioskv
+    - field.field.menu_link_content.main.field_icon
+    - field.field.menu_link_content.main.field_icon_image
+    - responsive_image.styles.vlsuite_original_optimized_small
+    - system.menu.main
+  module:
+    - layout_builder
+    - media_responsive_thumbnail
+    - vlsuite_icon_font
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: menu_link_content.main.kioskv
+targetEntityType: menu_link_content
+bundle: main
+mode: kioskv
+content:
+  children:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon:
+    type: vlsuite_icon_font_icon
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon_image:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: vlsuite_original_optimized_small
+      image_link: ''
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

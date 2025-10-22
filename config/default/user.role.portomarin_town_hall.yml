@@ -1,0 +1,9 @@
+uuid: c69ce037-e98f-443a-8d15-a8ded98c6d44
+langcode: gl
+status: true
+dependencies: {  }
+id: portomarin_town_hall
+label: 'Concello Portomarín'
+weight: -4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,13 @@
+uuid: 367b3fdc-3afc-42ea-9826-7deee42e31d0
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Facer que o contido quede fixo na cabeza das listas'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

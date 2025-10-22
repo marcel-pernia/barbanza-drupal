@@ -1,0 +1,56 @@
+{#
+/**
+ * @file
+ * Template for a Page Navigation component.
+ *
+#}
+
+
+{%
+  embed 'artisan_caminofrances:navbar' with {
+  container: 'fixed',
+  navbar_theme: 'light',
+  navbar_utility_classes: [
+    'justify-content-between',
+  ],
+}
+%}
+
+
+
+
+  {% block branding %}
+
+    <a class="d-inline-flex align-items-center" data-component-id="artisan:navbar-brand" href="/">
+      <div class="navbar-brand__logo">
+          <picture>
+            <img src="/themes/custom/artisan_caminofrances/logo.png" width="256px" height="89px" alt="Barbanza logo">
+        </picture>
+      </div>
+    </a>
+
+    {% if page.branding %}
+      {{ page.branding }}
+    {% endif %}
+  {% endblock %}
+
+  {% block left %}
+    {% if page.primary_menu %}
+      {{ page.primary_menu }}
+    {% endif %}
+  {% endblock %}
+
+  {% block right %}
+    {% if page.secondary_menu %}
+      {{ page.secondary_menu }}
+    {% endif %}
+  {% endblock %}
+
+  {% block header %}
+    {% if page.header %}
+      {{ page.header }}
+
+
+    {% endif %}
+  {% endblock %}
+{% endembed %}

@@ -1,0 +1,11 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          2a82ad79-7f19-46ca-adbb-6a90b61701ca:
+            configuration:
+              label: Medias
+          de9fad31-3582-4055-9f12-39fb270a8cfb:
+            configuration:
+              label: Medias

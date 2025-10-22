@@ -1,0 +1,86 @@
+{#
+/**
+ * @file
+ * Template for the main page kiosk horizontal.
+ */
+#}
+{% set page_attributes = attributes ?: create_attribute() %}
+{% set
+  page_classes = [
+  'page',
+  'page-kioskh',
+]|merge(page_utility_classes ?: [])
+%}
+
+<div {{ page_attributes.addClass(page_classes) }}>
+  <header class="header">
+    <div class="max-wrapper">
+
+    <div class="block--system-branding block block-system block-system-branding-block" data-component-id="artisan:block">
+        <a class="d-inline-flex align-items-center kiosk-nav-link kiosk-nav-link--internal" data-component-id="artisan:navbar-brand" href="javascript:window.location.href=window.location.href" data-once="kiosk-nav-query">
+          <div class="navbar-brand__logo">
+              <picture>
+                <img src="/{{ public_path ~ directory }}/src/assets/images/logo-escudos.png" width="256px" height="89px" alt="Camino Francés logo">
+              </picture>
+          </div>
+        </a>
+    </div>
+
+    
+      {{ page.branding }}
+
+    </div>
+
+  </header>
+  {% block page_navigation %}
+    <header class="header-menu">
+      <div class="max-wrapper">
+        {{ page.primary_menu }}
+        <div class="header-menu-actions">
+          {{ page.header }}
+        </div>
+      </div>
+    </header>
+  {% endblock %}
+
+  {% block page_content %}
+    <main class="content" id="main-content">
+
+
+{% if is_front %}
+  {% block page_hero %}
+    <div class="hero-section">
+      {% if page.portada_full %}
+        {{ page.portada_full }}
+      {% endif %}
+      {% if page.portada_container %}
+        <div class="container">
+          <div class="row">
+              {% if frontpage_node is defined and frontpage_node %}
+                <div class="body">
+                  {{ frontpage_node.body.value|raw }}
+                </div>
+              {% endif %}
+
+          {{ page.portada_container }}
+
+
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endblock %}
+{% endif %}
+
+
+
+
+
+
+
+
+      {{ page.content|without('artisan_caminofrances_breadcrumb', 'artisan_caminofrances_cookiesui') }}
+      {{ page.content['artisan_caminofrances_cookiesui'] }}
+    </main>
+  {% endblock %}
+</div>

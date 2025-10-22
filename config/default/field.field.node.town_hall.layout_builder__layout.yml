@@ -1,0 +1,21 @@
+uuid: 5e282768-d46a-4376-8f22-3e86ae4b677b
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.town_hall
+  module:
+    - layout_builder
+id: node.town_hall.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: town_hall
+label: Disposición
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

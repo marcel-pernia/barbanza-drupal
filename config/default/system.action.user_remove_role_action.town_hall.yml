@@ -1,0 +1,14 @@
+uuid: d582cc01-838d-4dec-bacb-971dc9dc418d
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.town_hall
+  module:
+    - user
+id: user_remove_role_action.town_hall
+label: 'Remove the Concello role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: town_hall

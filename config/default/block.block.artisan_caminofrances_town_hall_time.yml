@@ -1,0 +1,26 @@
+uuid: 8947307f-6916-4495-a443-4649afdfd168
+langcode: gl
+status: true
+dependencies:
+  module:
+    - caminofrances_town_hall
+    - kiosk_nav
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_town_hall_time
+theme: artisan_caminofrances
+region: branding
+weight: -4
+provider: null
+plugin: caminofrances_town_hall_time
+settings:
+  id: caminofrances_town_hall_time
+  label: TownHallTime
+  label_display: '0'
+  provider: caminofrances_town_hall
+visibility:
+  kiosk_nav_condition:
+    id: kiosk_nav_condition
+    negate: false
+    modes:
+      kioskh: kioskh

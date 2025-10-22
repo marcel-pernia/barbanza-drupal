@@ -1,0 +1,107 @@
+uuid: fcda2bda-4ec7-4d30-bf94-edb9f8c3ed61
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - views.view.practical_information_by_town_hall
+    - views.view.town_hall_access_by_role
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+    - vlsuite_block
+    - vlsuite_layout
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: '100'
+          optional_regions: false
+          edge_to_edge: false
+          vlsuite_utility_class: {  }
+          edge_to_edge_bg: true
+          media_bg: null
+          identifier: ''
+          vlsuite_slider:
+            scope: main
+          vlsuite_animations: {  }
+        components:
+          edde7402-53dd-48e9-8a92-5eed229a4cf8:
+            uuid: edde7402-53dd-48e9-8a92-5eed229a4cf8
+            region: main
+            configuration:
+              id: 'vlsuite_block_views_block:town_hall_access_by_role-block_1'
+              label: 'VLSuite: List block: : Bloque'
+              label_display: ''
+              provider: vlsuite_block
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+              grid_cols_widths: ''
+              vlsuite_slider:
+                scope: default
+              vlsuite_utility_class: {  }
+            weight: -1
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: '100'
+          optional_regions: false
+          edge_to_edge: false
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+          edge_to_edge_bg: true
+          media_bg: null
+          identifier: ''
+          vlsuite_slider:
+            scope: main
+          vlsuite_animations: {  }
+        components:
+          8835868c-f2e1-45df-9b67-2c36a7f3ae55:
+            uuid: 8835868c-f2e1-45df-9b67-2c36a7f3ae55
+            region: main
+            configuration:
+              id: 'vlsuite_block_views_block:practical_information_by_town_hall-block_1'
+              label: 'VLSuite: List block: Información por ayuntamiento: Bloque'
+              label_display: ''
+              provider: vlsuite_block
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+              grid_cols_widths: ''
+              vlsuite_slider:
+                scope: default
+              vlsuite_utility_class: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      allowed_layouts: {  }
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories: {  }
+_core:
+  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  member_for: true
+  user_picture: true

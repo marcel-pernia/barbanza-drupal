@@ -1,0 +1,72 @@
+<?php
+
+/**
+ * @file
+ * Town hall module.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Menu\MenuLinkInterface;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_preprocess_menu__extras__town_hall_menu().
+ */
+function caminofrances_town_hall_preprocess_menu__extras__town_hall_menu(&$variables) {
+  _caminofrances_town_hall_preprocess_menu_anchors_level($variables['items']);
+}
+
+/**
+ * Implements hook_preprocess_menu__town_hall_menu__kioskv().
+ */
+function caminofrances_town_hall_preprocess_menu__town_hall_menu__kioskv(&$variables) {
+  _caminofrances_town_hall_preprocess_menu_anchors_level($variables['items']);
+}
+
+/**
+ * Implements hook_preprocess_menu__town_hall_menu__kioskh().
+ */
+function caminofrances_town_hall_preprocess_menu__town_hall_menu__kioskh(&$variables) {
+  _caminofrances_town_hall_preprocess_menu_anchors_level($variables['items']);
+}
+
+/**
+ * Implements hook_preprocess_block__system_menu_block__town_hall_menu().
+ */
+function caminofrances_town_hall_preprocess_block__system_menu_block__town_hall_menu(&$variables) {
+  $variables['content']['#attached']['library'][] = 'caminofrances_town_hall/menu';
+}
+
+/**
+ * Town hall menu anchors level process.
+ *
+ * @param array $items
+ *   Items of current level.
+ */
+function _caminofrances_town_hall_preprocess_menu_anchors_level(array &$items) {
+  // Use anchors instead of term page.
+  foreach (Element::children($items) as $delta) {
+    if (!empty($items[$delta]) &&
+      $items[$delta]['url'] instanceof Url &&
+      $items[$delta]['url']->isRouted() &&
+      $items[$delta]['url']->getRouteName() == 'entity.taxonomy_term.canonical' &&
+      $items[$delta]['original_link'] instanceof MenuLinkInterface) {
+      $items[$delta]['url'] = Url::fromUserInput('#' . Html::getClass($items[$delta]['original_link']->getTitle()));
+    }
+    if (!empty($items[$delta]['below'])) {
+      _caminofrances_town_hall_preprocess_menu_anchors_level($items[$delta]['below']);
+    }
+  }
+}
+
+/**
+ * Implements hook_views_pre_save().
+ */
+function caminofrances_town_hall_node_presave(EntityInterface $entity) {
+  if ($entity instanceof ContentEntityInterface && $entity->bundle() == 'practical_information' && $entity->hasField('field_town_hall') && !$entity->get('field_town_hall')->isEmpty() && $entity->hasField('field_access') && $entity->get('field_town_hall')->entity instanceof ContentEntityInterface) {
+    $entity->set('field_access', $entity->get('field_town_hall')->entity->get('field_access')->getValue());
+  }
+}

@@ -1,0 +1,14 @@
+uuid: 80894afd-6129-4166-9e5e-31c56f2ef9f8
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.triacastela_town_hall
+  module:
+    - user
+id: user_remove_role_action.triacastela_town_hall
+label: 'Remove the Concello Triacastela role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: triacastela_town_hall

@@ -1,0 +1,13 @@
+uuid: 847dd191-3a0a-46b7-bbd5-7ca526879f95
+langcode: gl
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 5pE_4hurqtIlZN3XDi7eTo5RG13BMG0Rh9HYlRI3h8U
+id: user.register
+label: Rexistrar
+description: ''
+targetEntityType: user
+cache: true

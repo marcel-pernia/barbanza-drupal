@@ -1,0 +1,19 @@
+<div class="galeria-texto">
+   {% if diapositivas|length > 0 %}
+    <div class="galeria-portada-barbanza">
+      {% for slide in diapositivas %}
+        {% set image_url = file_url(slide.entity.fileuri) %}
+        <img src="{{ image_url }}" alt="{{ slide.alt|default('Imaxe') }}" title="{{ slide.title|default('Sen título') }}">
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="galeria-por-defecto">
+      <img src="{{ file_url('public://default_galery.png') }}" alt="Imaxe por defecto" title="Sen imaxe dispoñible">
+    </div>
+  {% endif %}
+   <div class="info">
+      <h1 class="mb-3 text-kiosk-primary text-center text-uppercase">{{ title }}</h1>
+      <div><strong>{{ summary }}</strong></div>
+      <div>{{ description }}</div>
+   </div>
+</div>

@@ -1,0 +1,18 @@
+uuid: 44fb529a-8d02-4380-af45-4186137fea7b
+langcode: gl
+status: false
+dependencies: {  }
+id: stg
+label: Stg
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/envs/stg
+module:
+  reroute_email: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - environment_indicator.indicator

@@ -1,0 +1,14 @@
+uuid: 91a331da-b1b9-4bf0-961a-1d772ffd4574
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.melide_town_hall
+  module:
+    - user
+id: user_add_role_action.melide_town_hall
+label: 'Add the Concello Melide role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: melide_town_hall

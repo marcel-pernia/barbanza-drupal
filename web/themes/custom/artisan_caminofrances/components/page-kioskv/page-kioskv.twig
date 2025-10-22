@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Template for the main page kiosk vertical.
+ */
+#}
+{% set page_attributes = attributes ?: create_attribute() %}
+{% set
+  page_classes = [
+  'page',
+  'page-kioskv',
+]|merge(page_utility_classes ?: [])
+%}
+
+<div {{ page_attributes.addClass(page_classes) }}>
+  {% block page_navigation %}
+    <header class="header">
+      {{ page.primary_menu }}
+    </header>
+  {% endblock %}
+
+  {% block page_content %}
+    <main class="content" id="main-content">
+      {{ page.content|without('artisan_caminofrances_breadcrumb', 'artisan_caminofrances_cookiesui') }}
+      {{ page.content['artisan_caminofrances_cookiesui'] }}
+    </main>
+  {% endblock %}
+</div>

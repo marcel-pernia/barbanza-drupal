@@ -1,0 +1,14 @@
+{#
+/**
+ * @file
+ * Template for a node practical information teaser.
+ */
+#}
+{% include 'artisan_caminofrances:stage-teaser' with {
+  diapositivas_alt: node.hasField('field_diapositivas_alt') and not node.get('field_diapositivas_alt').isEmpty() ? content.field_diapositivas_alt : false,
+  title: node.label,
+  category: node.hasField('field_category') and not node.get('field_category').isEmpty() ? content.field_category : false,
+  media: node.hasField('field_image') and not node.get('field_image').isEmpty() ? content.field_image : false,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  link: url,
+} %}

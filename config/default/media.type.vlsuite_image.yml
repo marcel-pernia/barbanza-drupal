@@ -1,0 +1,19 @@
+uuid: a7d78a73-f3ea-4675-ac2a-1fd98b45b377
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_media_image
+_core:
+  default_config_hash: AAVOXwxYr3USJMc3oyeSWEwlErfzLuvud14un_A6T8A
+id: vlsuite_image
+label: 'Image (VLSuite)'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

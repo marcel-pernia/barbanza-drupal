@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Template for a node news full content top kiosk.
+ */
+#}
+
+{% set diapositivas = node.get('field_diapositivas_alt') %}
+
+{% include 'artisan_caminofrances:practical-information-content-top-kioskh' with {
+  title: node.label,
+  diapositivas: diapositivas,
+  slidesNumber: kiosk_slides_count,
+  summary: node.hasField('field_summary') and not node.get('field_summary').isEmpty() ? content.field_summary : false,
+  description: node.hasField('field_description') and not node.get('field_description').isEmpty() ? content.field_description : false,
+  qr: node.hasField('field_qr_code') and not node.get('field_qr_code').isEmpty() ? content.field_qr_code : false,
+} %}

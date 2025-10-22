@@ -1,0 +1,122 @@
+# =========================================
+# ARCHIVO .gitignore PARA PROYECTO DRUPAL
+# =========================================
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Archivos y carpetas ocultas
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.nbproject/
+.project
+.settings/
+.env
+.env.local
+.env.production
+
+# Dependencias y vendors
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+/node_modules/
+
+# Archivos temporales de Drupal
+/web/sites/*/files/css/
+/web/sites/*/files/js/
+/web/sites/*/files/php/
+/web/sites/*/files/styles/
+/web/sites/*/files/tmp/
+/web/sites/*/files/translations/
+/web/sites/*/files/private/
+/web/sites/*/files/.htaccess
+
+# Archivos de configuración y caché
+/web/sites/default/settings.local.php
+/web/sites/default/settings.dev.php
+/web/sites/default/services.local.yml
+/web/sites/default/files/.ht.sqlite
+
+# Archivos de caché y logs
+/logs/
+/tmp/
+/cache/
+/private/
+/backup/
+composer.lock
+
+# Archivos de Composer
+composer.phar
+auth.json
+
+# Archivos de PHPUnit
+phpunit.xml
+phpunit.xml.dist
+.phpunit.result.cache
+
+# Configuración específica del servidor
+/web/sites/default/files/
+/web/sites/default/private/
+/web/sites/default/files/.htaccess
+
+# Backups y dumps de base de datos
+*.sql
+*.sql.gz
+*.tar
+*.zip
+*.tgz
+
+# =========================================
+# OPCIONALES (según tu flujo de trabajo)
+# =========================================
+
+# Ignorar configuraciones de MAMP o entorno local
+/.idea/
+/.htaccess.local
+/Applications/MAMP/
+/.mamp/
+
+
+# Assets compilados del tema
+/web/themes/custom/*/build/
+/web/themes/custom/*/mix-manifest.json
+
+# Node modules en subdirectorios
+**/node_modules/
+
+# Archivos sensibles y configuración local
+/hash_salt.php
+/web/sites/default/settings.ddev.php
+/web/sites/default/settings.local.php
+/web/sites/default/settings.ddev.php
+/.ddev/
+
+
+# Contenido/Media pesado
+/video/
+/private-files/
+/bbdd/
+
+# Archivos temporales de compilación
+*.css.map
+*.js.map
+/web/themes/custom/**/.sass-cache/
+
+# Archivos obsoletos
+index_old.html
+*.old
+*.backup
+
+# =========================================
+# FIN DEL ARCHIVO
+# =========================================

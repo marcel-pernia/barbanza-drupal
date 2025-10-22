@@ -1,0 +1,11 @@
+uuid: 357922c1-bb6f-4373-9c35-bae71fc9dded
+langcode: gl
+status: true
+dependencies:
+  module:
+    - section_library
+id: section_library_template.token
+label: Símbolos
+description: ''
+targetEntityType: section_library_template
+cache: true

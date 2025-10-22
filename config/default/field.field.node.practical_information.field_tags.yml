@@ -1,0 +1,29 @@
+uuid: f9b3a212-5f5a-4027-80d1-79371a9aaafe
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.practical_information
+    - taxonomy.vocabulary.tags
+id: node.practical_information.field_tags
+field_name: field_tags
+entity_type: node
+bundle: practical_information
+label: Etiquetas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

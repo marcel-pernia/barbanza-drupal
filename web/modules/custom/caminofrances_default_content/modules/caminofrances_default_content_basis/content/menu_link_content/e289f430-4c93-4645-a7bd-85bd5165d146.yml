@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: e289f430-4c93-4645-a7bd-85bd5165d146
+  bundle: menu_link_content
+  default_langcode: gl
+  depends:
+    34e738d1-a027-4893-9ff1-0e959ad0b760: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Melide
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/concello/melide'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:34e738d1-a027-4893-9ff1-0e959ad0b760'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| Camino Francés'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/home'

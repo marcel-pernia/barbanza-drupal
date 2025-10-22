@@ -1,0 +1,14 @@
+uuid: 6c99b744-97f5-4c65-ad5f-3d4da8bfb752
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.palas_de_rei_town_hall
+  module:
+    - user
+id: user_add_role_action.palas_de_rei_town_hall
+label: 'Add the Concello Palas de Rei role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: palas_de_rei_town_hall

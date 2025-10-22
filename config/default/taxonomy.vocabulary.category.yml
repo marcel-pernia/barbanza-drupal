@@ -1,0 +1,9 @@
+uuid: 5bd7c86c-a792-41b6-a679-ef4ce2ce4c7a
+langcode: gl
+status: true
+dependencies: {  }
+name: Categoría
+vid: category
+description: 'Categorias asociadas al contenido Información Práctica'
+weight: 0
+new_revision: false

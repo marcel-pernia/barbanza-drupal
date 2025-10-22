@@ -1,0 +1,8 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          25af2208-8466-4557-8f1c-2dbd697f68c9:
+            configuration:
+              label: Título

@@ -1,0 +1,22 @@
+uuid: 0d7dd44d-48d7-4e78-9995-59736b3a307e
+langcode: gl
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gin
+_core:
+  default_config_hash: 8nOAry2oKqJOr0zbrlJ3sZHDFJLIO6j-0vT0K_TYca4
+id: gin_help
+theme: gin
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Axuda
+  label_display: '0'
+  provider: help
+visibility: {  }

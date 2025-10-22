@@ -1,0 +1,11 @@
+uuid: 82bebdb0-7b76-4e8f-8aa7-9f60dffa5c6b
+langcode: gl
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.token
+label: Símbolos
+description: ''
+targetEntityType: taxonomy_term
+cache: true

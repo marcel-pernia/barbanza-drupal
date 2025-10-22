@@ -1,0 +1,10 @@
+query:
+  js:
+    js/kiosk-nav-query.js: {}
+  css:
+    component:
+      css/kiosk-nav-query.css: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/once

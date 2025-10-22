@@ -1,0 +1,756 @@
+_meta:
+  version: '1.0'
+  entity_type: section_library_template
+  uuid: 56422734-264b-4988-bc2f-17b7d0b54cd8
+  default_langcode: gl
+  depends:
+    19b2383d-7801-4e8a-a9ee-092afec708c4: media
+default:
+  user_id:
+    -
+      target_id: 0
+  label:
+    -
+      value: 'Hero Collection Glossary (VLSuite)'
+  type:
+    -
+      value: template
+  layout_section:
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          ff2d1083-5aef-4411-9072-f4c158a17995:
+            uuid: ff2d1083-5aef-4411-9072-f4c158a17995
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 30abfbeb-94c7-45ee-976e-3c15f0af7c26
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h1><strong>Hero (VLSuite Collection) - Default</strong></h1><p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          35ff996d-97aa-4d06-9da1-b7b6d5201e58:
+            uuid: 35ff996d-97aa-4d06-9da1-b7b6d5201e58
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_1
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 2f002750-2931-446b-a126-0ea16fa46fef
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - #1</strong></h2><p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          ad1d659f-e7d3-4781-992a-e8b2a0d4a864:
+            uuid: ad1d659f-e7d3-4781-992a-e8b2a0d4a864
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_2
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 64d6562c-a4fc-4d01-9741-aec4dd36a5fa
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - #2</strong></h2><p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          fb533a6e-8c7e-4667-8ecd-f6df21387699:
+            uuid: fb533a6e-8c7e-4667-8ecd-f6df21387699
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_3
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: c816b673-c1f2-4b14-b8da-e7cf6c51a400
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - #3</strong></h2><p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 1
+          media_bg: null
+          context_mapping: {  }
+        components:
+          ce8ec1f8-c1de-4bad-a337-73fc207fd976:
+            uuid: ce8ec1f8-c1de-4bad-a337-73fc207fd976
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_4
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: b522578c-0cc1-411b-8c1e-f6f92228d712
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - #4</strong></h2><p>Outer section: It can be used with "Edge to edge" active or not.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class: {  }
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          6199b602-8fc9-4e0b-aa9d-0c309b0b840c:
+            uuid: 6199b602-8fc9-4e0b-aa9d-0c309b0b840c
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_collection_5
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 1c2be7c2-f49d-4383-8d18-41cc1caa6a5b
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - #5</strong></h2><p>Outer section: It should be used with "Edge to edge" not active.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: 60-auto
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 0
+          vlsuite_slider:
+            scope: main
+          vlsuite_utility_class:
+            'vlsuite_layout:main_regions':
+              background-color: dark
+              color: light
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          c3d18bea-9fab-4858-8f88-a30941d0e7ea:
+            uuid: c3d18bea-9fab-4858-8f88-a30941d0e7ea
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: vlsuite_customizable
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: f2005a5a-4c19-4553-a3fe-8a689eac2669
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - Customizable</strong></h2><p>Outer section: It should be used with "Edge to edge" not active.<br>Recommended disabling "Show optional regions".</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_media:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class:
+                'block_content:vlsuite_collection_hero:vlsuite_link':
+                  padding: spacer-4
+                'block_content:vlsuite_collection_hero:vlsuite_text':
+                  padding: spacer-4
+                'block_content:vlsuite_collection_hero:vlsuite_link:item':
+                  btn: light
+                  rounded: pill
+                  width: '100'
+                'block_content:vlsuite_collection_hero:vlsuite_media:item':
+                  ratio: 21-9
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+    -
+      section:
+        layout_id: vlsuite_layout_onecol
+        layout_settings:
+          label: ''
+          column_widths: '100'
+          identifier: ''
+          edge_to_edge_bg: 1
+          optional_regions: 1
+          vlsuite_slider:
+            active: 1
+            scope: main
+            slides_per_view: '1'
+            navigation: true
+            pagination: true
+          vlsuite_utility_class:
+            'vlsuite_layout:section':
+              padding-y: spacer-5
+              background-color: light
+            'vlsuite_layout:region_top':
+              text-align: center
+            'vlsuite_layout:row':
+              gutter: gutter-3
+          vlsuite_animations: {  }
+          edge_to_edge: 0
+          media_bg: null
+          context_mapping: {  }
+        components:
+          9667917c-9fe4-4a92-a8c4-433d8c969815:
+            uuid: 9667917c-9fe4-4a92-a8c4-433d8c969815
+            region: top
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_text'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: full
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: 561748c6-a6e5-4ea8-ad6c-8a768f18291c
+                  bundle: vlsuite_text
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694170083
+                  vlsuite_text:
+                    -
+                      value: '<h2><strong>Hero (VLSuite Collection) - section with Slider enabled</strong></h2>'
+                      format: vlsuite_basic_html
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          0a64251a-23bc-4dd8-9742-b857ab9bf427:
+            uuid: 0a64251a-23bc-4dd8-9742-b857ab9bf427
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: c742a1bd-bfea-4981-afef-46518275b44d
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Hero (VLSuite Collection) - Default</strong></h3><p>Outer section: It can be used with "Edge to edge" active or not.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 0
+            additional: {  }
+          0f742aff-d2da-4278-8693-b0c84ea62a2e:
+            uuid: 0f742aff-d2da-4278-8693-b0c84ea62a2e
+            region: main
+            configuration:
+              id: 'vlsuite_block_inline_block:vlsuite_collection_hero'
+              label: 'VLSuite Inline Block'
+              label_display: ''
+              provider: vlsuite_block
+              view_mode: default
+              block_revision_id: null
+              block_serialized:
+                _meta:
+                  version: '1.0'
+                  entity_type: block_content
+                  uuid: c2529754-0959-47a7-9a54-e7701df25798
+                  bundle: vlsuite_collection_hero
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  info:
+                    -
+                      value: 'VLSuite Inline Block'
+                  reusable:
+                    -
+                      value: false
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  content_translation_uid:
+                    -
+                      target_id: 1
+                  content_translation_created:
+                    -
+                      value: 1694167734
+                  vlsuite_text:
+                    -
+                      value: '<h3><strong>Hero (VLSuite Collection) - Default</strong></h3><p>Outer section: It can be used with "Edge to edge" active or not.</p>'
+                      format: vlsuite_basic_html
+                  vlsuite_background:
+                    -
+                      entity: 19b2383d-7801-4e8a-a9ee-092afec708c4
+                  vlsuite_link:
+                    -
+                      uri: 'https://www.drupal.org/project/vlsuite'
+                      title: VLSuite
+                      options: {  }
+              vlsuite_utility_class: {  }
+              context_mapping: {  }
+              block_uuid: null
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+  created:
+    -
+      value: 1725528030

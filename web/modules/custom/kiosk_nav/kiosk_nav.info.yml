@@ -1,0 +1,5 @@
+name: 'Kiosk Navigation'
+type: module
+description: 'Kiosk Navigation'
+package: Kiosk Navigation
+core_version_requirement: ^10 || ^11

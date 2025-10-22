@@ -1,0 +1,13 @@
+menu:
+  js:
+    js/caminofrances-town-hall-menu.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+
+time:
+  js:
+    js/caminofrances-town-hall-time.js: {}
+  dependencies:
+    - core/drupal
+    - core/once

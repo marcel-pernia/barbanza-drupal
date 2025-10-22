@@ -1,0 +1,21 @@
+<div id="info-concello-slider" class="town-hall-content-top-kioskh max-wrapper content-heading">
+  <div class="swiper">
+    <div class="swiper-wrapper">{{ slides }}</div>
+    {%  if slidesNumber > 1 %}
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    {% endif %}
+  </div>
+</div>
+<div>
+{% if summary or description %}
+  <div id="info-concello" class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <strong class="d-block mb-2">{{ summary }}</strong>
+        {{ description }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

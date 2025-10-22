@@ -1,0 +1,7 @@
+api:
+  path: 'weather-api'
+  defaults:
+    _title: 'Weather Api'
+    _controller: '\Drupal\caminofrances_weather\Controller\Controller::fetchOpenWeatherData'
+  requirements:
+    _permission: 'access content'

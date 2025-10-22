@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Town hall role filter module.
+ */
+
+use Drupal\views\ViewExecutable;
+
+/**
+ * @file
+ * Primary module hooks for Views entity_access check module.
+ */
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function caminofrances_town_hall_by_role_filter_views_pre_render(ViewExecutable $view) {
+  $viewsToCheckAccess = ['town_hall_access_by_role', 'practical_information_by_town_hall'];
+  if (in_array($view->id(), $viewsToCheckAccess)) {
+    $view->addCacheContext('user');
+    foreach ($view->result as $key => $value) {
+      if (!$value->_entity->access('update')) {
+        unset($view->result[$key]);
+      }
+    }
+  }
+}

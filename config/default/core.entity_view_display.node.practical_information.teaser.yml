@@ -1,0 +1,72 @@
+uuid: ddce6bf1-24c2-4f8d-bbf2-4e89492cdf66
+langcode: gl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.practical_information.field_access
+    - field.field.node.practical_information.field_address
+    - field.field.node.practical_information.field_category
+    - field.field.node.practical_information.field_code
+    - field.field.node.practical_information.field_description
+    - field.field.node.practical_information.field_geolocation
+    - field.field.node.practical_information.field_image
+    - field.field.node.practical_information.field_kiosk_slides
+    - field.field.node.practical_information.field_link
+    - field.field.node.practical_information.field_qr_code
+    - field.field.node.practical_information.field_summary
+    - field.field.node.practical_information.field_tags
+    - field.field.node.practical_information.field_town_hall
+    - field.field.node.practical_information.layout_builder__layout
+    - node.type.practical_information
+    - responsive_image.styles.vlsuite_original_optimized_medium
+  module:
+    - media_responsive_thumbnail
+    - user
+id: node.practical_information.teaser
+targetEntityType: node
+bundle: practical_information
+mode: teaser
+content:
+  field_category:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: name_icon
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: media_responsive_thumbnail
+    label: hidden
+    settings:
+      responsive_image_style: vlsuite_original_optimized_medium
+      image_link: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  field_access: true
+  field_address: true
+  field_code: true
+  field_description: true
+  field_geolocation: true
+  field_kiosk_slides: true
+  field_link: true
+  field_qr_code: true
+  field_tags: true
+  field_town_hall: true
+  langcode: true
+  layout_builder__layout: true
+  links: true

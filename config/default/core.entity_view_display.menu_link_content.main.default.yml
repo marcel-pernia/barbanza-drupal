@@ -1,0 +1,22 @@
+uuid: 455f2b54-8f50-4386-aa7f-45cfafbc5f53
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.field.menu_link_content.main.field_icon
+    - field.field.menu_link_content.main.field_icon_image
+    - system.menu.main
+id: menu_link_content.main.default
+targetEntityType: menu_link_content
+bundle: main
+mode: default
+content:
+  children:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_icon: true
+  field_icon_image: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: 050d45ee-3435-4110-9529-b6b7dda838b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.town-hall-menu
+  module:
+    - menu_item_extras
+id: menu_link_content.town-hall-menu.view_mode
+field_name: view_mode
+entity_type: menu_link_content
+bundle: town-hall-menu
+label: 'View mode'
+description: 'Per item view mode selector.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

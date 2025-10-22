@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 95a03e3b-e19f-4939-9673-ebed7134f664
+  bundle: category
+  default_langcode: gl
+  depends:
+    acc38ace-d67b-46ae-b309-c04f49b1dd2a: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Hotel
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: acc38ace-d67b-46ae-b309-c04f49b1dd2a
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Hotel | Camino Francés'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://caminofrances.ddev.site/taxonomy/term/6'
+  path:
+    -
+      alias: ''
+      langcode: gl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_created:
+    -
+      value: 1726219704
+  field_icon:
+    -
+      value: bed

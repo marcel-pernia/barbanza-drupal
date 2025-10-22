@@ -1,0 +1,10 @@
+uuid: f094d7bd-dcbe-4f77-a4ed-58667e453090
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Data longa predeterminada'
+locked: false
+pattern: 'l, F j, Y - H:i'

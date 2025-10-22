@@ -1,0 +1,20 @@
+uuid: 9351c891-ff92-44bd-8d14-02f99fab0453
+langcode: gl
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - artisan_caminofrances
+id: artisan_caminofrances_languageswitcher
+theme: artisan_caminofrances
+region: header
+weight: -6
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

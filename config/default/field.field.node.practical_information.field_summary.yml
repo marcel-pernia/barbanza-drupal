@@ -1,0 +1,19 @@
+uuid: c4a8a926-688d-4500-8a1a-68260f0c715b
+langcode: gl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.practical_information
+id: node.practical_information.field_summary
+field_name: field_summary
+entity_type: node
+bundle: practical_information
+label: Resumo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

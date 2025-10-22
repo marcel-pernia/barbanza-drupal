@@ -1,0 +1,20 @@
+uuid: a509637c-7786-473f-87cc-28209b0c4772
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_media
+_core:
+  default_config_hash: a52QE19rmUE_YZZQyfvOgEgiQXVxAA-or8ZRQOGIYM0
+name: vlsuite_original_optimized
+label: 'Original optimized (VLSuite)'
+effects:
+  829f5bae-7607-4473-b44c-16606a35301f:
+    uuid: 829f5bae-7607-4473-b44c-16606a35301f
+    id: image_scale
+    weight: 1
+    data:
+      width: 767
+      height: null
+      upscale: false

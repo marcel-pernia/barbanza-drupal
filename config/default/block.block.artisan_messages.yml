@@ -1,0 +1,22 @@
+uuid: 193edfec-2665-43d0-a47d-fc1dfa7a8d5d
+langcode: gl
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - artisan
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: artisan_messages
+theme: artisan
+region: header_top
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensaxes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

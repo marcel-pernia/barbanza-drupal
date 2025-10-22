@@ -1,0 +1,9 @@
+uuid: 8c58f591-21ee-499f-b8e0-616271aa4bb2
+langcode: gl
+status: true
+dependencies: {  }
+id: sarria_town_hall
+label: 'Concello Sarria'
+weight: 5
+is_admin: null
+permissions: {  }

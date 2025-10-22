@@ -1,0 +1,9 @@
+uuid: 9fc88134-4e7f-4491-99f6-d4d64e892dd4
+langcode: gl
+status: true
+dependencies: {  }
+id: o_pino_town_hall
+label: 'Concello O Pino'
+weight: 0
+is_admin: null
+permissions: {  }

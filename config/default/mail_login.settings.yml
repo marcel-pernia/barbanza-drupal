@@ -1,0 +1,16 @@
+_core:
+  default_config_hash: aJtnRJ7YIWqXHiSfJ9aKSwJQL8e_r1HaI3YQzYDvpxk
+langcode: gl
+mail_login_enabled: 1
+mail_login_case_sensitive: 1
+mail_login_email_only: 0
+mail_login_override_login_labels: 1
+mail_login_username_title: 'Nome de usuario ou enderezo de correo electrónico'
+mail_login_username_description: 'Podes usar o teu nome de usuario ou enderezo de correo electrónico para iniciar sesión.'
+mail_login_email_only_title: 'Inicia sesión por correo electrónico'
+mail_login_email_only_description: 'Podes usar o teu enderezo de correo electrónico só para iniciar sesión.'
+mail_login_password_only_description: 'Introduza o contrasinal que acompaña ao seu enderezo de correo electrónico.'
+mail_login_password_reset_username_title: 'Nome de usuario ou enderezo de correo electrónico'
+mail_login_password_reset_username_description: 'As instrucións de restablecemento do contrasinal enviaranse ao teu enderezo de correo electrónico rexistrado.'
+mail_login_password_reset_email_only_title: 'Enderezo de correo electrónico'
+mail_login_password_reset_email_only_description: 'As instrucións de restablecemento do contrasinal enviaranse ao teu enderezo de correo electrónico rexistrado.'

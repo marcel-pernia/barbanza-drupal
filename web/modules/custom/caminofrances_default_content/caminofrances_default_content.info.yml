@@ -1,0 +1,7 @@
+name: 'Camino Francés - Default content'
+type: module
+description: 'Camino Francés - Default content'
+package: Camino Francés
+core_version_requirement: ^10 || ^11
+dependencies:
+  - default_content:default_content

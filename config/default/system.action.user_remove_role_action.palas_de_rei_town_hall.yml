@@ -1,0 +1,14 @@
+uuid: ba9b2e0c-d449-403f-bc01-7e7f6727b9cb
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.palas_de_rei_town_hall
+  module:
+    - user
+id: user_remove_role_action.palas_de_rei_town_hall
+label: 'Remove the Concello Palas de Rei role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: palas_de_rei_town_hall

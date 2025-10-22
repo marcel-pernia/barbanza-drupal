@@ -1,0 +1,22 @@
+uuid: 04ff6080-18f8-46eb-8f7e-53553460c4b4
+langcode: gl
+status: true
+dependencies:
+  theme:
+    - artisan_caminofrances
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: artisan_caminofrances_primary_local_tasks
+theme: artisan_caminofrances
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Pestanas primarias'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

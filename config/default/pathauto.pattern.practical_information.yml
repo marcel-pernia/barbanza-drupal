@@ -1,0 +1,22 @@
+uuid: 8ac53c92-f8ea-44b4-82a8-6fe6a6de8f60
+langcode: gl
+status: true
+dependencies:
+  module:
+    - node
+id: practical_information
+label: 'Información práctica'
+type: 'canonical_entities:node'
+pattern: '[node:field_town_hall:entity:content-type]/[node:field_town_hall:entity:title]/[node:title]'
+selection_criteria:
+  b0ab7689-f903-49d6-9bb7-960bd8ca186b:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: b0ab7689-f903-49d6-9bb7-960bd8ca186b
+    context_mapping:
+      node: node
+    bundles:
+      practical_information: practical_information
+selection_logic: and
+weight: -5
+relationships: {  }

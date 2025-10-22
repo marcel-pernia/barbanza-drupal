@@ -1,0 +1,34 @@
+.breadcrumb {
+  --breadcrumb-font-size: var(--theme-breadcrumb-font-size, var(--bs-breadcrumb-font-size));
+  --breadcrumb-padding-y: var(--theme-breadcrumb-padding-y, var(--bs-breadcrumb-padding-y));
+  --breadcrumb-padding-x: var(--theme-breadcrumb-padding-x, var(--bs-breadcrumb-padding-x));
+  --breadcrumb-margin-bottom: var(--theme-breadcrumb-margin-bottom, var(--bs-breadcrumb-margin-bottom));
+  --breadcrumb-divider: var(--theme-breadcrumb-divider, "/");
+  --breadcrumb-color: var(--theme-breadcrumb-color, var(--theme-links-color));
+  --breadcrumb-accent-color: var(--theme-breadcrumb-accent-color);
+  --breadcrumb-background: var(--theme-breadcrumb-background, var(--bs-breadcrumb-bg));
+
+  font-size: var(--breadcrumb-font-size);
+  // This padding is for the breadcrumb or its items?
+  // padding: var(--breadcrumb-padding-y) var(--breadcrumb-padding-x);
+  margin-bottom: var(--breadcrumb-margin-bottom);
+  background-color: var(--breadcrumb-background);
+  color: var(--breadcrumb-color);
+
+
+  .breadcrumb-item {
+    a {
+      color: var(--breadcrumb-color);
+      &:hover {
+        color: var(--breadcrumb-accent-color);
+      }
+    }
+    + .breadcrumb-item {
+      padding-left: var(--breadcrumb-padding-x, var(--bs-breadcrumb-item-padding-x));
+      &::before {
+        content: var(--breadcrumb-divider);
+        color: var(--breadcrumb-color, var(--bs-breadcrumb-divider-color));
+      }
+    }
+  }
+}

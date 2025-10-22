@@ -1,0 +1,14 @@
+uuid: f53ca36b-b886-4854-ae7a-3501bab31ffc
+langcode: gl
+status: true
+dependencies:
+  config:
+    - user.role.portomarin_town_hall
+  module:
+    - user
+id: user_add_role_action.portomarin_town_hall
+label: 'Add the Concello Portomarín role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: portomarin_town_hall

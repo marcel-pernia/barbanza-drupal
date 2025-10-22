@@ -1,0 +1,16 @@
+uuid: 83ee5726-5b99-4afa-a3c9-a2f5a2164afd
+langcode: gl
+status: true
+dependencies:
+  module:
+    - media
+  enforced:
+    module:
+      - vlsuite_collection_hero
+_core:
+  default_config_hash: V7ef0cmD6l7AmR6QBrOlALLLH7oXd1qB4_wuHYTTYyg
+id: media.vlsuite_collection_gallery_reduced
+label: 'Gallery (VLSuite Collection) - Reduced'
+description: ''
+targetEntityType: media
+cache: true

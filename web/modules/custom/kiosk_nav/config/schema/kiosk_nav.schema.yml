@@ -1,0 +1,8 @@
+condition.plugin.kiosk_nav_condition:
+  type: condition.plugin
+  label: 'Kiosk Navigation condition'
+  mapping:
+    modes:
+      type: sequence
+      sequence:
+        type: string

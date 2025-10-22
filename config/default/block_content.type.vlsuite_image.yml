@@ -1,0 +1,14 @@
+uuid: 654727a5-363e-49f7-8573-f4717043b75e
+langcode: gl
+status: true
+dependencies:
+  enforced:
+    module:
+      - vlsuite_block_image
+_core:
+  default_config_hash: 1DQYbbYxxy_xeRvN52ukLlxkkQbG_Kq-YxeQcSXdxh0
+id: vlsuite_image
+label: 'Image (VLSuite)'
+revision: false
+description: ''
+vlsuite_block_icon: fefae60e-aee5-4b95-bfda-862f51fc8593

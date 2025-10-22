@@ -1,0 +1,11 @@
+uuid: 9c5a4797-5555-4514-a3eb-b2a5c2a313c2
+langcode: gl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pQP5iQy4SdhAMVcjDUncCfkJmTofnHVtXrsMzx4k6Yk
+id: basic
+label: 'Basic block'
+revision: false
+description: 'A basic block contains a title and a body.'
+vlsuite_block_icon: null
