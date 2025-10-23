@@ -1,4 +1,22 @@
+:root {
+    --color-primary-50: #f2f9fd;
+    --color-primary-700: #13668d;
+    --color-primary-800: #145878;
+    --color-text: #2D2D2D;
+}
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text);
+}
+
+.page {
+    background-color: var(--color-primary-50);
+}
+
+#main-content {
+    /* background-color: var(--primary-color-50); */
+    box-shadow: none !important;
+}
 
 .block-system-menu-blockmenu-kiosk ul {
     align-items: flex-start;
@@ -233,7 +251,9 @@
 }
 
 .row.list-unstyled>.col-12>.teaser {
-    height: 370px;
+    height: auto;
+    box-shadow: none !important;
+    background: none;
 }
 
 /*
@@ -286,30 +306,104 @@
 }
 
 
-.view.town-hall-practical-information .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-    padding: 30px;
+.view.town-hall-practical-information ul.row {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
-@media (max-width: 990px) {
-    .view.town-hall-practical-information .col-lg-4 {
-        flex: 0 0 auto;
-        width: 100%;
-        padding: 30px;
+@media (max-width: 980px) {
+    .view.town-hall-practical-information ul.row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
     }
 }
+
+.view.town-hall-practical-information ul.row li {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: white;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.view.town-hall-practical-information ul.row li img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+@media (max-width: 980px) {
+    .view.town-hall-practical-information ul.row li {
+        display: flex;
+        justify-items: center;
+    }
+
+    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt {
+        flex: none;
+    }
+
+    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
 @media (max-width: 1200px) {
     .views-view-responsive-grid--horizontal {
         --views-responsive-grid--column-count: 2!important;
     }
 }
 
+.row.list-unstyled>.col-12>.teaser>.teaser__content {
+    padding: 32px !important;
+}
+
+@media (max-width: 980px) {
+    .row.list-unstyled>.col-12>.teaser>.teaser__content {
+        padding: 16px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .row.list-unstyled>.col-12>.teaser>.teaser__content .mb-3 {
+        display: none !important;
+    }
+}
+
+.row.list-unstyled>.col-12>.teaser>.teaser__content .field--name-field-summary {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+@media (max-width: 980px) {
+    .row.list-unstyled>.col-12>.teaser>.teaser__content .field--name-field-summary {
+        display: none !important;
+    }
+}
+
 .row.list-unstyled>.col-12>.teaser>.teaser__content>a.btn {
-    align-self: flex-start;
+    /* align-self: flex-start;
     margin-top: auto;
     color: #fff;
-    background: #13668d !important;
+    background: #13668d !important; */
+}
+
+@media (max-width: 980px) {
+    .row.list-unstyled>.col-12>.teaser>.teaser__content>a.btn {
+        display: none !important;
+    }
 }
 
 .text-primary {
@@ -317,10 +411,17 @@
     color: #13668d !important;
 }
 .btn-primary {
-    background-color: #13668d !important;
-    border-color: #13668d !important;
+    background-color: var(--color-primary-700) !important;
+    border-color: var(--color-primary-700) !important;
     color: #fafafa !important;
 }
+
+.btn-primary:hover {
+    background-color: var(--color-primary-800) !important;
+    border-color: var(--color-primary-800) !important;
+    color: #fafafa !important;
+}
+
 .view.town-halls.main .teaser__content.town-hall-teaser-text-content.p-3 {
     height: 390px;
 }
@@ -332,13 +433,13 @@
     bottom: 17px;
 }
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     background-color: #13668d !important;
     border-color: #13668d !important;
     color: #fafafa !important;
     position: absolute;
     bottom: 17px;
-}
+} */
 
 .dropdown-item.active, .dropdown-item:active {
     background-color:#13668d !important;
