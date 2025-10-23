@@ -186,10 +186,14 @@
 
 
 .block-views-blocktown-halls-block-1{
-    margin: 60px 0px;
+    margin-top: 30px;
 }
-.block-views-blocktown-halls-block-1 .field__item{
-    margin: 20px;
+
+
+.block-views-blocktown-halls-block-1 .views-view-responsive-grid__item-inner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 
@@ -201,17 +205,22 @@
 }
 
 .block-views-blocktown-halls-block-1 .views-field-title {
-    position: relative;
-    top: -70px;
-    left: 36px;
 }
 .block-views-blocktown-halls-block-1 .views-field-title a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
 }
 
 
@@ -288,10 +297,6 @@
         flex: 0 0 auto;
         width: 100%;
         padding: 30px;
-    }
-
-    .views-view-responsive-grid--horizontal {
-        display: block;
     }
 }
 @media (max-width: 1200px) {
@@ -380,3 +385,14 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
     }
 }
 
+.town-halls.block-1 .views-view-responsive-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 32px !important;
+}
+
+@media (max-width: 991px) {
+    .town-halls.block-1 .views-view-responsive-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 16px !important;
+    }
+}
