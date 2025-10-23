@@ -112,7 +112,11 @@
 }
 
 .slick-dots button {
-    color: #fff;
+    color: transparent;
+}
+.slick-dots button::before {
+    content: '';
+    display: none;
 }
 .slick-dots li {
     background: transparent;
