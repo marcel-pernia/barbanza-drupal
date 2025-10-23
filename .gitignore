@@ -89,6 +89,9 @@ phpunit.xml.dist
 
 # Assets compilados del tema
 /web/themes/custom/*/build/
+# Excepciones: incluir CSS y JS compilados
+!/web/themes/custom/*/build/css/
+!/web/themes/custom/*/build/js/
 /web/themes/custom/*/mix-manifest.json
 
 # Node modules en subdirectorios
