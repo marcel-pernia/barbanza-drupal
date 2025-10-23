@@ -97,6 +97,12 @@
     padding: 10px 0px;
 }
 
+@media (max-width: 991px) {
+    .navbar-brand__logo img {
+        width: 120px;
+    }
+}
+
 .block-views-blockportada-slider-block-1  {
     margin-bottom: 60px;
 }
@@ -334,3 +340,4 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
         text-align: center !important;
     }
 }
+
