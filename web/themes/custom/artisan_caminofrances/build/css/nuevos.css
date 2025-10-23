@@ -13,6 +13,11 @@
     background-color: var(--color-primary-50);
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 #main-content {
     /* background-color: var(--primary-color-50); */
     box-shadow: none !important;
@@ -127,6 +132,7 @@
 
 .block-views-blockportada-slider-block-1  {
     margin-bottom: 60px;
+    overflow: hidden;
 }
 
 .slick-dots button {
