@@ -312,3 +312,25 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
 .user-logout-confirm #edit-submit{
     position: inherit;
   }
+
+  /* Centrar items del menú responsive */
+@media (max-width: 991px) {
+    header.header .navbar-collapse {
+        text-align: center !important;
+    }
+    header.header .navbar-collapse .navbar-nav {
+        margin: 0 auto !important;
+        align-items: center !important;
+    }
+    header.header .navbar-collapse .nav-item {
+        text-align: center !important;
+        width: 100% !important;
+    }
+    header.header .navbar-collapse .nav-link {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    header.header .navbar-collapse .dropdown-menu {
+        text-align: center !important;
+    }
+}
