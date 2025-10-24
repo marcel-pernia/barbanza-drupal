@@ -14,7 +14,7 @@
          <div class="text-primary fw-bold text-uppercase h5">{{ category }}</div>
          <h1 class="mb-4">{{ title }}</h1>
          <div class="row">
-           <div class="col-12 col-lg-4">
+           <div class="col-12 col-lg-4 page-image-container">
               {% if diapositivas|length > 0 %}
                 {% set file_uri = node.get('field_diapositivas_alt').entity.uri.value %}
                 {% set image_url = file_url(file_uri) %}

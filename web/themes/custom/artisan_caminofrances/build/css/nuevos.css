@@ -34,7 +34,9 @@ header.header {
         padding: 16px 0 !important;
     }
 
-    .galeria-por-defecto, .mapa-monumento  {
+    .galeria-por-defecto, 
+    .mapa-monumento,
+    .page-image-container  {
         margin-bottom: 16px;
     }
 
