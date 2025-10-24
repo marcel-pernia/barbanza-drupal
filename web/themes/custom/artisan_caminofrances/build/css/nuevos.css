@@ -5,12 +5,57 @@
     --color-text: #2D2D2D;
 }
 
+header.header {
+    box-shadow: 0px -8px 14px rgba(0,0,0,0.4) !important;
+}
+
+.breadcrumb .breadcrumb-item {
+    font-family: var(--theme-base-font-family,var(--bs-body-font-family,Roboto));
+    font-size: 12px;
+    font-weight: 500 !important;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: var(--color-text);
 }
 
 .page {
     background-color: var(--color-primary-50);
+}
+
+.page .town-hall-content-top,
+.page .practical-information-content-top {
+    padding: 32px 0 !important;
+}
+
+@media (max-width: 980px) {
+    .page .town-hall-content-top,
+    .page .practical-information-content-top {
+        padding: 16px 0 !important;
+    }
+
+    .galeria-por-defecto, .mapa-monumento  {
+        margin-bottom: 16px;
+    }
+
+    
+}
+
+
+.page .town-hall-content-top .field--name-field-icon-image,
+.page .practical-information-content-top .field--name-field-icon-image {
+    width: 28px;
+}
+
+
+
+
+
+
+.field--name-field-geolocation .geolocation-map-container, 
+.mapa-monumento {
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 html, body {
@@ -135,6 +180,12 @@ html, body {
     overflow: hidden;
 }
 
+@media (max-width: 980px) {
+    .block-views-blockportada-slider-block-1  {
+        margin-bottom: 20px;
+    }
+}
+
 .slick-dots button {
     color: transparent;
 }
@@ -252,8 +303,17 @@ html, body {
     height: 120px;
 }
 
-.practical-information-content-top h1.mb-4{
-    color: #13668d !important;
+.page .practical-information-content-top h1,
+.page .town-hall-content-top h1 {
+    color: var(--color-primary-700) !important;
+    font-size: 40px;
+}
+
+@media (max-width: 980px) {
+    .page .practical-information-content-top h1,
+    .page .town-hall-content-top h1 {
+        font-size: 24px;
+    }
 }
 
 .row.list-unstyled>.col-12>.teaser {
@@ -312,7 +372,8 @@ html, body {
 }
 
 
-.view.town-hall-practical-information ul.row {
+.view.town-hall-practical-information ul.row,
+.view.town-halls.main .views-view-responsive-grid--horizontal {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -320,13 +381,15 @@ html, body {
 }
 
 @media (max-width: 980px) {
-    .view.town-hall-practical-information ul.row {
+    .view.town-hall-practical-information ul.row,
+    .view.town-halls.main .views-view-responsive-grid--horizontal {
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
     }
 }
 
-.view.town-hall-practical-information ul.row li {
+.view.town-hall-practical-information ul.row li,
+.view.town-halls.main article.teaser {
     list-style: none;
     width: 100%;
     margin: 0;
@@ -335,24 +398,40 @@ html, body {
     background: white;
     overflow: hidden;
     border-radius: 16px;
+    box-shadow: none !important;
 }
 
-.view.town-hall-practical-information ul.row li img {
+.view.town-hall-practical-information ul.row li img,
+.view.town-halls.main article.teaser img {
     width: 100%;
     border-radius: 16px;
 }
 
+
+.view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt img,
+.view.town-halls.main article.teaser .field--name-field-image img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
 @media (max-width: 980px) {
-    .view.town-hall-practical-information ul.row li {
+    .view.town-hall-practical-information ul.row li,
+    .view.town-halls.main article.teaser {
         display: flex;
         justify-items: center;
+
     }
 
-    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt {
+    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt,
+    .view.town-halls.main article.teaser .field--name-field-image {
         flex: none;
     }
 
-    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt img {
+    .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt img,
+    .view.town-halls.main article.teaser .field--name-field-image img {
         aspect-ratio: 1 / 1;
         object-fit: cover;
         object-position: center;
@@ -369,23 +448,49 @@ html, body {
     }
 }
 
-.row.list-unstyled>.col-12>.teaser>.teaser__content {
+.view.town-hall-practical-information .teaser__content,
+.view.town-halls.main .teaser__content {
     padding: 32px !important;
 }
 
+
+.view.town-hall-practical-information .teaser__content .field--name-field-category .align-items-center,
+.view.town-halls.main .teaser__content .field--name-field-category .align-items-center {
+    /* display: grid !important;
+    grid-template-columns: auto 1fr;
+    gap: 10px; */
+}
+
+.view.town-hall-practical-information .teaser__content .field--name-field-category .align-items-center .field--name-field-icon-image,
+.view.town-halls.main .teaser__content .field--name-field-category .align-items-center .field--name-field-icon-image { 
+    flex: none !important;
+    width: 24px;
+    height: 24px;
+}
+
 @media (max-width: 980px) {
-    .row.list-unstyled>.col-12>.teaser>.teaser__content {
+    .view.town-hall-practical-information .teaser__content,
+    .view.town-halls.main .teaser__content {
         padding: 16px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: start;
+        text-align: left;
     }
-    .row.list-unstyled>.col-12>.teaser>.teaser__content .mb-3 {
+    .view.town-hall-practical-information .teaser__content .mb-3,
+    .view.town-halls.main .teaser__content .mb-3 {
         display: none !important;
+    }
+
+    .view.town-hall-practical-information .teaser__content .h5,
+    .view.town-halls.main .teaser__content .h5 {
+        font-size: 18px;
     }
 }
 
-.row.list-unstyled>.col-12>.teaser>.teaser__content .field--name-field-summary {
+.view.town-hall-practical-information .teaser__content .field--name-field-summary,
+.view.town-halls.main .teaser__content .field--name-field-summary {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -394,27 +499,28 @@ html, body {
 }
 
 @media (max-width: 980px) {
-    .row.list-unstyled>.col-12>.teaser>.teaser__content .field--name-field-summary {
+    .view.town-hall-practical-information .teaser__content .field--name-field-summary,
+    .view.town-halls.main .teaser__content .field--name-field-summary {
         display: none !important;
     }
 }
 
-.row.list-unstyled>.col-12>.teaser>.teaser__content>a.btn {
-    /* align-self: flex-start;
-    margin-top: auto;
-    color: #fff;
-    background: #13668d !important; */
-}
-
 @media (max-width: 980px) {
-    .row.list-unstyled>.col-12>.teaser>.teaser__content>a.btn {
-        display: none !important;
+    .view.town-hall-practical-information .teaser__content>a.btn,
+    .view.town-halls.main .teaser__content>a.btn {
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
     }
 }
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: #13668d !important;
+    color: var(--color-primary-700) !important;
 }
 .btn-primary {
     background-color: var(--color-primary-700) !important;
@@ -428,16 +534,6 @@ html, body {
     color: #fafafa !important;
 }
 
-.view.town-halls.main .teaser__content.town-hall-teaser-text-content.p-3 {
-    height: 390px;
-}
-.view.town-halls.main .teaser__content.town-hall-teaser-text-content.p-3 {
-    position: relative;
-}
-.view.town-halls.main .teaser__content.town-hall-teaser-text-content.p-3 .btn {
-    position: absolute;
-    bottom: 17px;
-}
 
 /* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     background-color: #13668d !important;
@@ -454,7 +550,13 @@ html, body {
 }
 
 .body h1  {
-    color: #00a9e0;
+    color: var(--color-primary-700);
+}
+
+@media (max-width: 980px) {
+    .body h1  {
+        font-size: 24px;
+    }
 }
 
 .practical-information-teaser-text-content .field--name-field-category .field--name-field-icon-image img {
