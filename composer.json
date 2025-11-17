@@ -48,6 +48,7 @@
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/google_tag": "^2.0",
         "drupal/honeypot": "^2.0",
+        "drupal/ludwig": "*",
         "drupal/mail_login": "^4.0",
         "drupal/menu_breadcrumb": "^2.0@alpha",
         "drupal/menu_item_extras": "^3.1",
