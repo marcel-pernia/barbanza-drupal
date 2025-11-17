@@ -1,3 +1,84 @@
-.practical-information-content-top-kioskh{display:flex;height:calc(100vh - 318px - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));position:relative}.practical-information-content-top-kioskh .swiper{height:100%;margin-left:0;margin-right:0;width:calc(100% - 27.25rem)}.practical-information-content-top-kioskh .swiper .swiper-slide,.practical-information-content-top-kioskh .swiper .swiper-slide>.field,.practical-information-content-top-kioskh .swiper .swiper-slide>.field .field__item,.practical-information-content-top-kioskh .swiper .swiper-slide>.field .field__item iframe,.practical-information-content-top-kioskh .swiper .swiper-slide>.field .field__item img,.practical-information-content-top-kioskh .swiper .swiper-slide>.field .field__item picture,.practical-information-content-top-kioskh .swiper .swiper-slide>.field .field__item video{height:inherit}.practical-information-content-top-kioskh .swiper iframe,.practical-information-content-top-kioskh .swiper img,.practical-information-content-top-kioskh .swiper video{-o-object-fit:cover;object-fit:cover;-o-object-position:top center;object-position:top center;width:100%}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info{background:#fff;height:100%;padding:2rem;width:27.25rem}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info__main{display:flex;flex-direction:column;height:100%;overflow-y:auto}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info__main.has-qr{height:calc(100% - 190px)}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted{min-height:10em;overflow-y:auto;padding-right:1rem}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar{width:5px}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar-track{background:transparent}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar-thumb{background-color:#3d2b30;border-radius:.375rem}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code{align-items:center;border-top:5px solid var(--theme-kiosk-color-primary,#006d94);display:flex;height:190px;justify-content:center;margin-top:1.5rem;text-transform:uppercase}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code h2{color:var(--theme-kiosk-color-primary,#006d94);text-align:center;width:50%}.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code img{flex-shrink:0;width:50%}
+.practical-information-content-top-kioskh {
+  position: relative;
+  display: flex;
+  /* aspect-ratio: 1920 / 762; */
+  height: calc(100vh - 318px - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));
+}
+.practical-information-content-top-kioskh .swiper {
+  width: calc(100% - 27.25rem);
+  height: 100%;
+  margin-left: initial;
+  margin-right: initial;
+}
+.practical-information-content-top-kioskh .swiper .swiper-slide {
+  height: inherit;
+}
+.practical-information-content-top-kioskh .swiper .swiper-slide > .field {
+  height: inherit;
+}
+.practical-information-content-top-kioskh .swiper .swiper-slide > .field .field__item {
+  height: inherit;
+}
+.practical-information-content-top-kioskh .swiper .swiper-slide > .field .field__item picture {
+  height: inherit;
+}
+.practical-information-content-top-kioskh .swiper .swiper-slide > .field .field__item img, .practical-information-content-top-kioskh .swiper .swiper-slide > .field .field__item video, .practical-information-content-top-kioskh .swiper .swiper-slide > .field .field__item iframe {
+  height: inherit;
+}
+.practical-information-content-top-kioskh .swiper img, .practical-information-content-top-kioskh .swiper video, .practical-information-content-top-kioskh .swiper iframe {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info {
+  width: 27.25rem;
+  height: 100%;
+  padding: 2rem;
+  background: #fff;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info__main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info__main.has-qr {
+  height: calc(100% - 190px);
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted {
+  padding-right: 1rem;
+  overflow-y: auto;
+  min-height: 10em;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar {
+  width: 5px;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar-track {
+  background: transparent;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .text-muted::-webkit-scrollbar-thumb {
+  background-color: #3D2B30;
+  border-radius: 0.375rem;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  border-top: 5px solid var(--theme-kiosk-color-primary, #006d94);
+  text-transform: uppercase;
+  height: 190px;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code h2 {
+  color: var(--theme-kiosk-color-primary, #006d94);
+  text-align: center;
+  width: 50%;
+}
+.practical-information-content-top-kioskh .practical-information-content-top-kioskh-info .field--name-field-qr-code img {
+  width: 50%;
+  flex-shrink: 0;
+}
 
 /*# sourceMappingURL=practical-information-content-top-kioskh.css.map*/

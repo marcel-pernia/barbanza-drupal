@@ -1,2 +1,39 @@
-!function(s,o){o.behaviors.carruselDestacados={attach:function(o,t){once("slickInit",".carrusel-destacados",o).forEach((function(o){s(o).slick({slidesToShow:3,slidesToScroll:1,dots:!1,arrows:!0,prevArrow:'<button class="slick-prev" aria-label="Anterior" type="button"><span class="sr-only">Anterior</span></button>',nextArrow:'<button class="slick-next" aria-label="Siguiente" type="button"><span class="sr-only">Siguiente</span></button>',autoplay:!1,centerMode:!1,infinite:!0,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:768,settings:{slidesToShow:1,slidesToScroll:1}}]})}))}}}(jQuery,Drupal);
+/******/ (() => { // webpackBootstrap
+/*!****************************************************************!*\
+  !*** ./components/carrusel-destacados/_carrusel-destacados.js ***!
+  \****************************************************************/
+(function ($, Drupal) {
+  Drupal.behaviors.carruselDestacados = {
+    attach: function attach(context, settings) {
+      once('slickInit', '.carrusel-destacados', context).forEach(function (element) {
+        $(element).slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: false,
+          arrows: true,
+          prevArrow: '<button class="slick-prev" aria-label="Anterior" type="button"><span class="sr-only">Anterior</span></button>',
+          nextArrow: '<button class="slick-next" aria-label="Siguiente" type="button"><span class="sr-only">Siguiente</span></button>',
+          autoplay: false,
+          centerMode: false,
+          infinite: true,
+          responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }, {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }]
+        });
+      });
+    }
+  };
+})(jQuery, Drupal);
+/******/ })()
+;
 //# sourceMappingURL=carrusel-destacados.js.map

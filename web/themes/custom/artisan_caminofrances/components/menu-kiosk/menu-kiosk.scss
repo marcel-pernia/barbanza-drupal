@@ -33,12 +33,13 @@ ul.menu-kiosk {
       > a {
         font-size: 15px;
         width: 200px;
-        color: inherit;
+        color: var(--theme-kiosk-color-primary, $kiosk-primary-color) !important;
         text-transform: uppercase;
         line-height: 1.5;
         height: 6em;
         overflow: hidden;
-
+        font-family: $headings-font-family !important;
+        font-weight: bolder !important;
 
         > span {
           display: block;
