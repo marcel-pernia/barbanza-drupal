@@ -53,11 +53,13 @@
       {% if page.portada_container %}
         <div class="container">
           <div class="row">
+              {# Contenido del nodo 742 oculto
               {% if frontpage_node is defined and frontpage_node %}
                 <div class="body">
                   {{ frontpage_node.body.value|raw }}
                 </div>
               {% endif %}
+              #}
 
           {{ page.portada_container }}
 
