@@ -1,0 +1,7 @@
+name: Carrusel Destacados
+libraryOverrides:
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
+
