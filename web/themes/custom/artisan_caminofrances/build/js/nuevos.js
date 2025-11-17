@@ -136,9 +136,9 @@
   })(jQuery, Drupal);
 
   (function ($, Drupal) {
-    Drupal.behaviors.experienciasCarousel = {
+    Drupal.behaviors.carruselDestacados = {
       attach: function (context, settings) {
-        once('slickInit', '.experiencias-carousel', context).forEach(function(element) {
+        once('slickInit', '.carrusel-destacados', context).forEach(function(element) {
           $(element).slick({
             slidesToShow: 3,
             slidesToScroll: 1,

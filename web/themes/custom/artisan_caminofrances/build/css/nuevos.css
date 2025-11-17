@@ -608,28 +608,28 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
     }
 }
 
-/* Carrusel de experiencias */
-.experiencias-carousel-section {
+/* Carrusel de destacados */
+.carrusel-destacados-section {
     background-color: #f5f5f5;
     margin-top: 3rem;
 }
 
-.experiencias-carousel-container {
+.carrusel-destacados-container {
     position: relative;
 }
 
-.experiencias-carousel {
+.carrusel-destacados {
     position: relative;
     margin-left: -16px;
     margin-right: -16px;
 }
 
-.experiencias-carousel .slick-slide {
+.carrusel-destacados .slick-slide {
     padding: 0 16px;
     box-sizing: border-box;
 }
 
-.experiencia-item {
+.destacado-item {
     padding: 2rem;
     border-radius: 16px;
     text-align: center;
@@ -644,25 +644,25 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
-.experiencia-item--naranja {
+.destacado-item--naranja {
     background-color: #FF6B4A;
 }
 
-.experiencia-item--azul {
+.destacado-item--azul {
     background-color: #00A9E0;
 }
 
-.experiencia-item--verde {
+.destacado-item--verde {
     background-color: #4CAF50;
 }
 
 
-.experiencia-icon svg {
+.destacado-icon svg {
     width: 60px;
     height: 60px;
 }
 
-.experiencia-title {
+.destacado-title {
     color: white;
     font-size: 1.25rem;
     font-weight: 600;
@@ -671,8 +671,8 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
 }
 
 /* Flechas del carrusel */
-.experiencias-carousel-section .slick-prev,
-.experiencias-carousel-section .slick-next {
+.carrusel-destacados-section .slick-prev,
+.carrusel-destacados-section .slick-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -687,16 +687,16 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
     font-size: 0;
 }
 
-.experiencias-carousel-section .slick-prev {
+.carrusel-destacados-section .slick-prev {
     left: -50px !important;
 }
 
-.experiencias-carousel-section .slick-next {
+.carrusel-destacados-section .slick-next {
     right: -50px !important;
 }
 
-.experiencias-carousel-section .slick-prev:before,
-.experiencias-carousel-section .slick-next:before {
+.carrusel-destacados-section .slick-prev:before,
+.carrusel-destacados-section .slick-next:before {
     content: '';
     display: block;
     width: 0;
@@ -704,38 +704,38 @@ div[data-component-id="artisan_caminofrances:page-login-password"] .user-login-f
     border-style: solid;
 }
 
-.experiencias-carousel-section .slick-prev:before {
+.carrusel-destacados-section .slick-prev:before {
     border-width: 8px 12px 8px 0;
     border-color: transparent #fff transparent transparent;
     margin-left: 8px;
 }
 
-.experiencias-carousel-section .slick-next:before {
+.carrusel-destacados-section .slick-next:before {
     border-width: 8px 0 8px 12px;
     border-color: transparent transparent transparent #fff;
     margin-left: 12px;
 }
 
-.experiencias-carousel-section .slick-prev:hover,
-.experiencias-carousel-section .slick-next:hover {
+.carrusel-destacados-section .slick-prev:hover,
+.carrusel-destacados-section .slick-next:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
-    .experiencias-carousel-section .slick-prev {
+    .carrusel-destacados-section .slick-prev {
         left: -40px !important;
     }
     
-    .experiencias-carousel-section .slick-next {
+    .carrusel-destacados-section .slick-next {
         right: -40px !important;
     }
     
-    .experiencia-item {
+    .destacado-item {
         padding: 1.5rem;
         min-height: 200px;
     }
     
-    .experiencia-title {
+    .destacado-title {
         font-size: 1rem;
     }
 }
