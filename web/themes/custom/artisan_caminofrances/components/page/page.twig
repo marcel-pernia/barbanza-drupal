@@ -85,10 +85,12 @@
     {{ page.content['artisan_caminofrances_cookiesui'] }}
   {% endblock %}
 
-  {# Carrusel de destacados antes del footer #}
-  {% block page_carousel %}
-    {% include 'artisan_caminofrances:carrusel-destacados' %}
-  {% endblock %}
+  {# Carrusel de destacados antes del footer - solo en home #}
+  {% if is_front %}
+    {% block page_carousel %}
+      {% include 'artisan_caminofrances:carrusel-destacados' %}
+    {% endblock %}
+  {% endif %}
 
   {% block page_footer %}
   <div class="container-footer">
