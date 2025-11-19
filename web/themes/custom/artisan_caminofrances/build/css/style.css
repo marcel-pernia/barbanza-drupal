@@ -4497,17 +4497,22 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  font-family: Arial, system-ui;
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #000f37;
   text-decoration: none;
   background: none;
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-link:hover {
+  color: #000f37 !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;

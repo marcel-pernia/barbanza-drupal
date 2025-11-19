@@ -1,28 +1,96 @@
-<div class="d-md-flex justify-content-between text-center text-md-start">
-    <picture>
-        <source type="image/png"
-            srcset="{{ base_path }}themes/custom/artisan_caminofrances/src/assets/images/logo-barbanza-blanco.png" width="256"
-            height="89">
-        <img style="mix-blend-mode:normal;" class="img-fluid logo-footer mb-4 mb-lg-0" loading="lazy"
-            src="{{ base_path }}themes/custom/artisan_caminofrances/src/assets/images/logo-barbanza-blanco.png"
-            alt="Mancomunidade de concellos galegos do camiño francés logo" width="256" height="89" />
-    </picture>
-    {{ page.footer_top }}
+{# Sección superior azul del footer #}
+<div class="footer-top">
+  <div class="container">
+    <div class="footer-grid">
+      
+      {# Columna 1: Identidad y Logo #}
+      <div class="brand-col">
+        <picture>
+          <source type="image/png"
+              srcset="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-barbanza-arousa-blanco.png" width="100"
+              height="60">
+          <img style="mix-blend-mode:normal;" class="img-fluid logo-footer mb-4 mb-lg-0" loading="lazy"
+              src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-barbanza-arousa-blanco.png"
+              alt="Mancomunidade de concellos galegos do camiño francés logo" width="100" height="60" />
+        </picture>
+        
+        <p class="address-info">
+          Praza de Galicia, s/n (Edif. Concello)<br>
+          15930 Boiro (A Coruña) ES
+        </p>
+        
+        <div class="copyright">
+          &copy; 2019 Mancomunidade de Municipios Barbanza Arousa.<br>
+          Reservados todos los derechos.
+        </div>
+      </div>
+
+      {# Columna 2: Navegación - Usa el bloque Drupal footer_top #}
+      <div class="footer-links">
+        <h4>Descubre</h4>
+        {{ page.footer_top }}
+      </div>
+
+      {# Columna 3: Contacto y Redes Sociales #}
+      <div class="contact-col">
+        <h4>Contacto</h4>
+        <ul class="contact-info">
+          <li>
+            <svg class="icon icon-phone" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M18.3333 13.1167V16.575C18.3333 16.9417 18.1917 17.2834 17.95 17.5417C17.7083 17.8 17.375 17.95 17.0083 17.95C13.025 17.5084 8.99167 15.95 5.58333 13.4167C2.39167 10.725 0.875 7.01667 0.05 3.00833C0.00833333 2.64167 0.158333 2.30833 0.416667 2.06667C0.675 1.825 1.01667 1.68333 1.38333 1.68333H4.84167C5.275 1.68333 5.625 1.99167 5.70833 2.40833C5.80833 2.975 5.96667 3.525 6.175 4.05C6.30833 4.40833 6.25 4.81667 6.025 5.11667L4.675 6.46667C6.01667 9.05 8.35 11.3833 10.9333 12.725L12.2833 11.375C12.5833 11.15 12.9917 11.0917 13.35 11.225C13.875 11.4333 14.425 11.5917 14.9917 11.6917C15.4083 11.775 15.7167 12.125 15.7167 12.5583L18.3333 13.1167Z" fill="currentColor"/>
+            </svg>
+            <span>+34 981 845 236</span>
+          </li>
+          <li>
+            <svg class="icon icon-envelope" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M18.3333 3.33334H1.66667C0.75 3.33334 0 4.08334 0 5.00001V15C0 15.9167 0.75 16.6667 1.66667 16.6667H18.3333C19.25 16.6667 20 15.9167 20 15V5.00001C20 4.08334 19.25 3.33334 18.3333 3.33334ZM17.0833 5.00001L10 10.4167L2.91667 5.00001H17.0833ZM1.66667 15V6.25001L9.65833 11.5917C9.79167 11.6833 9.95 11.725 10.1083 11.725C10.2667 11.725 10.425 11.6833 10.5583 11.5917L18.55 6.25001V15H1.66667Z" fill="currentColor"/>
+            </svg>
+            <a href="mailto:info@barbanzarousa.gal">info@barbanzarousa.gal</a>
+          </li>
+        </ul>
+
+        <div class="social-icons">
+          <a target="_blank" href="https://www.facebook.com/barbanzarousa" class="social-btn" aria-label="Facebook">
+            <img src="{{ base_path }}themes/custom/artisan_caminofrances/icons/facebook.svg" alt="" width="20" height="21" aria-hidden="true">
+          </a>
+          <a target="_blank" href="https://twitter.com/barbanzarousa" class="social-btn" aria-label="X (Twitter)">
+            <img src="{{ base_path }}themes/custom/artisan_caminofrances/icons/twitter.svg" alt="" width="20" height="21" aria-hidden="true">
+          </a>
+          <a target="_blank" href="https://www.youtube.com/channel/UCVNoe3Zyev-HysDYSbefFqA" class="social-btn" aria-label="YouTube">
+            <img src="{{ base_path }}themes/custom/artisan_caminofrances/icons/youtube.svg" alt="" width="20" height="20" aria-hidden="true">
+          </a>
+          <a target="_blank" href="https://www.instagram.com/barbanzarousa/?hl=es" class="social-btn" aria-label="Instagram">
+            <img src="{{ base_path }}themes/custom/artisan_caminofrances/icons/ig.svg" alt="" width="20" height="20" aria-hidden="true">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
-<div class=" text-center mt-5 d-flex flex-wrap gap-3 gap-xl-5 justify-content-center align-content-bottom">
 
+{# Sección inferior blanca con logos institucionales #}
+<div class="footer-partners">
+  <div class="partners-grid">
     <picture>
-        <source style="max-width:60%" type="image/webp"
-            srcset="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logos-footer.webp"
-            width="auto" height="56">
-        <img style="max-width:60%" class="img-fluid" loading="lazy"
-            src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logos-footer.jpg"
-            alt="Logos gubernamentales" width="auto" height="56" />
+      <img class="img-fluid partner-logo" loading="lazy"
+          src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-financiado-por-la-ue.jpg"
+          alt="Logos gubernamentales" />
     </picture>
-
-    
-
-
-
-
+    <picture>
+      <img class="img-fluid partner-logo" loading="lazy"
+          src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-ministerio-transporte-movilidad-agenda-urbana.png"
+          alt="Logos gubernamentales" />
+    </picture>
+    <picture>
+      <img class="img-fluid partner-logo" loading="lazy"
+          src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-plan-recuperacion.png"
+          alt="Logos gubernamentales" />
+    </picture>
+    <picture>
+      <img class="img-fluid partner-logo" loading="lazy"
+          src="{{ base_path }}themes/custom/artisan_caminofrances/build/assets/images/logo-barbanza-color.png"
+          alt="Logos gubernamentales" />
+    </picture>
+  </div>
 </div>
