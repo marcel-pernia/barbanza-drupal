@@ -1,35 +1,3 @@
-.town-hall-content-top-kioskv {
-  position: relative;
-  /* aspect-ratio: 1920 / 762; */
-  height: calc(100vh - 318px - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));
-}
-.town-hall-content-top-kioskv .swiper {
-  width: 100%;
-  height: 100%;
-  margin-left: initial;
-  margin-right: initial;
-}
-.town-hall-content-top-kioskv .swiper .swiper-slide {
-  height: inherit;
-}
-.town-hall-content-top-kioskv .swiper .swiper-slide > .field {
-  height: inherit;
-}
-.town-hall-content-top-kioskv .swiper .swiper-slide > .field .field__item {
-  height: inherit;
-}
-.town-hall-content-top-kioskv .swiper .swiper-slide > .field .field__item picture {
-  height: inherit;
-}
-.town-hall-content-top-kioskv .swiper .swiper-slide > .field .field__item img, .town-hall-content-top-kioskv .swiper .swiper-slide > .field .field__item video, .town-hall-content-top-kioskv .swiper .swiper-slide > .field .field__item iframe {
-  height: inherit;
-}
-.town-hall-content-top-kioskv .swiper img, .town-hall-content-top-kioskv .swiper video, .town-hall-content-top-kioskv .swiper iframe {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top center;
-     object-position: top center;
-}
+.town-hall-content-top-kioskv{height:calc(100vh - 318px - var(--gin-toolbar-y-offset, 0px) - var(--enviroment-indicator-border-width, 0px));position:relative}.town-hall-content-top-kioskv .swiper{height:100%;margin-left:0;margin-right:0;width:100%}.town-hall-content-top-kioskv .swiper .swiper-slide,.town-hall-content-top-kioskv .swiper .swiper-slide>.field,.town-hall-content-top-kioskv .swiper .swiper-slide>.field .field__item,.town-hall-content-top-kioskv .swiper .swiper-slide>.field .field__item iframe,.town-hall-content-top-kioskv .swiper .swiper-slide>.field .field__item img,.town-hall-content-top-kioskv .swiper .swiper-slide>.field .field__item picture,.town-hall-content-top-kioskv .swiper .swiper-slide>.field .field__item video{height:inherit}.town-hall-content-top-kioskv .swiper iframe,.town-hall-content-top-kioskv .swiper img,.town-hall-content-top-kioskv .swiper video{-o-object-fit:cover;object-fit:cover;-o-object-position:top center;object-position:top center;width:100%}
 
 /*# sourceMappingURL=town-hall-content-top-kiosk.css.map*/
