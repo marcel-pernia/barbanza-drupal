@@ -9,6 +9,10 @@ header.header {
     box-shadow: 0px -8px 14px rgba(0,0,0,0.4) !important;
 }
 
+.header .nav-link {
+    font-family: Arial, system-ui;
+}
+
 .breadcrumb .breadcrumb-item {
     font-family: var(--theme-base-font-family,var(--bs-body-font-family,Roboto));
     font-size: 12px;
