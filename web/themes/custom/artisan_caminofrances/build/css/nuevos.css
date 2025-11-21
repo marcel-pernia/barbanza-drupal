@@ -379,6 +379,7 @@ html, body {
 
 
 .view.town-hall-practical-information ul.row,
+.view.recursos-turisticos .views-view-responsive-grid--horizontal,
 .view.town-halls.main .views-view-responsive-grid--horizontal {
     margin: 0;
     display: grid;
@@ -395,7 +396,8 @@ html, body {
 }
 
 .view.town-hall-practical-information ul.row li,
-.view.town-halls.main article.teaser {
+.view.town-halls.main article.teaser,
+.view.recursos-turisticos .views-view-responsive-grid__item {
     list-style: none;
     width: 100%;
     margin: 0;
@@ -407,15 +409,22 @@ html, body {
     box-shadow: none !important;
 }
 
+.view.recursos-turisticos {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .view.town-hall-practical-information ul.row li img,
-.view.town-halls.main article.teaser img {
+.view.town-halls.main article.teaser img,
+.view.recursos-turisticos .views-field-field-diapositivas-alt img {
     width: 100%;
     border-radius: 16px;
 }
 
 
 .view.town-hall-practical-information ul.row li .views-field.views-field-field-diapositivas-alt img,
-.view.town-halls.main article.teaser .field--name-field-image img {
+.view.town-halls.main article.teaser .field--name-field-image img,
+.view.recursos-turisticos .views-field-field-diapositivas-alt img {
     height: 200px;
     object-fit: cover;
     object-position: center;
@@ -458,6 +467,7 @@ html, body {
 .view.town-halls.main .teaser__content {
     padding: 32px !important;
 }
+
 
 
 .view.town-hall-practical-information .teaser__content .field--name-field-category .align-items-center,
