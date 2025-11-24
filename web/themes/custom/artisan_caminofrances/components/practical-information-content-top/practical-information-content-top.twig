@@ -1,61 +1,121 @@
 <div class="practical-information-content-top py-5">
- <div class="container">
- {% if user.hasPermission('edit any content') or user.hasPermission('edit own ' ~ node.bundle ~ ' content') %}
- <div class="node-edit-actions">
-     <a href="{{ path('entity.node.edit_form', {'node': node.id}) }}" 
-        class="btn btn-primary btn-sm edit-node-link">
-         {{ 'Editar'|t }}
-     </a>
- </div>
-{% endif %}
-
-     <div class="row justify-content-center">
-       <div class="col-12 col-lg-12">
-         <div class="text-primary fw-bold text-uppercase h5">{{ category }}</div>
-         <h1 class="mb-4">{{ title }}</h1>
-         <div class="row">
-           <div class="col-12 col-lg-4 page-image-container">
-              {% if diapositivas|length > 0 %}
-                {% set file_uri = node.get('field_diapositivas_alt').entity.uri.value %}
-                {% set image_url = file_url(file_uri) %}
-              
-                  <img src="{{ image_url  }}" 
-                    alt="{{ diapositivas[0]['alt'] }}" 
-                      title="{{ diapositivas[0]['title'] }}"
-                      width="{{ diapositivas[0]['width'] }}" 
-                      height="{{ diapositivas[0]['height'] }}"
-                      class="img-fluid">
-              {% else %}
-    <div class="galeria-por-defecto">
-      <img src="{{ file_url('public://default_galery.png') }}" alt="Imaxe por defecto" title="Sen imaxe dispoñible">
+  <div class="container">
+    {% if user.hasPermission('edit any content') or user.hasPermission('edit own ' ~ node.bundle ~ ' content') %}
+    <div class="node-edit-actions mb-3 text-end">
+      <a href="{{ path('entity.node.edit_form', {'node': node.id}) }}" 
+         class="btn btn-primary btn-sm edit-node-link">
+        {{ 'Editar'|t }}
+      </a>
     </div>
-  {% endif %}
-           </div>
-           <div class="col-12 col-lg-8">
-             <div class="fw-bold mb-3">{{ summary }}</div>
-             {{ description }}
-             <div>{{ address }}</div>
-           </div>
-         </div>
+    {% endif %}
+
+    {% set country_name = node.hasField('field_pais') and not node.get('field_pais').isEmpty() ? node.field_pais.entity.name.value : false %}
+    {% set address_parts = [] %}
+    {% if enderezo and enderezo[0]['value'] %}
+      {% set address_parts = address_parts|merge([enderezo[0]['value']]) %}
+    {% endif %}
+    {% if codigo_postal and codigo_postal[0]['value'] %}
+      {% if country_name %}
+        {% set address_parts = address_parts|merge([codigo_postal[0]['value'] ~ ' ' ~ country_name]) %}
+      {% else %}
+        {% set address_parts = address_parts|merge([codigo_postal[0]['value']]) %}
+      {% endif %}
+    {% endif %}
+    {% if country_name and not (codigo_postal and codigo_postal[0]['value']) %}
+      {% set address_parts = address_parts|merge([country_name]) %}
+    {% endif %}
+    {% set address_line = address_parts|length ? address_parts|join(', ') : false %}
+
+      <div class="row justify-content-center">
+       <div class="col-12 col-lg-10 col-xl-8 d-flex flex-column gap-4">
+        <div class="practical-information-content-top__header">
+          {% if category %}
+          <div class="practical-information-content-top__category text-primary fw-bold text-uppercase mb-2">
+            {{ category }}
+          </div>
+          {% endif %}
+          <h1 class="practical-information-content-top__title mb-0">{{ title }}</h1>
         </div>
-         <div class="col-12 col-lg-12">
-          <div class="row d-flex mt-5">
-            <div class="col-12 col-lg-4">
-              <div class="container-qr mb-3 d-flex justify-content-center align-items-center">{{ qr }}</div>
-              <div class="mapa-monumento">{{ map }}</div>
-            </div>
-            <div class="col-12 col-lg-8">
-              <div class="text-primary fw-bold text-uppercase h5">{{ category }}</div>
-                <p>{{ enderezo[0]['value'] }} </p>
-                <p>{{ codigo_postal[0]['value'] }} {{ node.field_pais.entity.name.value }} </p>
-                <p>{{ node.field_pais.entity.name.value }}</p>
 
-
+        <div>
+          <div class="galeria-portada-barbanza position-relative mb-0">
+            {% if node.hasField('field_diapositivas_alt') and not node.get('field_diapositivas_alt').isEmpty() %}
+              {% for slide in node.get('field_diapositivas_alt') %}
+                {% set image_url = file_url(slide.entity.fileuri) %}
+                {% set slide_value = slide.getValue() %}
+                <div class="gallery-slide">
+                  <img src="{{ image_url }}" 
+                       alt="{{ slide_value.alt|default('Imaxe') }}" 
+                       title="{{ slide_value.title|default('Sen título') }}"
+                       width="{{ slide_value.width|default('') }}" 
+                       height="{{ slide_value.height|default('') }}"
+                       class="img-fluid rounded">
+                </div>
+              {% endfor %}
+            {% else %}
+              <div class="galeria-por-defecto">
+                <img src="{{ file_url('public://default_galery.png') }}" 
+                     alt="Imaxe por defecto" 
+                     title="Sen imaxe dispoñible"
+                     class="img-fluid rounded">
               </div>
+            {% endif %}
           </div>
+        </div>
+
+        <div>
+          {% if summary %}
+          <p class="lead mb-3">{{ summary }}</p>
+          {% endif %}
+          {% if description %}
+          <div class="practical-information-content-top__description text-muted">
+            {{ description }}
           </div>
-         <div class="mt-3 share-buttons">{{ addtoany }}</div>
-       </div>
-     
- </div>
+          {% endif %}
+        </div>
+
+        <div class="border rounded shadow-sm bg-white p-4">
+          {# <div class="d-flex align-items-start gap-2 mb-3">
+            <span class="material-symbols-outlined text-primary">place</span>
+            {% if address %}
+            <span class="text-body">{{ address }}</span>
+            {% endif %}
+          </div> #}
+          {% if address_line %}
+          <div class="contact-details mb-4">
+            <div class="contact-item contact-item--single-line d-flex gap-2 align-items-center">
+              <span class="material-symbols-outlined text-primary">place</span>
+              <span class="contact-item__text">{{ address_line }}</span>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if qr or map %}
+          <div class="contact-media d-flex flex-column gap-3">
+            {% if qr %}
+            <div class="contact-media__qr card border-0 shadow-sm">
+              <div class="card-body text-center py-4">
+                {{ qr }}
+              </div>
+            </div>
+            {% endif %}
+
+            {% if map %}
+            <div class="contact-media__map mapa-monumento rounded overflow-hidden shadow-sm">
+              {{ map }}
+            </div>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+
+        {% if addtoany %}
+        <div class="practical-information-content-top__share mt-4 pt-3 border-top text-center">
+          <div class="share-buttons">{{ addtoany }}</div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>
+

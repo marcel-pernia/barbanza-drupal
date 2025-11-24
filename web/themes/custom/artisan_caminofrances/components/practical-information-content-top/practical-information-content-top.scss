@@ -1,9 +1,131 @@
 @import "../../src/scss/init";
 
 .practical-information-content-top {
-  .practical-information-content-top-image {
-    img {
-      border-radius: $border-radius;
+  &__category {
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $dark;
+  }
+
+  &__gallery {
+    .galeria-portada-barbanza {
+      position: relative;
+      min-height: 360px;
+      border-radius: $border-radius-lg;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background: $gray-100;
+
+      .slick-list,
+      .slick-track,
+      .slick-slide {
+        height: 100%;
+      }
+
+      .gallery-slide {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .slick-dots,
+      .slick-prev,
+      .slick-next {
+        z-index: 10;
+      }
+
+      .slick-prev,
+      .slick-next {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $primary;
+        transition: transform 0.3s ease;
+      }
+
+      .slick-prev {
+        left: 15px;
+      }
+
+      .slick-next {
+        right: 15px;
+      }
+    }
+
+    .galeria-por-defecto img {
+      border-radius: $border-radius-lg;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .galeria-portada-barbanza .slick-prev,
+  .galeria-portada-barbanza .slick-next {
+    &:before {
+      display: none;
+    }
+  }
+
+  .galeria-portada-barbanza .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .galeria-portada-barbanza .slick-dots li {
+    margin: 0 3px;
+  }
+
+  .galeria-portada-barbanza .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0;
+    text-indent: -9999px;
+  }
+
+  .galeria-portada-barbanza .slick-dots li.slick-active button {
+    background: #fff;
+    transform: scale(1.2);
+  }
+
+  .galeria-portada-barbanza .slick-dots li.slick-active button {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .mapa-monumento {
+    min-height: 300px;
+    background: $gray-100;
+  }
+
+  @include media-breakpoint-down(md) {
+    &__title {
+      font-size: 1.75rem;
+    }
+
+    .galeria-portada-barbanza {
+      .slick-prev,
+      .slick-next {
+        width: 35px;
+        height: 35px;
+      }
     }
   }
 }
