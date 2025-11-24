@@ -90,13 +90,43 @@ header.header {
   }
 
   .navbar-brand,
-  .nav-link,
-  .language-switcher .language-link {
+  .nav-link {
     color: white !important;
   }
 
   .nav-link:hover {
     color: rgba(255, 255, 255, 0.8) !important;
+  }
+
+  // Selector de idioma - solo el toggle debe ser blanco
+  .language-switcher {
+    .language-link.dropdown-toggle {
+      color: white !important;
+    }
+
+    // Los enlaces dentro del dropdown deben ser oscuros
+    .dropdown-menu {
+      background: white !important;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+
+      a,
+      .language-link,
+      .dropdown-item {
+        color: $gray-700 !important;
+
+        &:hover,
+        &:focus {
+          color: $primary !important;
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+      }
+    }
+
+    // Icono de idioma también en blanco
+    .material-symbols-outlined,
+    .vlsuite-icon-font-icon {
+      color: white !important;
+    }
   }
 
   .navbar-toggler-icon {
