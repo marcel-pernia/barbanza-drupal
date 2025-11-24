@@ -6,6 +6,7 @@
 #}
 
 
+{% set page_attributes = attributes ?: create_attribute() %}
 {% set
   page_classes = [
     'page',
@@ -21,25 +22,10 @@
   ]|merge(main_utility_classes ?: [])
 %}
 
-
-{% set page_attributes = attributes ?: create_attribute() %}
-{% set
-  page_classes = [
-  'page',
-]|merge(page_utility_classes ?: [])
-%}
-
-{% set
-  main_classes = [
-  'content',
-  'shadow',
-]|merge(main_utility_classes ?: [])
-%}
-
 <div {{ page_attributes.addClass(page_classes) }}>
   {% block page_navigation %}
-    <header class="header shadow">
-      {% include 'artisan_caminofrances:navigation' %}
+    <header class="header {% if not is_front %}shadow{% endif %}">
+      {% include 'artisan_caminofrances:navigation' with { is_front: is_front } %}
     </header>
   {% endblock %}
 
