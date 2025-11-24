@@ -106,6 +106,42 @@ header.header {
   .navbar-toggler {
     border-color: rgba(255, 255, 255, 0.5);
   }
+
+  // Logo blanco en el home - ocultar el de color y mostrar solo el blanco
+  .navbar-brand__logo {
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    height: 46px;
+
+    .navbar-logo-color {
+      display: none !important;
+    }
+
+    .navbar-logo-white {
+      display: block !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  }
+}
+
+// Por defecto (fuera del home), mostrar el logo de color y ocultar el blanco
+header.header .navbar-brand__logo {
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 46px;
+
+  .navbar-logo-white {
+    display: none !important;
+  }
+
+  .navbar-logo-color {
+    display: block !important;
+  }
 }
 
 footer {
