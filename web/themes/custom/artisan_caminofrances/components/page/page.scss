@@ -1,6 +1,12 @@
 @import "../../src/scss/init";
 
+
+.body.toolbar-horizontal {
+  padding-top: 79px;
+}
+
 .page {
+  position: relative;
   > main {
     contain: paint;
   }
