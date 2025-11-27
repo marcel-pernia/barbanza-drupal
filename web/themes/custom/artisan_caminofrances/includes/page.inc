@@ -18,6 +18,21 @@ function artisan_caminofrances_preprocess_html(&$variables) {
   if (isset($query['kioskh']) || isset($query['kioskf']) || isset($query['kioskv'])) {
     $variables['attributes']['class'][] = 'hide-cookiesjsr';
   }
+
+  // Agregar favicon
+  $theme_path = \Drupal::service('extension.list.theme')->getPath('artisan_caminofrances');
+  $favicon_path = '/' . $theme_path . '/favicon.ico';
+  $variables['#attached']['html_head'][] = [
+    [
+      '#tag' => 'link',
+      '#attributes' => [
+        'rel' => 'icon',
+        'type' => 'image/x-icon',
+        'href' => $favicon_path,
+      ],
+    ],
+    'favicon',
+  ];
 }
 
 
