@@ -86,3 +86,54 @@ footer .logo-footer{
 .vlsuite-block .field a:not([class]) {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
 }
+
+
+.view.taxonomy-term {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.view.taxonomy-term .view-content {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.view.taxonomy-term .view-content .views-row .practical-information-teaser {
+  background: white;
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: none !important;
+}
+
+.view.taxonomy-term .view-content .views-row .practical-information-teaser  .teaser__content {
+  padding: 0 !important;
+}
+
+.view.taxonomy-term .view-content .views-row .practical-information-teaser .field--name-field-summary {
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+@media (max-width: 980px) {
+  .view.taxonomy-term .view-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .view.taxonomy-term .view-content .views-row .practical-information-teaser {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .view.taxonomy-term .view-content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px 0;
+  }
+}
