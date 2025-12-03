@@ -34,6 +34,7 @@
 {%
   set nav_classes = [
   'navbar',
+  'navbar--stacked',
   navbar_expand ? 'navbar-expand-' ~ navbar_expand : '',
   placement,
 ]|merge(navbar_utility_classes ?: [])
@@ -45,27 +46,36 @@
 
 <nav {{ nav_attributes.addClass(nav_classes) }}>
   <div {{ navbar_container_attributes.addClass(navbar_container_classes) }}>
-    {% block branding %}
-      {{ branding }}
-    {% endblock %}
-    <div class="collapse navbar-collapse justify-content-lg-center order-last order-{{ navbar_expand }}-0">
-      {% block left %}
-        {{ left }}
+    {# Fila superior: Logo a la izquierda, selector de idioma a la derecha #}
+    <div class="navbar__top-row">
+      <div class="navbar__header">
+        {% block header %}
+          {{ header }}
+        {% endblock %}
+      </div>
+      <div class="navbar__branding">
+        {% block branding %}
+          {{ branding }}
+        {% endblock %}
+      </div>
+      {% block navbar_toggler %}
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       {% endblock %}
+    </div>
 
-      {% block right %}
-        {{ right }}
-      {% endblock %}
+    {# Menú centrado debajo #}
+    <div class="navbar__menu">
+      <div class="collapse navbar-collapse justify-content-center">
+        {% block left %}
+          {{ left }}
+        {% endblock %}
+
+        {% block right %}
+          {{ right }}
+        {% endblock %}
+      </div>
     </div>
-    <div class="ms-auto">
-      {% block header %}
-        {{ header }}
-      {% endblock %}
-    </div>
-    {% block navbar_toggler %}
-      <button class="navbar-toggler collapsed ms-3" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    {% endblock %}
   </div>
 </nav>

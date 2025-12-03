@@ -5,3 +5,98 @@ header {
   color: var(--header-color);
   background-color: var(--header-background);
 }
+
+// Navbar apilado: logo y selector idioma arriba, menú debajo centrado
+.navbar--stacked {
+  .container,
+  .container-fluid {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+    @media (max-width: 991.98px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+  }
+
+  // Fila superior: logo izquierda, idioma derecha (en desktop)
+  // En móvil: idioma izquierda, logo centro, hamburguesa derecha
+  .navbar__top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    // Ocultar hamburguesa en desktop
+    .navbar-toggler {
+      display: none;
+
+      @media (max-width: 991.98px) {
+        display: flex;
+        order: 1;
+      }
+    }
+  }
+
+  .navbar__branding {
+    display: flex;
+    align-items: center;
+    order: 1;
+
+    @media (max-width: 991.98px) {
+      order: 2;
+      flex-grow: 1;
+      justify-content: center;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  .navbar__header {
+    display: flex;
+    align-items: center;
+    order: 2;
+
+    @media (max-width: 991.98px) {
+      order: 3;
+    }
+  }
+
+  .navbar__menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+      order: 3;
+      flex-basis: 100%;
+    }
+
+    .navbar-collapse {
+      flex-grow: 0;
+
+      @media (max-width: 991.98px) {
+        width: 100%;
+      }
+    }
+  }
+}
