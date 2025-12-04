@@ -33,7 +33,7 @@ footer .footer-top {
 
   color: var(--footer-top-color);
   background-color: var(--footer-top-background);
-  padding: 60px 20px;
+  padding-top: 60px;
 
   .container {
     max-width: 1200px;
@@ -252,6 +252,33 @@ footer .footer-partners {
     &:hover {
       filter: grayscale(0%); // Color al pasar el ratón
       opacity: 1;
+    }
+  }
+}
+
+footer .footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      color: white;
+      text-decoration: none;
+      opacity: 0.7;
+      transition: color 0.3s ease;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
