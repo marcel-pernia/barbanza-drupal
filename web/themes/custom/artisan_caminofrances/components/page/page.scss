@@ -57,11 +57,13 @@ header.header {
     padding: 0;
     --bs-dropdown-item-padding-y: #{$spacer*.5};
     box-shadow: var(--bs-box-shadow);
+    overflow: hidden;
   }
 
   .dropdown-item {
     white-space: normal;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
   }
 
   .navbar-nav {
@@ -74,12 +76,25 @@ header.header {
 
   .dropdown-toggle-split-link {
     padding-right: 0 !important;
+    margin-right: 0 !important;
   }
 
   .dropdown .btn-group {
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+
+.nav {
+  gap: 16px !important;
+  align-items: center !important;
+}
+
+.nav-link {
+  padding: 0 !important;
+  font-size: 14px !important;
+  text-transform: uppercase !important;
+  color: $gray-700 !important;
 }
 
 // Estilos específicos para el header en el home
@@ -99,6 +114,8 @@ header.header {
   .nav-link {
     color: white !important;
   }
+
+
 
   .nav-link:hover {
     color: rgba(255, 255, 255, 0.8) !important;
