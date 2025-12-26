@@ -9,19 +9,21 @@ footer {
     .nav-item .nav-link {
       --footer-nav-link-font-size: var(--theme-footer-links-font-size, var(--bs-nav-link-font-size, 1rem));
       --footer-nav-link-font-weight: var(--theme-footer-links-font-weight, var(--bs-nav-link-font-weight, 400));
-      --footer-nav-link-color: var(--theme-footer-links-color, var(--bs-nav-link-color));
       --footer-nav-link-decoration: var(--theme-footer-links-decoration, unset);
+      opacity: 0.7;
 
       font-size: var(--footer-nav-link-font-size);
       font-weight: var(--footer-nav-link-font-weight);
-      color: var(--footer-nav-link-color);
+      color: white !important;
       text-decoration: var(--footer-nav-link-decoration);
+      transition: opacity 0.3s ease;
       &:hover,
       &:active,
       &:focus {
-        --footer-nav-link-accent-color: var(--theme-footer-links-accent-color, var(--bs-nav-link-hover-color));
-
-        color: var(--footer-nav-link-accent-color);
+        color: white !important;
+      }
+      &:hover {
+        opacity: 1;
       }
     }
   }
